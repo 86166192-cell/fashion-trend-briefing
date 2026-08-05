@@ -1,0 +1,1760 @@
+{
+  "version": "3.0",
+  "last_updated": "2026-08-04",
+  "structure": {
+    "level1_categories": [
+      "趋势雷达",
+      "品牌动态",
+      "站内热搜词",
+      "2026/27 AW T台十大重点趋势",
+      "2026 SS INS时尚排行榜"
+    ],
+    "description": "AI服装趋势知识库 - 基于Notion知识库结构重构",
+    "brand_dynamics": {
+      "level1": "品牌动态",
+      "level2": "4个店铺：Freevana (波西米亚)·Travachic Curve (花卉民族)·Voyena (运动生活)·Vcay Curve (度假性价比)",
+      "level3": "每个店铺的对标竞品 competitors (待逐一添加)"
+    },
+    "hot_keywords_update": "每周三更新 (weekly, every Wednesday)"
+  },
+  "trend_radar": {
+    "description": "每日实时摘录（不少于10条）推送",
+    "sources": [
+      {
+        "id": "SRC-001",
+        "name": "Pinterest Trends",
+        "url": "https://www.vogue.com/fashion-shows?utm_source=chatgpt.com",
+        "type": "social_trends",
+        "update_freq": "daily",
+        "coverage": "全球时尚趋势、流行元素"
+      },
+      {
+        "id": "SRC-002",
+        "name": "Vogue Runway",
+        "url": "https://www.vogue.com/business/fashion?utm_source=chatgpt.com",
+        "type": "runway",
+        "update_freq": "seasonal",
+        "coverage": "四大时装周秀场分析"
+      },
+      {
+        "id": "SRC-003",
+        "name": "Google Trends",
+        "url": "https://trends.google.com/home",
+        "type": "search_trends",
+        "update_freq": "realtime",
+        "coverage": "时尚关键词搜索热度"
+      },
+      {
+        "id": "SRC-004",
+        "name": "TikTok Creative Center",
+        "url": "https://ads.tiktok.com/business/creativecenter/",
+        "type": "social_media",
+        "update_freq": "daily",
+        "coverage": "短视频时尚趋势、爆款单品"
+      },
+      {
+        "id": "SRC-005",
+        "name": "CBNDdata",
+        "url": "https://www.cbndata.com/search?query=跨境电商",
+        "type": "data_analytics",
+        "update_freq": "weekly",
+        "coverage": "跨境电商服装数据"
+      },
+      {
+        "id": "SRC-006",
+        "name": "BOF",
+        "url": "https://www.businessoffashion.com/topics/fashion-week/",
+        "type": "industry_analysis",
+        "update_freq": "daily",
+        "coverage": "时尚产业深度分析"
+      },
+      {
+        "id": "SRC-007",
+        "name": "1GRANARY",
+        "url": "https://1granary.com/",
+        "type": "education",
+        "update_freq": "weekly",
+        "coverage": "新兴设计师趋势"
+      }
+    ],
+    "daily_digests": [
+      {
+        "date": "2026-08-04",
+        "items": [
+          {
+            "id": "DR-001",
+            "title": "液态金属光泽持续升温",
+            "source": "Vogue Runway",
+            "source_id": "SRC-002",
+            "summary": "Balenciaga FW26 秀场大量使用液态金属面料，银色镜面材质从晚装向日常装渗透",
+            "trend_tags": [
+              "金属光泽",
+              "未来感",
+              "SS26关键趋势"
+            ],
+            "heat_level": "high",
+            "image": "/images/TR-001.png",
+            "related_brands": [
+              "Freevana"
+            ]
+          },
+          {
+            "id": "DR-002",
+            "title": "黄油色系成为秋季主推色",
+            "source": "Pinterest Trends",
+            "source_id": "SRC-001",
+            "summary": "Pinterest搜索量月增340%，奶油黄/黄油色从春夏延续至秋冬，覆盖针织、外套全品类",
+            "trend_tags": [
+              "黄油色",
+              "暖色调",
+              "跨季节色彩"
+            ],
+            "heat_level": "high",
+            "image": "/images/TR-002.png",
+            "related_brands": [
+              "Travachic Curve"
+            ]
+          },
+          {
+            "id": "DR-003",
+            "title": "解构剪裁进入大众市场",
+            "source": "Google Trends",
+            "source_id": "SRC-003",
+            "summary": "deconstructed fashion 搜索量创5年新高，Zara/H&M均已推出解构系列",
+            "trend_tags": [
+              "解构主义",
+              "不对称设计",
+              "大众化"
+            ],
+            "heat_level": "medium-high",
+            "image": "/images/TR-003.png",
+            "related_brands": [
+              "Voyena"
+            ]
+          },
+          {
+            "id": "DR-004",
+            "title": "透视叠穿在TikTok爆发",
+            "source": "TikTok Creative Center",
+            "source_id": "SRC-004",
+            "summary": "#SheerLayering 标签播放量超2亿，薄纱+打底的叠穿公式被广泛模仿",
+            "trend_tags": [
+              "透视",
+              "叠穿",
+              "社交媒体爆款"
+            ],
+            "heat_level": "viral",
+            "image": "/images/TR-004.png",
+            "related_brands": [
+              "Freevana"
+            ]
+          },
+          {
+            "id": "DR-005",
+            "title": "超大廓形飞行夹克回归",
+            "source": "BOF",
+            "source_id": "SRC-006",
+            "summary": "飞行夹克以Oversized廓形重新定义，肩线夸张下摆收窄，街头与高级时装融合",
+            "trend_tags": [
+              "飞行夹克",
+              "Oversized",
+              "街头风"
+            ],
+            "heat_level": "medium-high",
+            "image": "/images/TR-005.png",
+            "related_brands": [
+              "Voyena"
+            ]
+          },
+          {
+            "id": "DR-006",
+            "title": "浪漫荷叶边持续强势",
+            "source": "1GRANARY",
+            "source_id": "SRC-007",
+            "summary": "新锐设计师普遍采用大荷叶边元素，从领口延伸到裙摆，立体褶饰成焦点",
+            "trend_tags": [
+              "荷叶边",
+              "浪漫主义",
+              "女性化细节"
+            ],
+            "heat_level": "medium",
+            "image": "/images/TR-006.png",
+            "related_brands": [
+              "Freevana",
+              "Travachic Curve"
+            ]
+          },
+          {
+            "id": "DR-007",
+            "title": "工装裤高端化趋势明显",
+            "source": "CBNDdata",
+            "source_id": "SRC-005",
+            "summary": "跨境数据显示工装裤均价提升40%，高端面料+精致口袋设计成为差异化方向",
+            "trend_tags": [
+              "工装风",
+              "实用主义",
+              "高端化"
+            ],
+            "heat_level": "rising",
+            "image": "/images/TR-007.png",
+            "related_brands": [
+              "Voyena"
+            ]
+          },
+          {
+            "id": "DR-008",
+            "title": "超短裙回潮加速",
+            "source": "Vogue Runway",
+            "source_id": "SRC-002",
+            "summary": "Miu Miu效应持续，超短迷你裙从秀场快速下沉到快时尚，裙长缩短至大腿中部",
+            "trend_tags": [
+              "超短裙",
+              "Miu Miu风格",
+              "年轻化"
+            ],
+            "heat_level": "high",
+            "image": "/images/TR-008.png",
+            "related_brands": [
+              "Vcay Curve"
+            ]
+          },
+          {
+            "id": "DR-009",
+            "title": "极简运动风抬头",
+            "source": "Pinterest Trends",
+            "source_id": "SRC-001",
+            "summary": "athleisure minimal 搜索量增长180%，干净线条+中性色运动套装受青睐",
+            "trend_tags": [
+              "运动风",
+              "极简",
+              "athleisure"
+            ],
+            "heat_level": "rising",
+            "image": null,
+            "related_brands": [
+              "Voyena",
+              "Travachic Curve"
+            ]
+          },
+          {
+            "id": "DR-010",
+            "title": "3D花卉装饰走俏",
+            "source": "TikTok Creative Center",
+            "source_id": "SRC-004",
+            "summary": "立体花朵装饰在连衣裙和外套上广泛应用，手工感+女性化表达成为卖点",
+            "trend_tags": [
+              "3D花朵",
+              "装饰细节",
+              "手工感"
+            ],
+            "heat_level": "medium",
+            "image": null,
+            "related_brands": [
+              "Freevana",
+              "Travachic Curve"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "brand_dynamics": {
+    "description": "二级类目=4个店铺；三级类目=每个店铺的对标竞品(competitors)，待你逐一发送后填充",
+    "level2_shops": [
+      "Freevana",
+      "Travachic Curve",
+      "Voyena",
+      "Vcay Curve"
+    ],
+    "shops": [
+      {
+        "id": "SHOP-001",
+        "name": "Freevana",
+        "name_cn": "自由风潮",
+        "category": "boho_lifestyle",
+        "target_market": "欧美25-45岁",
+        "price_range": "$25-$120",
+        "style_tags": [
+          "波西米亚",
+          "蕾丝",
+          "复古手工",
+          "音乐节风",
+          "自由穿搭"
+        ],
+        "focus_trends": [
+          "蕾丝拼接",
+          "手工钩针",
+          "复古印花",
+          "流苏细节",
+          "波西米亚层叠穿搭"
+        ],
+        "today_new_count": 14,
+        "new_products": [
+          {
+            "id": "NP-001",
+            "name": "Hand-Crochet Lace Maxi Dress",
+            "category": "连衣裙",
+            "price": "$68.00",
+            "match_trend": "蕾丝拼接",
+            "match_score": 94,
+            "image": "/images/TR-001.png"
+          },
+          {
+            "id": "NP-002",
+            "name": "Vintage Floral Embroidered Blouse",
+            "category": "上衣",
+            "price": "$42.00",
+            "match_trend": "手工钩针",
+            "match_score": 90,
+            "image": "/images/TR-003.png"
+          },
+          {
+            "id": "NP-003",
+            "name": "Fringed Suede Festival Jacket",
+            "category": "外套",
+            "price": "$85.00",
+            "match_trend": "流苏细节",
+            "match_score": 88,
+            "image": "/images/TR-005.png"
+          },
+          {
+            "id": "NP-004",
+            "name": "Boho Tiered Midi Skirt",
+            "category": "半裙",
+            "price": "$48.00",
+            "match_trend": "波西米亚层叠穿搭",
+            "match_score": 86,
+            "image": "/images/TR-006.png"
+          }
+        ],
+        "competitors": [
+          {
+            "name": "Free People",
+            "url": "https://www.freepeople.com/",
+            "category": "波西米亚标杆",
+            "positioning": "全球波西米亚风格绝对标杆，Freevana最核心的对标品牌。蕾丝/钩针/手工印花是其灵魂元素，Freevana在蕾丝工艺和复古廓形上与其高度对标",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "Spell",
+            "url": "https://aus.spell.co/",
+            "category": "澳洲可持续波西米亚",
+            "positioning": "澳洲可持续boho品牌，手工花卉印花和飘逸廓形是其标志。Freevana可借鉴其环保面料与手工染色工艺",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "Anthropologie",
+            "url": "https://sg.anthropologie.com/en-sg/",
+            "category": "高端波西米亚生活方式",
+            "positioning": "URBN旗下高端线，将波西米亚美学提升至精致生活方式。Freevana可参考其将boho风格日常化的品类策略",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "BA&SH",
+            "url": "https://ba-sh.com/sg/",
+            "category": "法式轻奢",
+            "positioning": "法国轻奢品牌，巴黎女人的effortless chic。Freevana可参考其在蕾丝和轻薄面料上的法式处理手法",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "Zara",
+            "url": "https://www.zara.com/",
+            "category": "快时尚风向标",
+            "positioning": "全球快时尚标杆，趋势反应速度极快。Freevana可关注Zara如何将boho元素以快时尚价格带触达大众市场",
+            "added_at": "2026-08-04"
+          },
+          {
+            "id": "COMP-001",
+            "name": "El Vestidor",
+            "url": "https://www.el-vestidor.com/",
+            "category": "波西米亚/复古风女装",
+            "price_range": "中高端",
+            "positioning": "波西米亚风格女装，手工感与复古元素",
+            "added_at": "2026-08-05"
+          }
+        ],
+        "target_audience": "25+、35+、大码女性 — 热爱波西米亚风、音乐节、诗人气质、自由穿搭的时尚达人",
+        "development_direction": "蕾丝 · 复古 · 手工感 — 以波西米亚浪漫主义为核心，强调手工细节和复古廓形"
+      },
+      {
+        "id": "SHOP-002",
+        "name": "Travachic Curve",
+        "name_cn": "花语旅人",
+        "category": "floral_resort",
+        "target_market": "欧美25-45岁",
+        "price_range": "$20-$75",
+        "style_tags": [
+          "热带花卉",
+          "民族印花",
+          "异域度假",
+          "大胆色彩",
+          "曲线友好"
+        ],
+        "focus_trends": [
+          "热带大花卉印花",
+          "民族几何纹样",
+          "异域刺绣",
+          "度假长裙",
+          "色彩碰撞"
+        ],
+        "today_new_count": 10,
+        "new_products": [
+          {
+            "id": "NP-005",
+            "name": "Tropical Palm Maxi Dress",
+            "category": "连衣裙",
+            "price": "$55.00",
+            "match_trend": "热带大花卉印花",
+            "match_score": 95,
+            "image": "/images/TR-002.png"
+          },
+          {
+            "id": "NP-006",
+            "name": "Ethnic Embroidered Kaftan Cover-Up",
+            "category": "罩衫",
+            "price": "$38.00",
+            "match_trend": "民族几何纹样",
+            "match_score": 92,
+            "image": "/images/TR-007.png"
+          },
+          {
+            "id": "NP-007",
+            "name": "Hibiscus Print Curve-Friendly Wrap Dress",
+            "category": "连衣裙",
+            "price": "$48.00",
+            "match_trend": "热带大花卉印花",
+            "match_score": 88,
+            "image": "/images/TR-001.png"
+          }
+        ],
+        "competitors": [
+          {
+            "name": "Farm Rio",
+            "url": "https://farmrio.com/",
+            "category": "巴西热带时尚标杆",
+            "positioning": "巴西最具代表性的热带印花品牌，大胆色彩+热带植物印花是其DNA。Travachic Curve在花卉印花方向上以Farm Rio为第一对标，尤其在大码版型上差异化切入",
+            "added_at": "2026-08-04"
+          },
+          {
+            "id": "COMP-001",
+            "name": "Farm Rio (巴西)",
+            "url": "https://www.farmrio.com.br/",
+            "category": "花卉度假/民族风",
+            "price_range": "中高端",
+            "positioning": "Farm Rio 巴西本土站，热带花卉与民族印花",
+            "added_at": "2026-08-05"
+          }
+        ],
+        "target_audience": "25+、35+、大码女性 — 热爱波西米亚风、热爱度假、热爱花卉和艺术创作的浪漫女性",
+        "development_direction": "花卉印花 · 民族花卉 · 异域风情 — 以大胆热带花卉和民族印花为核心，打造度假感大码女装"
+      },
+      {
+        "id": "SHOP-003",
+        "name": "Voyena",
+        "name_cn": "悦动生活",
+        "category": "active_lifestyle",
+        "target_market": "全球25-45岁",
+        "price_range": "$28-$98",
+        "style_tags": [
+          "运动瑜伽",
+          "舒适包容",
+          "徒步户外",
+          "功能性面料",
+          "日常运动风"
+        ],
+        "focus_trends": [
+          "莫代尔/竹纤维舒适面料",
+          "高弹包容性剪裁",
+          "瑜伽套装",
+          "徒步功能外套",
+          "运动日常化混搭"
+        ],
+        "today_new_count": 16,
+        "new_products": [
+          {
+            "id": "NP-008",
+            "name": "Inclusive 4-Way Stretch Yoga Set",
+            "category": "运动套装",
+            "price": "$72.00",
+            "match_trend": "瑜伽套装",
+            "match_score": 93,
+            "image": "/images/TR-004.png"
+          },
+          {
+            "id": "NP-009",
+            "name": "Bamboo Modal Hiking Jogger",
+            "category": "裤装",
+            "price": "$58.00",
+            "match_trend": "莫代尔/竹纤维舒适面料",
+            "match_score": 91,
+            "image": "/images/TR-002.png"
+          },
+          {
+            "id": "NP-010",
+            "name": "Sculpting High-Rise Legging 1X-4X",
+            "category": "紧身裤",
+            "price": "$45.00",
+            "match_trend": "高弹包容性剪裁",
+            "match_score": 89,
+            "image": "/images/TR-008.png"
+          },
+          {
+            "id": "NP-011",
+            "name": "Zip-Up Trail Running Jacket",
+            "category": "外套",
+            "price": "$82.00",
+            "match_trend": "徒步功能外套",
+            "match_score": 85,
+            "image": "/images/TR-005.png"
+          }
+        ],
+        "competitors": [
+          {
+            "name": "Alo Yoga",
+            "url": "https://www.aloyoga.com/en-sg",
+            "category": "高端瑜伽生活方式",
+            "positioning": "全球瑜伽生活方式标杆，将瑜伽服成功转化为日常时尚单品。Voyena在运动日常化方向上以Alo为对标，但强调更包容的尺码覆盖",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "CSB",
+            "url": "https://au.shopcsb.com/",
+            "category": "澳洲运动时尚",
+            "positioning": "澳洲运动时尚品牌，紧身衣和运动内衣品类设计语言精准。Voyena可借鉴其品类矩阵和色彩策略",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "Lululemon",
+            "url": "https://shop.lululemon.com/",
+            "category": "运动生活方式终极标杆",
+            "positioning": "全球运动生活方式的定价者，面料科技(如Nulu/Everlux)是其护城河。Voyena在功能性面料和包容性剪裁上以Lululemon为长期对标方向",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "Beneunder (蕉下)",
+            "url": "https://beneunder.com/zh-hans",
+            "category": "轻户外功能时尚",
+            "positioning": "中国轻户外防晒品类领军者，将功能科技融入日常时尚。Voyena的徒步线可参考蕉下的功能面料+时尚设计双轮驱动模式",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "PE Nation",
+            "url": "https://www.pe-nation.com/en-intl",
+            "category": "澳洲街头运动风",
+            "positioning": "澳洲街头运动品牌，复古运动风+现代剪裁的融合。Voyena在运动混搭和色彩运用上可参考其设计语言",
+            "added_at": "2026-08-04"
+          }
+        ],
+        "target_audience": "25+、35+、大码女性 — 热爱瑜伽、热爱徒步、热爱运动生活方式的自信女性",
+        "development_direction": "舒适 · 包容性 · 运动功能性 — 以舒适为核心，兼顾运动功能和日常穿搭，强调包容所有体型的版型设计"
+      },
+      {
+        "id": "SHOP-004",
+        "name": "Vcay Curve",
+        "name_cn": "悦享假日",
+        "category": "value_resort",
+        "target_market": "欧美25-45岁",
+        "price_range": "$12-$45",
+        "style_tags": [
+          "度假休闲",
+          "高性价比",
+          "快速上新",
+          "基础百搭",
+          "物美价廉"
+        ],
+        "focus_trends": [
+          "海岛度假连衣裙",
+          "基础款混搭",
+          "速干面料",
+          "百搭罩衫",
+          "大码泳装"
+        ],
+        "today_new_count": 13,
+        "new_products": [
+          {
+            "id": "NP-012",
+            "name": "Budget-Friendly Maxi Beach Cover-Up",
+            "category": "罩衫",
+            "price": "$19.99",
+            "match_trend": "百搭罩衫",
+            "match_score": 91,
+            "image": "/images/TR-004.png"
+          },
+          {
+            "id": "NP-013",
+            "name": "Curve Flattering Vacation Sundress",
+            "category": "连衣裙",
+            "price": "$24.99",
+            "match_trend": "海岛度假连衣裙",
+            "match_score": 88,
+            "image": "/images/TR-001.png"
+          },
+          {
+            "id": "NP-014",
+            "name": "Quick-Dry Resort Shorts Set",
+            "category": "短裤套装",
+            "price": "$28.00",
+            "match_trend": "速干面料",
+            "match_score": 85,
+            "image": "/images/TR-008.png"
+          },
+          {
+            "id": "NP-015",
+            "name": "Plus-Size One-Piece Swimsuit",
+            "category": "泳装",
+            "price": "$22.00",
+            "match_trend": "大码泳装",
+            "match_score": 84,
+            "image": "/images/TR-006.png"
+          }
+        ],
+        "competitors": [
+          {
+            "name": "Shopify 大码女装热销榜 (PPSPY)",
+            "url": "https://app.ppspy.com/zh/shopify-product?category_id=62739c0138365b2f72048ed7&per_page=20&page=1&order_by=monthly_sale&direction=desc",
+            "category": "独立站竞品监测",
+            "positioning": "通过PPSPY实时监测Shopify大码女装品类月销排行，Vcay Curve可追踪物美价廉度假装的竞品动态和爆款趋势",
+            "added_at": "2026-08-04"
+          },
+          {
+            "name": "Amazon 女装销量榜",
+            "url": "https://www.amazon.com/-/zh/销售排行榜-女装/zgbs/fashion/1040660/ref=zg_bs_unv_3_1046622_1",
+            "category": "平台电商监测",
+            "positioning": "Amazon女装Best Sellers榜单，追踪度假休闲/大码品类在平台电商的实时销售排名和定价策略",
+            "added_at": "2026-08-04"
+          }
+        ],
+        "target_audience": "25+、35+、大码女性 — 热爱度假、追求物美价廉、注重性价比的务实女性",
+        "development_direction": "物美价廉 · 度假休闲 · 高性价比 — 以高性价比为核心竞争力，聚焦度假场景的快速上新，让大码女性以低预算享受度假穿搭"
+      }
+    ]
+  },
+  "trend_reference": {
+    "description": "无二级类目，结合趋势雷达和品牌动态里的三级类目品牌做趋势提炼分析",
+    "analyses": [
+      {
+        "id": "TA-001",
+        "title": "2026年Q3核心趋势提炼",
+        "generated_at": "2026-08-04",
+        "period": "Q3 2026",
+        "top_trends": [
+          {
+            "rank": 1,
+            "name": "液态金属光泽",
+            "adoption_rate": "68%",
+            "key_brands": [
+              "Freevana"
+            ],
+            "verdict": "强烈推荐跟进，已从秀场快速下沉到大众市场"
+          },
+          {
+            "rank": 2,
+            "name": "透视叠穿",
+            "adoption_rate": "72%",
+            "key_brands": [
+              "Freevana"
+            ],
+            "verdict": "社交媒体爆发期，TikTok驱动销量转化效率极高"
+          },
+          {
+            "rank": 3,
+            "name": "黄油色系",
+            "adoption_rate": "55%",
+            "key_brands": [
+              "Travachic Curve"
+            ],
+            "verdict": "跨季节色彩，库存风险低，适合作为基础色系布局"
+          },
+          {
+            "rank": 4,
+            "name": "超短裙",
+            "adoption_rate": "61%",
+            "key_brands": [
+              "Vcay Curve",
+              "Freevana"
+            ],
+            "verdict": "Miu Miu效应持续，但需注意版型适配不同体型"
+          },
+          {
+            "rank": 5,
+            "name": "解构剪裁",
+            "adoption_rate": "48%",
+            "key_brands": [
+              "Voyena"
+            ],
+            "verdict": "设计门槛较高，建议先从小面积解构元素试水"
+          }
+        ],
+        "cross_analysis": "Q3趋势传导速度加快：秀场→社交媒体→品牌上架链路压缩至2-4周。Freevana主打波西米亚浪漫风，以蕾丝和手工细节承载透视叠穿与荷叶边趋势；Travachic Curve以热带花卉和民族印花抢占度假场景；Voyena以包容性运动面料和瑜伽品类切入运动生活方式的日常化趋势；Vcay Curve以极致性价比在度假休闲品类快速反应。四个品牌覆盖波西米亚/花卉度假/运动生活/性价比度假四条并行的差异化赛道。",
+        "color_palette_recommendation": {
+          "primary": [
+            "Ivory/Cream (蕾丝白)",
+            "Tropical Coral (热带珊瑚)",
+            "Sage Green (瑜伽绿)"
+          ],
+          "secondary": [
+            "Terracotta (陶土色)",
+            "Ocean Blue (海洋蓝)",
+            "Sand Beige (沙色)"
+          ],
+          "accent": [
+            "Mercury (水银)",
+            "Cream White (奶油白)"
+          ]
+        }
+      }
+    ]
+  },
+  "site_hot_keywords": {
+    "description": "30周全站站内女装热搜词 - 基于全市场站内女装搜索趋势",
+    "update_frequency": "weekly",
+    "update_day": "Wednesday",
+    "last_updated_week": "2026-W30",
+    "last_updated_date": "2026-08-04",
+    "icon_url": "https://shein.ltwebstatic.com/svgicons/2025/04/01/17435184951492103429.svg",
+    "trend_legend": {
+      "hot": "搜索qv处于高位或环比增长明显，重点关注",
+      "moderate": "搜索qv量级较高，持续关注",
+      "rising": "环比增长明显，值得关注的新趋势"
+    },
+    "categories": [
+      {
+        "id": "CAT-SEASON",
+        "name": "季节",
+        "order": 1,
+        "description": "搜索qv处于高位或环比增长明显，需关注优化",
+        "items": [
+          {
+            "keyword": "summer",
+            "qv": "223.5w",
+            "change_pct": "-15.8%",
+            "trend": "moderate",
+            "related_terms": [
+              "summer dress",
+              "summer dresses for women",
+              "summer dresses",
+              "summer",
+              "summer tops",
+              "long summer dress",
+              "summer clothes",
+              "women's summer set",
+              "women summer dress",
+              "summer top"
+            ],
+            "diff_terms": [
+              "women's summer set"
+            ]
+          },
+          {
+            "keyword": "winter",
+            "qv": "37.2w",
+            "change_pct": "-16%",
+            "trend": "moderate",
+            "related_terms": [
+              "winter",
+              "winter clothes for women",
+              "winter clothes",
+              "winter dress",
+              "women's winter set",
+              "winter outfit for women",
+              "women's winter blouse",
+              "women's winter coat",
+              "women winter coat",
+              "winter women"
+            ],
+            "diff_terms": [
+              "winter women"
+            ]
+          },
+          {
+            "keyword": "fall",
+            "qv": "25.3w",
+            "change_pct": "+48.8%",
+            "trend": "hot",
+            "related_terms": [
+              "autumn",
+              "fall",
+              "autumn outfit for women",
+              "fall clothes",
+              "autumn outfits for women",
+              "fall women clothes"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "fall/winter",
+            "qv": "0.8w",
+            "change_pct": "+40%",
+            "trend": "rising",
+            "related_terms": [
+              "fall and winter promotion",
+              "women fall winter sweater",
+              "fall winter 2026"
+            ],
+            "diff_terms": [
+              "fall winter 2026"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "CAT-STYLE",
+        "name": "风格",
+        "order": 2,
+        "description": "搜索qv量级处于高位或本周环比增长明显，重点关注优化",
+        "items": [
+          {
+            "keyword": "elegant",
+            "qv": "244.4w",
+            "change_pct": "+1.8%",
+            "trend": "hot",
+            "related_terms": [
+              "elegant dresses for women",
+              "elegant dress",
+              "elegant dresses",
+              "elegant long dress",
+              "elegant women's set",
+              "elegant women's blouses",
+              "elegant dresses for party",
+              "elegant dress for women",
+              "elegant long dresses",
+              "elegant short dresses"
+            ],
+            "diff_terms": [
+              "elegant long dresses",
+              "elegant short dresses"
+            ]
+          },
+          {
+            "keyword": "casual",
+            "qv": "47.4w",
+            "change_pct": "-2.6%",
+            "trend": "hot",
+            "related_terms": [
+              "casual dresses for women",
+              "casual dresses",
+              "casual dress",
+              "casual blouses for women",
+              "casual dress for women",
+              "casual blouses",
+              "casual sets for women",
+              "casual women's dresses",
+              "casual long dress",
+              "casual women's t-shirts"
+            ],
+            "diff_terms": [
+              "casual women's t-shirts"
+            ]
+          },
+          {
+            "keyword": "vacation",
+            "qv": "47.2w",
+            "change_pct": "-0.4%",
+            "trend": "hot",
+            "related_terms": [
+              "vacation outfits women",
+              "holiday",
+              "vacation",
+              "holiday outfits",
+              "holiday night outfit",
+              "holiday outfits for women",
+              "summer holiday outfits",
+              "holiday dress",
+              "vacation outfits for women",
+              "dresses for holiday"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "sports",
+            "qv": "38.9w",
+            "change_pct": "-0.4%",
+            "trend": "hot",
+            "related_terms": [
+              "sweatpants",
+              "women's sportswear",
+              "workout sets for women",
+              "jogging suit",
+              "joggers",
+              "sportswear"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "luxury",
+            "qv": "23.9w",
+            "change_pct": "-15.3%",
+            "trend": "hot",
+            "related_terms": [
+              "luxury evening and occasion dresses",
+              "luxury evening dresses for weddings",
+              "luxury evening wedding dress",
+              "luxury wedding dresses",
+              "luxury evening dress for women weddings",
+              "luxury evening dress for women",
+              "luxury evening dresses for women",
+              "luxury women's blouses",
+              "luxury women's jalabiya",
+              "women luxury plus size evening dress"
+            ],
+            "diff_terms": [
+              "women luxury plus size evening dress"
+            ]
+          },
+          {
+            "keyword": "y2k",
+            "qv": "22.8w",
+            "change_pct": "+2.4%",
+            "trend": "hot",
+            "related_terms": [
+              "y2k",
+              "Y2K tops",
+              "2000s style",
+              "y2k clothes"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "formal",
+            "qv": "21.2w",
+            "change_pct": "+0.9%",
+            "trend": "hot",
+            "related_terms": [
+              "formal dress",
+              "women's dress shirt",
+              "formal dresses",
+              "women formal pants",
+              "women's social blouse",
+              "formal dresses for women",
+              "formal pants",
+              "dress shirt",
+              "women's dress pants",
+              "women's formal wear"
+            ],
+            "diff_terms": [
+              "women's formal wear"
+            ]
+          },
+          {
+            "keyword": "business",
+            "qv": "15.8w",
+            "change_pct": "+7.3%",
+            "trend": "moderate",
+            "related_terms": [
+              "work outfits for women",
+              "office outfits for women",
+              "social blouse",
+              "office wear for women",
+              "work tops for women",
+              "work wear women",
+              "work tops",
+              "work dresses for women",
+              "work dress",
+              "teacher work tops"
+            ],
+            "diff_terms": [
+              "teacher work tops"
+            ]
+          },
+          {
+            "keyword": "country",
+            "qv": "12.3w",
+            "change_pct": "-6.8%",
+            "trend": "moderate",
+            "related_terms": [
+              "country concert outfit",
+              "country",
+              "women's country pants",
+              "women's country clothing",
+              "country style for women",
+              "country dress",
+              "country pants",
+              "female country look"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "sexy",
+            "qv": "12w",
+            "change_pct": "+3%",
+            "trend": "moderate",
+            "related_terms": [
+              "sexy",
+              "sexy dress",
+              "attractive sexy clothes",
+              "sexy outfits",
+              "sexy night outfit",
+              "sexy tops",
+              "sexy tops for women",
+              "sexy top"
+            ],
+            "diff_terms": [
+              "sexy outfits",
+              "sexy night outfit"
+            ]
+          },
+          {
+            "keyword": "cute",
+            "qv": "10.8w",
+            "change_pct": "+1%",
+            "trend": "moderate",
+            "related_terms": [
+              "cute tops",
+              "cute shirts",
+              "cute top",
+              "cute tops women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "basic",
+            "qv": "7.3w",
+            "change_pct": "+4.3%",
+            "trend": "rising",
+            "related_terms": [
+              "basic blouses",
+              "basic tops"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "chic",
+            "qv": "6.7w",
+            "change_pct": "+2.5%",
+            "trend": "rising",
+            "related_terms": [
+              "beach fashion",
+              "fashionable tops",
+              "women chic summer blouse",
+              "chic top",
+              "chic evening dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "cowgirl",
+            "qv": "6.7w",
+            "change_pct": "+0.7%",
+            "trend": "rising",
+            "related_terms": [
+              "cowgirl outfits for women",
+              "cowgirl outfit for women",
+              "cowgirl",
+              "rodeo",
+              "cowgirl clothing for women",
+              "cowgirl outfit",
+              "cowgirl blouses"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "streetwear",
+            "qv": "3.7w",
+            "change_pct": "+5.6%",
+            "trend": "rising",
+            "related_terms": [
+              "streetwear"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "tropical",
+            "qv": "2.4w",
+            "change_pct": "+19%",
+            "trend": "rising",
+            "related_terms": [
+              "tropical outfit",
+              "tropical",
+              "tropical dresses for women",
+              "tropical dress"
+            ],
+            "diff_terms": []
+          }
+        ]
+      },
+      {
+        "id": "CAT-FESTIVAL",
+        "name": "节日",
+        "order": 3,
+        "description": "搜索qv处于高位，多为区域特色节日，建议区分市场关注",
+        "items": [
+          {
+            "keyword": "festival",
+            "qv": "18.3w",
+            "change_pct": "+5.7%",
+            "trend": "hot",
+            "related_terms": [
+              "festival outfits for women",
+              "festival",
+              "festival outfits",
+              "festival outfit women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "halloween",
+            "qv": "12.8w",
+            "change_pct": "+28.2%",
+            "trend": "hot",
+            "related_terms": [
+              "halloween",
+              "women's halloween costume"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "back to school",
+            "qv": "6w",
+            "change_pct": "+0.3%",
+            "trend": "moderate",
+            "related_terms": [
+              "back to school",
+              "back to school clothes"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "christmas",
+            "qv": "4.1w",
+            "change_pct": "+34.4%",
+            "trend": "moderate",
+            "related_terms": [
+              "christmas"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "new year",
+            "qv": "1.1w",
+            "change_pct": "+17.2%",
+            "trend": "rising",
+            "related_terms": [
+              "new year",
+              "new year dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "homecoming",
+            "qv": "1.1w",
+            "change_pct": "+30.9%",
+            "trend": "rising",
+            "related_terms": [
+              "homecoming dress",
+              "homecoming dresses"
+            ],
+            "diff_terms": []
+          }
+        ]
+      },
+      {
+        "id": "CAT-SCENE",
+        "name": "场景",
+        "order": 4,
+        "description": "搜索qv处于该分类下高位或本周环比增长明显，需关注优化",
+        "items": [
+          {
+            "keyword": "party",
+            "qv": "69.2w",
+            "change_pct": "-2.1%",
+            "trend": "hot",
+            "related_terms": [
+              "party dress",
+              "elegant dresses for party",
+              "party dresses",
+              "elegant party dresses",
+              "elegant long party dress",
+              "elegant party dresses for women",
+              "elegant party dress curvy",
+              "party dresses for women",
+              "occasion dress",
+              "elegant party dress"
+            ],
+            "diff_terms": [
+              "occasion dress",
+              "elegant party dress"
+            ]
+          },
+          {
+            "keyword": "beach",
+            "qv": "58.3w",
+            "change_pct": "-7.8%",
+            "trend": "hot",
+            "related_terms": [
+              "beach dress",
+              "beach",
+              "beach dresses",
+              "beach outfit",
+              "beach shorts",
+              "beach outfits for women",
+              "beach set",
+              "beach pants",
+              "sea"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "wedding",
+            "qv": "56.9w",
+            "change_pct": "-1.5%",
+            "trend": "hot",
+            "related_terms": [
+              "wedding guest dress",
+              "wedding guest dress for women",
+              "wedding party dress",
+              "wedding guest party dress",
+              "wedding",
+              "luxury evening dresses for weddings",
+              "dress for wedding guest",
+              "wedding guest dresses",
+              "luxury wedding dresses",
+              "luxury evening dress for women weddings"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "gym",
+            "qv": "23.7w",
+            "change_pct": "+2.2%",
+            "trend": "moderate",
+            "related_terms": [
+              "gym",
+              "women's gym clothes",
+              "gym set",
+              "gym clothes",
+              "female gym wear"
+            ],
+            "diff_terms": [
+              "female gym wear"
+            ]
+          },
+          {
+            "keyword": "going out",
+            "qv": "17.4w",
+            "change_pct": "+7.3%",
+            "trend": "moderate",
+            "related_terms": [
+              "going out tops",
+              "going out top",
+              "going out tops for women",
+              "going out",
+              "tops for going out",
+              "going out outfits",
+              "going out dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "birthday",
+            "qv": "13.1w",
+            "change_pct": "+1%",
+            "trend": "moderate",
+            "related_terms": [
+              "birthday dress",
+              "birthday dresses",
+              "birthday dresses for women",
+              "birthday outfits for women",
+              "birthday dress for women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "school",
+            "qv": "10.2w",
+            "change_pct": "+52.9%",
+            "trend": "moderate",
+            "related_terms": [
+              "school",
+              "school blouses",
+              "school shirt",
+              "white school shirt",
+              "school blouse"
+            ],
+            "diff_terms": [
+              "school blouses",
+              "white school shirt",
+              "school blouse"
+            ]
+          },
+          {
+            "keyword": "concert",
+            "qv": "7.9w",
+            "change_pct": "+3.5%",
+            "trend": "rising",
+            "related_terms": [
+              "country concert outfit",
+              "concert outfit for women",
+              "concert outfit",
+              "concert",
+              "concert outfits",
+              "concert tops"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "evening",
+            "qv": "4.1w",
+            "change_pct": "+7.9%",
+            "trend": "rising",
+            "related_terms": [
+              "holiday night outfit",
+              "evening top"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "airport",
+            "qv": "3.7w",
+            "change_pct": "+9.3%",
+            "trend": "rising",
+            "related_terms": [
+              "airport outfit women",
+              "airport outfit for women",
+              "airport outfit"
+            ],
+            "diff_terms": []
+          }
+        ]
+      },
+      {
+        "id": "CAT-ELEMENT",
+        "name": "元素",
+        "order": 5,
+        "description": "搜索qv处于该分类下高位，可关注优化",
+        "items": [
+          {
+            "keyword": "sequin",
+            "qv": "9w",
+            "change_pct": "-2%",
+            "trend": "moderate",
+            "related_terms": [
+              "sequin skirt",
+              "sequin dress",
+              "shiny pants",
+              "sequin top",
+              "sequin",
+              "sparkly dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "ruffle",
+            "qv": "3.4w",
+            "change_pct": "-2.5%",
+            "trend": "rising",
+            "related_terms": [
+              "ruffle skirt",
+              "peplum top",
+              "ruffle dress",
+              "peplum"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "zip up",
+            "qv": "2.3w",
+            "change_pct": "+10.7%",
+            "trend": "rising",
+            "related_terms": [
+              "zip up hoodie",
+              "zip up hoodies",
+              "zip up"
+            ],
+            "diff_terms": [
+              "zip up hoodie"
+            ]
+          },
+          {
+            "keyword": "fringe",
+            "qv": "2.1w",
+            "change_pct": "-12.6%",
+            "trend": "rising",
+            "related_terms": [
+              "fringe dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "button up",
+            "qv": "1.5w",
+            "change_pct": "+8.3%",
+            "trend": "rising",
+            "related_terms": [
+              "button up shirt for women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "pleated",
+            "qv": "1.3w",
+            "change_pct": "-2.8%",
+            "trend": "rising",
+            "related_terms": [
+              "pleated skirt"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "tailored",
+            "qv": "1.1w",
+            "change_pct": "-3.2%",
+            "trend": "rising",
+            "related_terms": [
+              "tailored shorts",
+              "women elegant tailored set",
+              "elegant tailored dresses for women"
+            ],
+            "diff_terms": []
+          }
+        ]
+      },
+      {
+        "id": "CAT-PATTERN",
+        "name": "图案",
+        "order": 6,
+        "description": "搜索qv处于该分类下高位，可关注优化",
+        "items": [
+          {
+            "keyword": "polka dot",
+            "qv": "20w",
+            "change_pct": "+2%",
+            "trend": "hot",
+            "related_terms": [
+              "polka dot",
+              "polka dot dress",
+              "polka dot top",
+              "polka dot tops",
+              "dot",
+              "polka dot two piece set"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "graphic",
+            "qv": "14.8w",
+            "change_pct": "+3.9%",
+            "trend": "hot",
+            "related_terms": [
+              "graphic tees",
+              "graphic tee",
+              "graphic tees women",
+              "graphic t shirt"
+            ],
+            "diff_terms": [
+              "graphic t shirt"
+            ]
+          },
+          {
+            "keyword": "leopard",
+            "qv": "8.7w",
+            "change_pct": "+1.9%",
+            "trend": "moderate",
+            "related_terms": [
+              "leopard print",
+              "cheetah print",
+              "cheetah print top",
+              "leopard print dress"
+            ],
+            "diff_terms": [
+              "cheetah print top",
+              "leopard print dress"
+            ]
+          },
+          {
+            "keyword": "camo",
+            "qv": "4.4w",
+            "change_pct": "+0.4%",
+            "trend": "rising",
+            "related_terms": [
+              "camo jorts",
+              "camouflage",
+              "camo shorts",
+              "camo pants"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "flower",
+            "qv": "4.4w",
+            "change_pct": "-0.1%",
+            "trend": "rising",
+            "related_terms": [
+              "floral dress",
+              "floral dresses for women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "stripe",
+            "qv": "2.9w",
+            "change_pct": "+6.8%",
+            "trend": "rising",
+            "related_terms": [
+              "striped shirt",
+              "striped dress",
+              "striped top"
+            ],
+            "diff_terms": []
+          }
+        ]
+      },
+      {
+        "id": "CAT-COLOR",
+        "name": "颜色",
+        "order": 7,
+        "description": "搜索qv居于高位，需关注优化",
+        "items": [
+          {
+            "keyword": "white",
+            "qv": "138w",
+            "change_pct": "-0.6%",
+            "trend": "hot",
+            "related_terms": [
+              "white dress",
+              "white top",
+              "white skirt",
+              "white shirt",
+              "white blouse",
+              "white pants",
+              "white shorts",
+              "white dresses",
+              "white tops",
+              "white tank top"
+            ],
+            "diff_terms": [
+              "white tops"
+            ]
+          },
+          {
+            "keyword": "black",
+            "qv": "99.7w",
+            "change_pct": "-0.9%",
+            "trend": "hot",
+            "related_terms": [
+              "black dress",
+              "black skirt",
+              "black top",
+              "black shorts",
+              "black pants",
+              "black jeans",
+              "black blouse",
+              "black tops",
+              "black dresses",
+              "black dresses for women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "pink",
+            "qv": "39.9w",
+            "change_pct": "-1.7%",
+            "trend": "moderate",
+            "related_terms": [
+              "pink dress",
+              "pink top",
+              "pink",
+              "pink skirt",
+              "pink tops",
+              "pink dresses for women",
+              "pink shirt",
+              "pink dresses",
+              "pink blouse",
+              "pink bikini"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "red",
+            "qv": "34.8w",
+            "change_pct": "-1.5%",
+            "trend": "moderate",
+            "related_terms": [
+              "red dress",
+              "red top",
+              "red",
+              "red skirt",
+              "red shirt",
+              "red tops",
+              "red blouse",
+              "red dresses",
+              "red dresses for women"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "yellow",
+            "qv": "24.4w",
+            "change_pct": "-4.5%",
+            "trend": "moderate",
+            "related_terms": [
+              "yellow dress",
+              "yellow top",
+              "yellow",
+              "yellow tops",
+              "yellow dress for women",
+              "yellow shirt"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "brown",
+            "qv": "23.3w",
+            "change_pct": "-0.6%",
+            "trend": "moderate",
+            "related_terms": [
+              "brown dress",
+              "brown top",
+              "brown skirt",
+              "brown pants",
+              "brown shorts",
+              "brown blouse",
+              "brown bikini",
+              "brown tops"
+            ],
+            "diff_terms": [
+              "brown tops"
+            ]
+          },
+          {
+            "keyword": "blue",
+            "qv": "18.2w",
+            "change_pct": "-1%",
+            "trend": "moderate",
+            "related_terms": [
+              "blue dress",
+              "blue top",
+              "blue shirt",
+              "blue skirt",
+              "blue",
+              "blue bikini",
+              "blue jeans"
+            ],
+            "diff_terms": [
+              "blue jeans"
+            ]
+          },
+          {
+            "keyword": "green",
+            "qv": "14.9w",
+            "change_pct": "+0.5%",
+            "trend": "moderate",
+            "related_terms": [
+              "green dress",
+              "green top",
+              "green skirt",
+              "green",
+              "green dresses for women",
+              "green shorts",
+              "green blouse"
+            ],
+            "diff_terms": [
+              "green shorts"
+            ]
+          },
+          {
+            "keyword": "orange",
+            "qv": "8.3w",
+            "change_pct": "+4.6%",
+            "trend": "rising",
+            "related_terms": [
+              "orange dress",
+              "orange top",
+              "orange",
+              "orange dresses for women",
+              "orange tops"
+            ],
+            "diff_terms": [
+              "orange dresses for women",
+              "orange tops"
+            ]
+          },
+          {
+            "keyword": "purple",
+            "qv": "7.9w",
+            "change_pct": "+2.4%",
+            "trend": "rising",
+            "related_terms": [
+              "purple dress",
+              "purple",
+              "purple top",
+              "purple dresses for women",
+              "purple tops"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "navy blue",
+            "qv": "7.7w",
+            "change_pct": "+12.1%",
+            "trend": "rising",
+            "related_terms": [
+              "navy skirt",
+              "navy blue dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "gold",
+            "qv": "4.2w",
+            "change_pct": "+3.9%",
+            "trend": "rising",
+            "related_terms": [
+              "gold dress",
+              "golden dress",
+              "gold top"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "teal blue",
+            "qv": "3.7w",
+            "change_pct": "+7.3%",
+            "trend": "rising",
+            "related_terms": [
+              "teal",
+              "teal top"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "mint green",
+            "qv": "2.4w",
+            "change_pct": "+13%",
+            "trend": "rising",
+            "related_terms": [
+              "mint green",
+              "mint green tops"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "grey",
+            "qv": "2.1w",
+            "change_pct": "+20.2%",
+            "trend": "rising",
+            "related_terms": [
+              "gray pants",
+              "grey jeans",
+              "grey skirt"
+            ],
+            "diff_terms": []
+          }
+        ]
+      }
+    ],
+    "summary": {
+      "total_categories": 7,
+      "total_keywords": 64,
+      "top_trends": [
+        "fall +48.8%",
+        "school +52.9%",
+        "christmas +34.4%",
+        "homecoming +30.9%",
+        "halloween +28.2%"
+      ],
+      "hot_count": 15,
+      "moderate_count": 24,
+      "rising_count": 26
+    }
+  }
+}
