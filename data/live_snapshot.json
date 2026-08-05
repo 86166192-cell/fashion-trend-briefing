@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05 14:14:34",
+  "generated_at": "2026-08-05 15:11:06",
   "trend_radar": {
     "ok": true,
     "sources": [
@@ -95,7 +95,7 @@
             "source": "Vogue Runway"
           }
         ],
-        "fetched_at": "2026-08-05 14:13:02"
+        "fetched_at": "2026-08-05 15:10:52"
       },
       {
         "source_id": "SRC-002",
@@ -189,7 +189,7 @@
             "source": "Vogue Business"
           }
         ],
-        "fetched_at": "2026-08-05 14:13:02"
+        "fetched_at": "2026-08-05 15:10:53"
       },
       {
         "source_id": "SRC-006",
@@ -262,7 +262,7 @@
             "source": "BOF"
           }
         ],
-        "fetched_at": "2026-08-05 14:13:02"
+        "fetched_at": "2026-08-05 15:10:53"
       },
       {
         "source_id": "SRC-007",
@@ -293,7 +293,7 @@
             "source": "1GRANARY"
           }
         ],
-        "fetched_at": "2026-08-05 14:13:03"
+        "fetched_at": "2026-08-05 15:10:54"
       },
       {
         "source_id": "SRC-003",
@@ -302,7 +302,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-05 14:13:02"
+        "fetched_at": "2026-08-05 15:10:53"
       },
       {
         "source_id": "SRC-004",
@@ -311,7 +311,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-05 14:13:02"
+        "fetched_at": "2026-08-05 15:10:53"
       },
       {
         "source_id": "SRC-005",
@@ -320,10 +320,10 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-05 14:13:02"
+        "fetched_at": "2026-08-05 15:10:53"
       }
     ],
-    "fetched_at": "2026-08-05 14:14:32"
+    "fetched_at": "2026-08-05 15:10:54"
   },
   "brands": {
     "ok": true,
@@ -1081,7 +1081,7 @@
                 "source": "Amazon"
               },
               {
-                "title": "#4 Nike Unisex Adult Everyday Elevated Crew Socks (6-Pack) | Mens and Womens 4.6 out of 5 stars 166 1 offer fr",
+                "title": "#4 Nike Unisex Adult Everyday Elevated Crew Socks (6-Pack) | Mens and Womens 4.6 out of 5 stars 171 1 offer fr",
                 "url": "https://www.amazon.com/Nike-Everyday-Pairs-Multi-Color-Medium/dp/B0FRCQWV7D/ref=zg_bs_g_1040660_d_sccl_4/145-0927756-1086837?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61fJYYa+PRL._AC_UL300_SR300,200_.jpg",
                 "price": "$21.33",
@@ -1095,7 +1095,7 @@
                 "source": "Amazon"
               },
               {
-                "title": "#6 Gildan Adult Ultra Cotton T-Shirt, Style G2000, Multipack 4.5 out of 5 stars 113,166 $12.49",
+                "title": "#6 Gildan Adult Ultra Cotton T-Shirt, Style G2000, Multipack 4.5 out of 5 stars 113,177 2 offers from $12.49",
                 "url": "https://www.amazon.com/Gildan-G2000-Cotton-T-Shirt-2-Pack/dp/B075ZZ7XKD/ref=zg_bs_g_1040660_d_sccl_6/145-0927756-1086837?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61x-LF9fyYL._AC_UL300_SR300,200_.jpg",
                 "price": "$12.49",
@@ -1156,6 +1156,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05 14:14:34"
+    "fetched_at": "2026-08-05 15:11:06"
   }
 }
