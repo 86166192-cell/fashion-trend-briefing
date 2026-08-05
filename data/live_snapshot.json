@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05 15:11:06",
+  "generated_at": "2026-08-05 15:47:58",
   "trend_radar": {
     "ok": true,
     "sources": [
@@ -95,7 +95,7 @@
             "source": "Vogue Runway"
           }
         ],
-        "fetched_at": "2026-08-05 15:10:52"
+        "fetched_at": "2026-08-05 15:47:45"
       },
       {
         "source_id": "SRC-002",
@@ -189,7 +189,7 @@
             "source": "Vogue Business"
           }
         ],
-        "fetched_at": "2026-08-05 15:10:53"
+        "fetched_at": "2026-08-05 15:47:45"
       },
       {
         "source_id": "SRC-006",
@@ -262,7 +262,7 @@
             "source": "BOF"
           }
         ],
-        "fetched_at": "2026-08-05 15:10:53"
+        "fetched_at": "2026-08-05 15:47:46"
       },
       {
         "source_id": "SRC-007",
@@ -293,7 +293,7 @@
             "source": "1GRANARY"
           }
         ],
-        "fetched_at": "2026-08-05 15:10:54"
+        "fetched_at": "2026-08-05 15:47:46"
       },
       {
         "source_id": "SRC-003",
@@ -302,7 +302,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-05 15:10:53"
+        "fetched_at": "2026-08-05 15:47:45"
       },
       {
         "source_id": "SRC-004",
@@ -311,7 +311,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-05 15:10:53"
+        "fetched_at": "2026-08-05 15:47:45"
       },
       {
         "source_id": "SRC-005",
@@ -320,10 +320,10 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-05 15:10:53"
+        "fetched_at": "2026-08-05 15:47:45"
       }
     ],
-    "fetched_at": "2026-08-05 15:10:54"
+    "fetched_at": "2026-08-05 15:47:46"
   },
   "brands": {
     "ok": true,
@@ -1061,84 +1061,84 @@
             "items": [
               {
                 "title": "#1 OEAK Womens Jelly Bras Wireless Deep V Bralette Comfy Push Up Tshirt Bras | Comfortable,support and lift,no",
-                "url": "https://www.amazon.com/OEAK-Comfortable-Bralettes-Underwire-Seamless/dp/B0DGX1SKRP/ref=zg_bs_g_1040660_d_sccl_1/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/OEAK-Comfortable-Bralettes-Underwire-Seamless/dp/B0DGX1SKRP/ref=zg_bs_g_1040660_d_sccl_1/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/71FImVJjR7L._AC_UL300_SR300,200_.jpg",
                 "price": "$18.99",
                 "source": "Amazon"
               },
               {
                 "title": "#2 LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive | Full Coverage, Wireless Support L",
-                "url": "https://www.amazon.com/LetsJoli-Supportive-Wireless-Underwear-Women%EF%BC%88Black/dp/B0F6TWKDFK/ref=zg_bs_g_1040660_d_sccl_2/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/LetsJoli-Supportive-Wireless-Underwear-Women%EF%BC%88Black/dp/B0F6TWKDFK/ref=zg_bs_g_1040660_d_sccl_2/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61bWdCuPmYL._AC_UL300_SR300,200_.jpg",
                 "price": "$19.99",
                 "source": "Amazon"
               },
               {
                 "title": "#3 OEAK Womens Wireless Jelly Bras Plus Size Support Push Up Comfortable Bra | no underwire,full coverage,for ",
-                "url": "https://www.amazon.com/OEAK-Wireless-Supportive-Comfortable-Underwire/dp/B0FBGGCYR4/ref=zg_bs_g_1040660_d_sccl_3/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/OEAK-Wireless-Supportive-Comfortable-Underwire/dp/B0FBGGCYR4/ref=zg_bs_g_1040660_d_sccl_3/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61W+3XeWQiL._AC_UL300_SR300,200_.jpg",
                 "price": "$19.99",
                 "source": "Amazon"
               },
               {
-                "title": "#4 Nike Unisex Adult Everyday Elevated Crew Socks (6-Pack) | Mens and Womens 4.6 out of 5 stars 171 1 offer fr",
-                "url": "https://www.amazon.com/Nike-Everyday-Pairs-Multi-Color-Medium/dp/B0FRCQWV7D/ref=zg_bs_g_1040660_d_sccl_4/145-0927756-1086837?psc=1",
+                "title": "#4 Nike Unisex Adult Everyday Elevated Crew Socks (6-Pack) | Mens and Womens 4.6 out of 5 stars 190 1 offer fr",
+                "url": "https://www.amazon.com/Nike-Everyday-Pairs-Multi-Color-Medium/dp/B0FRCQWV7D/ref=zg_bs_g_1040660_d_sccl_4/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61fJYYa+PRL._AC_UL300_SR300,200_.jpg",
                 "price": "$21.33",
                 "source": "Amazon"
               },
               {
                 "title": "#5 Nippies Reusable Nipple Covers, Skin Safe Pasties in Circle or Lift Style | Dermatologist Tested Adhesive P",
-                "url": "https://www.amazon.com/Nippies-Reusable-Skin-Safe-Adhesive-Invisible/dp/B001PU9A9Q/ref=zg_bs_g_1040660_d_sccl_5/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/Nippies-Reusable-Skin-Safe-Adhesive-Invisible/dp/B001PU9A9Q/ref=zg_bs_g_1040660_d_sccl_5/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/81TgvZ35BhL._AC_UL300_SR300,200_.jpg",
                 "price": "$22.99",
                 "source": "Amazon"
               },
               {
-                "title": "#6 Gildan Adult Ultra Cotton T-Shirt, Style G2000, Multipack 4.5 out of 5 stars 113,177 2 offers from $12.49",
-                "url": "https://www.amazon.com/Gildan-G2000-Cotton-T-Shirt-2-Pack/dp/B075ZZ7XKD/ref=zg_bs_g_1040660_d_sccl_6/145-0927756-1086837?psc=1",
+                "title": "#6 Gildan Adult Ultra Cotton T-Shirt, Style G2000, Multipack 4.5 out of 5 stars 113,192 2 offers from $12.49",
+                "url": "https://www.amazon.com/Gildan-G2000-Cotton-T-Shirt-2-Pack/dp/B075ZZ7XKD/ref=zg_bs_g_1040660_d_sccl_6/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61x-LF9fyYL._AC_UL300_SR300,200_.jpg",
                 "price": "$12.49",
                 "source": "Amazon"
               },
               {
                 "title": "#7 Sampeel Wide Leg Pants for Women Flowy Palazzo Drawstring Elastic Waist Trousers with Pockets Summer Beach ",
-                "url": "https://www.amazon.com/Sampeel-Palazzo-Business-Vacation-Trousers/dp/B0FP5GCRLF/ref=zg_bs_g_1040660_d_sccl_7/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/Sampeel-Palazzo-Business-Vacation-Trousers/dp/B0FP5GCRLF/ref=zg_bs_g_1040660_d_sccl_7/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/617DlqyEdFL._AC_UL300_SR300,200_.jpg",
                 "price": "$23.99",
                 "source": "Amazon"
               },
               {
                 "title": "#8 Amazon Essentials Women's Cotton Spandex Bikini Brief Underwear (Available in Plus Size) 4.4 out of 5 stars",
-                "url": "https://www.amazon.com/Amazon-Essentials-Womens-Cotton-Stretch/dp/B06XNL4YT7/ref=zg_bs_g_1040660_d_sccl_8/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/Amazon-Essentials-Womens-Cotton-Stretch/dp/B06XNL4YT7/ref=zg_bs_g_1040660_d_sccl_8/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/71PHQkYff+L._AC_UL300_SR300,200_.jpg",
                 "price": "$9.90",
                 "source": "Amazon"
               },
               {
                 "title": "#9 ANRABESS Tank Tops for Women V Neck Ribbed Knit Slim Fitted Sleeveless Basic Tee Tanks Casual Summer Clothe",
-                "url": "https://www.amazon.com/ANRABESS-Ribbed-Fitted-Sleeveless-Clothes/dp/B0FTSRP2SL/ref=zg_bs_g_1040660_d_sccl_9/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/ANRABESS-Ribbed-Fitted-Sleeveless-Clothes/dp/B0FTSRP2SL/ref=zg_bs_g_1040660_d_sccl_9/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/81mnULy5dnL._AC_UL300_SR300,200_.jpg",
                 "price": "$7.29",
                 "source": "Amazon"
               },
               {
-                "title": "#10 Hanes Women's Underwear Pack, 10-Pack, Full-Coverage Cotton Blend Panties, Moisture-Wicking Underwear for ",
-                "url": "https://www.amazon.com/Hanes-womens-Cotton-briefs-underwear/dp/B00FZR1C7I/ref=zg_bs_g_1040660_d_sccl_10/145-0927756-1086837?psc=1",
-                "image": "https://images-na.ssl-images-amazon.com/images/I/711V3T0ykKL._AC_UL300_SR300,200_.jpg",
-                "price": null,
-                "source": "Amazon"
-              },
-              {
-                "title": "#11 OEAK Women Value Series Jelly Bras Wireless Pushup Convertible Bra | Everyday Essentials,Comfortable Brale",
-                "url": "https://www.amazon.com/OEAK-Scalloped-Underwire-Comfortable-Convertible/dp/B0DZ69N6FR/ref=zg_bs_g_1040660_d_sccl_11/145-0927756-1086837?psc=1",
+                "title": "#10 OEAK Women Value Series Jelly Bras Wireless Pushup Convertible Bra | Everyday Essentials,Comfortable Brale",
+                "url": "https://www.amazon.com/OEAK-Scalloped-Underwire-Comfortable-Convertible/dp/B0DZ69N6FR/ref=zg_bs_g_1040660_d_sccl_10/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/712UXSiabCL._AC_UL300_SR300,200_.jpg",
                 "price": "$16.99",
                 "source": "Amazon"
               },
               {
+                "title": "#11 Hanes Women's Underwear Pack, 10-Pack, Full-Coverage Cotton Blend Panties, Moisture-Wicking Underwear for ",
+                "url": "https://www.amazon.com/Hanes-womens-Cotton-briefs-underwear/dp/B00FZR1C7I/ref=zg_bs_g_1040660_d_sccl_11/130-7177478-7735220?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/711V3T0ykKL._AC_UL300_SR300,200_.jpg",
+                "price": null,
+                "source": "Amazon"
+              },
+              {
                 "title": "#12 ANRABESS Womens Short Sleeve Henley Tops V Neck Dressy Casual Blouses Summer Trendy Tee Shirts 2026 Vacati",
-                "url": "https://www.amazon.com/ANRABESS-Womens-Sleeve-Blouses-Clothes/dp/B0DJJMW21W/ref=zg_bs_g_1040660_d_sccl_12/145-0927756-1086837?psc=1",
+                "url": "https://www.amazon.com/ANRABESS-Womens-Sleeve-Blouses-Clothes/dp/B0DJJMW21W/ref=zg_bs_g_1040660_d_sccl_12/130-7177478-7735220?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/71IFE6W6THL._AC_UL300_SR300,200_.jpg",
                 "price": "$8.99",
                 "source": "Amazon"
@@ -1156,6 +1156,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-05 15:11:06"
+    "fetched_at": "2026-08-05 15:47:58"
   }
 }
