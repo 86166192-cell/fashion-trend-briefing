@@ -1,0 +1,2029 @@
+{
+  "modules": [
+    {
+      "name": "aw_tendencias",
+      "title": "2026/27 AW T台十大重点趋势",
+      "subtitle": "T台重点趋势数据分析 · WOW-TREND",
+      "description": "T台重点趋势数据分析",
+      "keywords": [
+        "警⽰的红⾊",
+        "雕塑般的肩膀",
+        "超⼤西装",
+        "复古格纹",
+        "触感双⾯",
+        "奢华⽪草",
+        "拉链⽴领",
+        "防护漏⽃领",
+        "时髦乡村",
+        "机能⼾外"
+      ],
+      "cover": {
+        "title": "十大重点趋势 数据分析",
+        "subtitle": "女性力量 / 野奢防护 / 时髦乡村",
+        "description": "T台重点趋势数据分析",
+        "image": {
+          "xref": 31,
+          "url": "/pdf-content/aw_tendencias/assets/p01_31_b73963c5.jpeg",
+          "bbox": [
+            24.9,
+            -5.3,
+            344.4,
+            394.4
+          ],
+          "xn": 0.032,
+          "yn": -0.011,
+          "wn": 0.411,
+          "hn": 0.84,
+          "area": 0.345,
+          "content_score": 0.835,
+          "width": 1599,
+          "height": 2000,
+          "file": "p01_31_b73963c5.jpeg",
+          "size_bytes": 369350
+        }
+      },
+      "trends": [
+        {
+          "name": "警⽰的红⾊",
+          "subtitle": "红⾊觉醒",
+          "description": "要点总结： 红⾊已从仪式感⾊彩升级为⽇常核⼼⾊，在充满不确定性的环 境下，红⾊代表的能量感是消费者产⽣情感连接的关键。 在警⽰的红⾊中，触感材质（+22%）呈稳定增⻓趋势，通过增 加红⾊的视觉体积感，让红⾊在极简语境下拥有了极⾼的辨识 度，极简优雅（+27%）增⻓较显著，都市运动（+16%）与叛 逆摇滚（+9%）的增⻓，反映了红⾊在⽇常实穿类⽬中的渗透 率在提升。",
+          "data_points": [
+            {
+              "text": "+9%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+22%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+16%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+27%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "Bottega Veneta",
+            "Prada",
+            "CHANEL",
+            "Coach 1941"
+          ],
+          "main_image": {
+            "xref": 397,
+            "url": "/pdf-content/aw_tendencias/assets/p03_397_69ed7976.jpeg",
+            "bbox": [
+              326.2,
+              76.1,
+              555.8,
+              420.7
+            ],
+            "xn": 0.42,
+            "yn": 0.16,
+            "wn": 0.296,
+            "hn": 0.724,
+            "area": 0.214,
+            "content_score": 0.642,
+            "width": 1333,
+            "height": 2000,
+            "file": "p03_397_69ed7976.jpeg",
+            "size_bytes": 227723
+          },
+          "brand_images": [
+            {
+              "xref": 415,
+              "url": "/pdf-content/aw_tendencias/assets/p03_415_3ab4bdc1.jpeg",
+              "bbox": [
+                574.3,
+                77.2,
+                803.9,
+                421.7
+              ],
+              "xn": 0.739,
+              "yn": 0.162,
+              "wn": 0.296,
+              "hn": 0.724,
+              "area": 0.214,
+              "content_score": 0.416,
+              "width": 1333,
+              "height": 2000,
+              "file": "p03_415_3ab4bdc1.jpeg",
+              "size_bytes": 324023
+            },
+            {
+              "xref": 409,
+              "url": "/pdf-content/aw_tendencias/assets/p03_409_f245b294.jpeg",
+              "bbox": [
+                451.8,
+                79.2,
+                678.8,
+                419.7
+              ],
+              "xn": 0.582,
+              "yn": 0.166,
+              "wn": 0.292,
+              "hn": 0.715,
+              "area": 0.209,
+              "content_score": 0.356,
+              "width": 1333,
+              "height": 2000,
+              "file": "p03_409_f245b294.jpeg",
+              "size_bytes": 260251
+            },
+            {
+              "xref": 403,
+              "url": "/pdf-content/aw_tendencias/assets/p03_403_5737bab2.jpeg",
+              "bbox": [
+                199.5,
+                70.7,
+                437.0,
+                427.1
+              ],
+              "xn": 0.257,
+              "yn": 0.149,
+              "wn": 0.306,
+              "hn": 0.749,
+              "area": 0.229,
+              "content_score": 0.213,
+              "width": 1333,
+              "height": 2000,
+              "file": "p03_403_5737bab2.jpeg",
+              "size_bytes": 274734
+            }
+          ]
+        },
+        {
+          "name": "雕塑般的肩膀",
+          "subtitle": "",
+          "description": "要点总结： 将肩部做出有轮廓感的雕塑体积，通过本⾝的结构 线条打造⼒量强势的精英感。 超⼤号外套（+21%）、圆润夹克（+23%）涨幅较⼤，为 造型带来建筑般的⼏何感，厚实的针织（+12%）展⽰了如 何通过改变针织纹路⽅向来强化肩部视觉，这预⽰着“舒 适感与⼒量感”的共存。",
+          "data_points": [
+            {
+              "text": "+21%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+12%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+9%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "Prada",
+            "Tory Burch",
+            "Carven",
+            "Brunello Cucinelli"
+          ],
+          "main_image": {
+            "xref": 502,
+            "url": "/pdf-content/aw_tendencias/assets/p04_502_9696da07.jpeg",
+            "bbox": [
+              442.8,
+              57.9,
+              685.7,
+              422.0
+            ],
+            "xn": 0.57,
+            "yn": 0.122,
+            "wn": 0.313,
+            "hn": 0.765,
+            "area": 0.239,
+            "content_score": 0.717,
+            "width": 1334,
+            "height": 2000,
+            "file": "p04_502_9696da07.jpeg",
+            "size_bytes": 386364
+          },
+          "brand_images": [
+            {
+              "xref": 496,
+              "url": "/pdf-content/aw_tendencias/assets/p04_496_5df52ce4.jpeg",
+              "bbox": [
+                202.9,
+                76.1,
+                432.5,
+                420.7
+              ],
+              "xn": 0.261,
+              "yn": 0.16,
+              "wn": 0.296,
+              "hn": 0.724,
+              "area": 0.214,
+              "content_score": 0.642,
+              "width": 1333,
+              "height": 2000,
+              "file": "p04_496_5df52ce4.jpeg",
+              "size_bytes": 215160
+            },
+            {
+              "xref": 508,
+              "url": "/pdf-content/aw_tendencias/assets/p04_508_2af6c7b3.jpeg",
+              "bbox": [
+                556.3,
+                78.3,
+                786.0,
+                422.8
+              ],
+              "xn": 0.716,
+              "yn": 0.164,
+              "wn": 0.296,
+              "hn": 0.724,
+              "area": 0.214,
+              "content_score": 0.634,
+              "width": 1333,
+              "height": 2000,
+              "file": "p04_508_2af6c7b3.jpeg",
+              "size_bytes": 280977
+            },
+            {
+              "xref": 490,
+              "url": "/pdf-content/aw_tendencias/assets/p04_490_aaae9245.jpeg",
+              "bbox": [
+                327.2,
+                76.7,
+                556.9,
+                421.2
+              ],
+              "xn": 0.421,
+              "yn": 0.161,
+              "wn": 0.296,
+              "hn": 0.724,
+              "area": 0.214,
+              "content_score": 0.331,
+              "width": 1333,
+              "height": 2000,
+              "file": "p04_490_aaae9245.jpeg",
+              "size_bytes": 265700
+            }
+          ]
+        },
+        {
+          "name": "超⼤西装",
+          "subtitle": "",
+          "description": "超⼤箱型西装易于打造建筑的硬朗轮廓，呼应性别流动的穿⾐趋势，强化⼥ 性⼒量感。 超⼤箱型（+22%）的西装上升⽐例涨幅较⼤，追求极致的H型廓形，宽肩 收腰（+11%）及⼩领绅⼠西装（+9%）涨幅相对较⼩，突出雕塑美感及现 代绅⼠感。",
+          "data_points": [
+            {
+              "text": "+22%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+11%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+9%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "放松腰线",
+            "2026/27秋冬超⼤西装廓形增⻓⽰意图",
+            "宽肩收腰",
+            "⼩领绅⼠西装",
+            "CHANEL",
+            "Bottega Veneta",
+            "Alberta Ferretti",
+            "Lemaire"
+          ],
+          "main_image": {
+            "xref": 580,
+            "url": "/pdf-content/aw_tendencias/assets/p05_580_84dc9089.jpeg",
+            "bbox": [
+              290.5,
+              78.0,
+              516.9,
+              417.7
+            ],
+            "xn": 0.374,
+            "yn": 0.164,
+            "wn": 0.291,
+            "hn": 0.714,
+            "area": 0.208,
+            "content_score": 0.522,
+            "width": 1333,
+            "height": 2000,
+            "file": "p05_580_84dc9089.jpeg",
+            "size_bytes": 282568
+          },
+          "brand_images": [
+            {
+              "xref": 586,
+              "url": "/pdf-content/aw_tendencias/assets/p05_586_cfbb63b7.jpeg",
+              "bbox": [
+                576.5,
+                78.0,
+                801.2,
+                415.1
+              ],
+              "xn": 0.742,
+              "yn": 0.164,
+              "wn": 0.289,
+              "hn": 0.708,
+              "area": 0.205,
+              "content_score": 0.512,
+              "width": 1333,
+              "height": 2000,
+              "file": "p05_586_cfbb63b7.jpeg",
+              "size_bytes": 175880
+            },
+            {
+              "xref": 598,
+              "url": "/pdf-content/aw_tendencias/assets/p05_598_91995a7f.jpeg",
+              "bbox": [
+                544.4,
+                40.4,
+                802.6,
+                427.8
+              ],
+              "xn": 0.701,
+              "yn": 0.085,
+              "wn": 0.332,
+              "hn": 0.814,
+              "area": 0.27,
+              "content_score": 0.312,
+              "width": 1333,
+              "height": 2000,
+              "file": "p05_598_91995a7f.jpeg",
+              "size_bytes": 338647
+            },
+            {
+              "xref": 592,
+              "url": "/pdf-content/aw_tendencias/assets/p05_592_16464dd4.jpeg",
+              "bbox": [
+                427.2,
+                67.0,
+                666.9,
+                426.6
+              ],
+              "xn": 0.55,
+              "yn": 0.141,
+              "wn": 0.308,
+              "hn": 0.755,
+              "area": 0.233,
+              "content_score": 0.172,
+              "width": 1333,
+              "height": 2000,
+              "file": "p05_592_16464dd4.jpeg",
+              "size_bytes": 199122
+            }
+          ]
+        },
+        {
+          "name": "复古格纹",
+          "subtitle": "格纹牧歌",
+          "description": "要点总结：",
+          "data_points": [
+            {
+              "text": "+14%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+16%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+8%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "庄园格纹（+23%）的年同⽐增⻓幅度最⼤，轻盈材质（+14%）的草原格纹，呈现浪漫主义的量感，为秋冬市场注⼊了新鲜",
+            "的活⼒，烟草格纹（+8%）的流⾏相较去年涨幅较⼩，呈现浓郁的 70 年代怀旧感，展现复古的⽥园感，智性格纹（+16%）",
+            "呈现精致极简主义⻛格。"
+          ],
+          "main_image": {
+            "xref": 670,
+            "url": "/pdf-content/aw_tendencias/assets/p06_670_9e668af1.jpeg",
+            "bbox": [
+              212.7,
+              41.6,
+              463.7,
+              418.2
+            ],
+            "xn": 0.274,
+            "yn": 0.087,
+            "wn": 0.323,
+            "hn": 0.791,
+            "area": 0.256,
+            "content_score": 0.767,
+            "width": 1333,
+            "height": 2000,
+            "file": "p06_670_9e668af1.jpeg",
+            "size_bytes": 234584
+          },
+          "brand_images": [
+            {
+              "xref": 676,
+              "url": "/pdf-content/aw_tendencias/assets/p06_676_577373f1.jpeg",
+              "bbox": [
+                317.2,
+                61.3,
+                581.4,
+                457.8
+              ],
+              "xn": 0.408,
+              "yn": 0.129,
+              "wn": 0.34,
+              "hn": 0.833,
+              "area": 0.283,
+              "content_score": 0.679,
+              "width": 1333,
+              "height": 2000,
+              "file": "p06_676_577373f1.jpeg",
+              "size_bytes": 238430
+            },
+            {
+              "xref": 682,
+              "url": "/pdf-content/aw_tendencias/assets/p06_682_dece2b76.jpeg",
+              "bbox": [
+                437.8,
+                62.9,
+                691.5,
+                443.5
+              ],
+              "xn": 0.563,
+              "yn": 0.132,
+              "wn": 0.326,
+              "hn": 0.8,
+              "area": 0.261,
+              "content_score": 0.456,
+              "width": 1333,
+              "height": 2000,
+              "file": "p06_682_dece2b76.jpeg",
+              "size_bytes": 330444
+            },
+            {
+              "xref": 688,
+              "url": "/pdf-content/aw_tendencias/assets/p06_688_8da7ed65.jpeg",
+              "bbox": [
+                605.3,
+                110.9,
+                761.1,
+                344.6
+              ],
+              "xn": 0.779,
+              "yn": 0.233,
+              "wn": 0.201,
+              "hn": 0.491,
+              "area": 0.098,
+              "content_score": 0.193,
+              "width": 1333,
+              "height": 2000,
+              "file": "p06_688_8da7ed65.jpeg",
+              "size_bytes": 373219
+            }
+          ]
+        },
+        {
+          "name": "触感双⾯",
+          "subtitle": "",
+          "description": "触感双⾯材质主打正反两穿、异材质拼接的设计⽅向，打破场景与⻛格的界限，适配多元⽣活⽅式的穿搭。⽪ 草内⾥（+25%）涨幅相对较⾼，展现功能性奢华，⾼对⽐度撞⾊（+15%）是新关注的⽅向，体现了双⾯设计 在视觉上的活⼒与趣味性。",
+          "data_points": [
+            {
+              "text": "+15%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+12%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+10%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+25%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "Boss",
+            "Miu Miu",
+            "⽪⾰材质拼接",
+            "2026/27秋冬触感双⾯材质增⻓⽰意图",
+            "⽪草内⾥",
+            "⾼对⽐撞⾊",
+            "奢华的⽇常"
+          ],
+          "main_image": {
+            "xref": 779,
+            "url": "/pdf-content/aw_tendencias/assets/p07_779_32656c67.jpeg",
+            "bbox": [
+              482.1,
+              3.9,
+              840.1,
+              541.0
+            ],
+            "xn": 0.62,
+            "yn": 0.008,
+            "wn": 0.461,
+            "hn": 1.128,
+            "area": 0.52,
+            "content_score": 1.56,
+            "width": 1333,
+            "height": 2000,
+            "file": "p07_779_32656c67.jpeg",
+            "size_bytes": 236567
+          },
+          "brand_images": [
+            {
+              "xref": 773,
+              "url": "/pdf-content/aw_tendencias/assets/p07_773_6a767592.jpeg",
+              "bbox": [
+                160.6,
+                114.4,
+                441.5,
+                535.8
+              ],
+              "xn": 0.207,
+              "yn": 0.24,
+              "wn": 0.362,
+              "hn": 0.885,
+              "area": 0.32,
+              "content_score": 0.469,
+              "width": 1333,
+              "height": 2000,
+              "file": "p07_773_6a767592.jpeg",
+              "size_bytes": 332529
+            },
+            {
+              "xref": 767,
+              "url": "/pdf-content/aw_tendencias/assets/p07_767_522553c1.jpeg",
+              "bbox": [
+                404.6,
+                74.5,
+                574.7,
+                329.8
+              ],
+              "xn": 0.521,
+              "yn": 0.156,
+              "wn": 0.219,
+              "hn": 0.536,
+              "area": 0.117,
+              "content_score": 0.352,
+              "width": 1333,
+              "height": 2000,
+              "file": "p07_767_522553c1.jpeg",
+              "size_bytes": 202941
+            },
+            {
+              "xref": 761,
+              "url": "/pdf-content/aw_tendencias/assets/p07_761_c5aa4d69.jpeg",
+              "bbox": [
+                10.3,
+                129.2,
+                227.7,
+                455.4
+              ],
+              "xn": 0.013,
+              "yn": 0.271,
+              "wn": 0.28,
+              "hn": 0.685,
+              "area": 0.192,
+              "content_score": 0.337,
+              "width": 1333,
+              "height": 2000,
+              "file": "p07_761_c5aa4d69.jpeg",
+              "size_bytes": 280444
+            }
+          ]
+        },
+        {
+          "name": "奢华⽪草",
+          "subtitle": "",
+          "description": "要点总结：",
+          "data_points": [
+            {
+              "text": "+26%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+17%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+13%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+11%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "松度，营造如云朵般的超现实包裹感，泰迪短绒(+11%)涨幅相较去年平稳，具有经典⻓效的吸引⼒，兼顾保暖与轻便，适配",
+            "职场及⽇间社交。"
+          ],
+          "main_image": {
+            "xref": 857,
+            "url": "/pdf-content/aw_tendencias/assets/p08_857_b8bb733f.jpeg",
+            "bbox": [
+              334.6,
+              67.6,
+              567.2,
+              416.5
+            ],
+            "xn": 0.431,
+            "yn": 0.142,
+            "wn": 0.299,
+            "hn": 0.733,
+            "area": 0.219,
+            "content_score": 0.64,
+            "width": 1333,
+            "height": 2000,
+            "file": "p08_857_b8bb733f.jpeg",
+            "size_bytes": 235151
+          },
+          "brand_images": [
+            {
+              "xref": 863,
+              "url": "/pdf-content/aw_tendencias/assets/p08_863_5dadeb7c.jpeg",
+              "bbox": [
+                453.7,
+                102.8,
+                670.3,
+                427.8
+              ],
+              "xn": 0.584,
+              "yn": 0.216,
+              "wn": 0.279,
+              "hn": 0.683,
+              "area": 0.19,
+              "content_score": 0.346,
+              "width": 1333,
+              "height": 2000,
+              "file": "p08_863_5dadeb7c.jpeg",
+              "size_bytes": 249537
+            },
+            {
+              "xref": 869,
+              "url": "/pdf-content/aw_tendencias/assets/p08_869_c738e711.jpeg",
+              "bbox": [
+                586.2,
+                97.7,
+                784.3,
+                394.9
+              ],
+              "xn": 0.754,
+              "yn": 0.205,
+              "wn": 0.255,
+              "hn": 0.625,
+              "area": 0.159,
+              "content_score": 0.335,
+              "width": 1333,
+              "height": 2000,
+              "file": "p08_869_c738e711.jpeg",
+              "size_bytes": 329029
+            },
+            {
+              "xref": 851,
+              "url": "/pdf-content/aw_tendencias/assets/p08_851_21c9e813.jpeg",
+              "bbox": [
+                230.9,
+                93.8,
+                447.6,
+                418.9
+              ],
+              "xn": 0.297,
+              "yn": 0.197,
+              "wn": 0.279,
+              "hn": 0.683,
+              "area": 0.19,
+              "content_score": 0.266,
+              "width": 1333,
+              "height": 2000,
+              "file": "p08_851_21c9e813.jpeg",
+              "size_bytes": 275276
+            }
+          ]
+        },
+        {
+          "name": "拉链⽴领",
+          "subtitle": "",
+          "description": "拉链⽴领的设计将领⼝转化为⼀种雕塑性的装饰细节，承载了本季实⽤美学的核⼼。经典的半拉链领部 （+23%）配合撞⾊翻边，回归 90 年代运动⻛，放⼤的⽐例（+18%）、新式优雅（+19%）的领部是本季值得关 注的重点，为优雅造型注⼊功能属性。",
+          "data_points": [
+            {
+              "text": "+14%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+18%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+19%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "Veronique Leroy",
+            "CHANEL",
+            "放⼤的⽐例",
+            "2026/27秋冬拉链⽴领细节增⻓⽰意图",
+            "新式优雅",
+            "斜襟领⼝",
+            "半拉链领部"
+          ],
+          "main_image": {
+            "xref": 959,
+            "url": "/pdf-content/aw_tendencias/assets/p09_959_a3c681f1.jpeg",
+            "bbox": [
+              516.2,
+              20.3,
+              797.5,
+              442.1
+            ],
+            "xn": 0.664,
+            "yn": 0.043,
+            "wn": 0.362,
+            "hn": 0.886,
+            "area": 0.321,
+            "content_score": 0.916,
+            "width": 1334,
+            "height": 2000,
+            "file": "p09_959_a3c681f1.jpeg",
+            "size_bytes": 302055
+          },
+          "brand_images": [
+            {
+              "xref": 941,
+              "url": "/pdf-content/aw_tendencias/assets/p09_941_c259b7e6.jpeg",
+              "bbox": [
+                25.1,
+                148.5,
+                216.1,
+                435.0
+              ],
+              "xn": 0.032,
+              "yn": 0.312,
+              "wn": 0.246,
+              "hn": 0.602,
+              "area": 0.148,
+              "content_score": 0.444,
+              "width": 1333,
+              "height": 2000,
+              "file": "p09_941_c259b7e6.jpeg",
+              "size_bytes": 293185
+            },
+            {
+              "xref": 953,
+              "url": "/pdf-content/aw_tendencias/assets/p09_953_e75e40f6.jpeg",
+              "bbox": [
+                192.9,
+                157.0,
+                426.2,
+                507.0
+              ],
+              "xn": 0.248,
+              "yn": 0.33,
+              "wn": 0.3,
+              "hn": 0.735,
+              "area": 0.221,
+              "content_score": 0.419,
+              "width": 1333,
+              "height": 2000,
+              "file": "p09_953_e75e40f6.jpeg",
+              "size_bytes": 296813
+            },
+            {
+              "xref": 947,
+              "url": "/pdf-content/aw_tendencias/assets/p09_947_d30d2fed.jpeg",
+              "bbox": [
+                400.4,
+                19.7,
+                575.8,
+                282.9
+              ],
+              "xn": 0.515,
+              "yn": 0.041,
+              "wn": 0.226,
+              "hn": 0.553,
+              "area": 0.125,
+              "content_score": 0.026,
+              "width": 1333,
+              "height": 2000,
+              "file": "p09_947_d30d2fed.jpeg",
+              "size_bytes": 378518
+            }
+          ]
+        },
+        {
+          "name": "防护漏⽃领",
+          "subtitle": "",
+          "description": "领⼝包裹性成为了对抗秋冬寒冷与疗愈安全感的核⼼设计语⾔，强调极简主义与机能主义的融合，替代了 围⼱，成为极具商业转化潜⼒的核⼼细节。雕塑感围嘴领（+25%）涨势较⾼，都市机能(+18%)领部突出 针织与⽪⾰的材质对⽐，结构化堆叠领(+15%)兼顾保暖与造型性。",
+          "data_points": [
+            {
+              "text": "+33%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+28%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+26%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "Courreges",
+            "Victoria Beckham",
+            "护颈⽴领",
+            "2026/27秋冬防护漏⽃领细节增⻓⽰意图",
+            "都市机能",
+            "结构化堆叠领",
+            "雕塑感围嘴领"
+          ],
+          "main_image": {
+            "xref": 1049,
+            "url": "/pdf-content/aw_tendencias/assets/p10_1049_1e73fe6a.jpeg",
+            "bbox": [
+              531.8,
+              37.3,
+              805.2,
+              447.4
+            ],
+            "xn": 0.684,
+            "yn": 0.078,
+            "wn": 0.352,
+            "hn": 0.862,
+            "area": 0.303,
+            "content_score": 0.909,
+            "width": 1333,
+            "height": 2000,
+            "file": "p10_1049_1e73fe6a.jpeg",
+            "size_bytes": 201656
+          },
+          "brand_images": [
+            {
+              "xref": 1031,
+              "url": "/pdf-content/aw_tendencias/assets/p10_1031_be997d5a.jpeg",
+              "bbox": [
+                -9.0,
+                145.7,
+                253.4,
+                539.4
+              ],
+              "xn": -0.012,
+              "yn": 0.306,
+              "wn": 0.338,
+              "hn": 0.827,
+              "area": 0.279,
+              "content_score": 0.838,
+              "width": 1333,
+              "height": 2000,
+              "file": "p10_1031_be997d5a.jpeg",
+              "size_bytes": 177587
+            },
+            {
+              "xref": 1037,
+              "url": "/pdf-content/aw_tendencias/assets/p10_1037_6d986b4d.jpeg",
+              "bbox": [
+                387.9,
+                76.4,
+                608.3,
+                407.1
+              ],
+              "xn": 0.499,
+              "yn": 0.161,
+              "wn": 0.284,
+              "hn": 0.695,
+              "area": 0.197,
+              "content_score": 0.591,
+              "width": 1333,
+              "height": 2000,
+              "file": "p10_1037_6d986b4d.jpeg",
+              "size_bytes": 182091
+            },
+            {
+              "xref": 1043,
+              "url": "/pdf-content/aw_tendencias/assets/p10_1043_64b22713.jpeg",
+              "bbox": [
+                150.3,
+                154.7,
+                465.6,
+                627.8
+              ],
+              "xn": 0.193,
+              "yn": 0.325,
+              "wn": 0.406,
+              "hn": 0.994,
+              "area": 0.403,
+              "content_score": 0.224,
+              "width": 1333,
+              "height": 2000,
+              "file": "p10_1043_64b22713.jpeg",
+              "size_bytes": 219378
+            }
+          ]
+        },
+        {
+          "name": "时髦乡村",
+          "subtitle": "",
+          "description": "时髦乡村不再是单纯的复古，⽽是⼀种都市逃离主义的表达，它通过⼿⼯艺的温度，为品 牌注⼊了珍贵的情绪价值，对抗数字时代的核⼼表达，从精致奢华转向质朴奢华。 浓郁的乡村浪漫氛围，象征着回归⾃然与纯粹。⼿⼯刺绣⼩花（+23%）涨幅相对较⼤，线迹 刺绣（+11%）增⻓幅度较⼩，强调触感与⼿⼯温度，童趣疗愈（+18%）持续增⻓，相⽐去 年呈现稳定发挥，呼应可爱经济的流⾏。",
+          "data_points": [
+            {
+              "text": "+9%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+18%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+11%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "2026/27秋冬时髦乡村细节增⻓⽰意图",
+            "Vautrait",
+            "Moncler Grenoble"
+          ],
+          "main_image": {
+            "xref": 1121,
+            "url": "/pdf-content/aw_tendencias/assets/p11_1121_498e4634.jpeg",
+            "bbox": [
+              490.3,
+              16.6,
+              841.9,
+              544.2
+            ],
+            "xn": 0.631,
+            "yn": 0.035,
+            "wn": 0.453,
+            "hn": 1.108,
+            "area": 0.502,
+            "content_score": 1.475,
+            "width": 1333,
+            "height": 2000,
+            "file": "p11_1121_498e4634.jpeg",
+            "size_bytes": 411608
+          },
+          "brand_images": [
+            {
+              "xref": 1139,
+              "url": "/pdf-content/aw_tendencias/assets/p11_1139_9ca8048a.jpeg",
+              "bbox": [
+                481.3,
+                216.6,
+                832.9,
+                744.2
+              ],
+              "xn": 0.619,
+              "yn": 0.455,
+              "wn": 0.453,
+              "hn": 1.108,
+              "area": 0.502,
+              "content_score": 1.406,
+              "width": 1333,
+              "height": 2000,
+              "file": "p11_1139_9ca8048a.jpeg",
+              "size_bytes": 300280
+            },
+            {
+              "xref": 1133,
+              "url": "/pdf-content/aw_tendencias/assets/p11_1133_6440effe.jpeg",
+              "bbox": [
+                317.7,
+                201.4,
+                617.7,
+                651.5
+              ],
+              "xn": 0.409,
+              "yn": 0.423,
+              "wn": 0.386,
+              "hn": 0.946,
+              "area": 0.365,
+              "content_score": 0.722,
+              "width": 1333,
+              "height": 2000,
+              "file": "p11_1133_6440effe.jpeg",
+              "size_bytes": 423360
+            },
+            {
+              "xref": 1127,
+              "url": "/pdf-content/aw_tendencias/assets/p11_1127_0d33aa7f.jpeg",
+              "bbox": [
+                385.8,
+                36.5,
+                564.4,
+                259.8
+              ],
+              "xn": 0.497,
+              "yn": 0.077,
+              "wn": 0.23,
+              "hn": 0.469,
+              "area": 0.108,
+              "content_score": 0.323,
+              "width": 1600,
+              "height": 2000,
+              "file": "p11_1127_0d33aa7f.jpeg",
+              "size_bytes": 519458
+            }
+          ]
+        },
+        {
+          "name": "机能⼾外",
+          "subtitle": "",
+          "description": "极简机能主义 / 轻⼾外美学 将传统精英主义的内敛秩序感，与现代⽣活所需的流动性、舒适性巧妙融合，把专业⼾外元素穿进城市⽇常装扮 中。⼤⾯积运动拼⾊（+32%）回归 80-90年代⽥径与赛⻋⽂化，智性⼾外（+48%）呈现精致的都市⼾外感， 可关注数字⾊防护（+30%）这⼀趋势，⾼饱和度数字⾊彩，结合充⽓感廓形，强调超现实防护感。",
+          "data_points": [
+            {
+              "text": "+32%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+30%",
+              "color": "#c92a4d"
+            },
+            {
+              "text": "+48%",
+              "color": "#c92a4d"
+            }
+          ],
+          "brands": [
+            "Loewe",
+            "Attersee",
+            "数字⾊防护",
+            "2026/27秋冬机能⼾外细节增⻓⽰意图",
+            "智性⼾外",
+            "少⼥机能",
+            "运动拼⾊"
+          ],
+          "main_image": {
+            "xref": 1211,
+            "url": "/pdf-content/aw_tendencias/assets/p12_1211_026a8ee2.jpeg",
+            "bbox": [
+              -15.2,
+              157.9,
+              247.5,
+              552.1
+            ],
+            "xn": -0.02,
+            "yn": 0.332,
+            "wn": 0.338,
+            "hn": 0.828,
+            "area": 0.28,
+            "content_score": 0.84,
+            "width": 1333,
+            "height": 2000,
+            "file": "p12_1211_026a8ee2.jpeg",
+            "size_bytes": 235362
+          },
+          "brand_images": [
+            {
+              "xref": 1223,
+              "url": "/pdf-content/aw_tendencias/assets/p12_1223_afd10dd4.jpeg",
+              "bbox": [
+                173.6,
+                142.0,
+                435.9,
+                535.7
+              ],
+              "xn": 0.223,
+              "yn": 0.298,
+              "wn": 0.338,
+              "hn": 0.827,
+              "area": 0.279,
+              "content_score": 0.838,
+              "width": 1333,
+              "height": 2000,
+              "file": "p12_1223_afd10dd4.jpeg",
+              "size_bytes": 245623
+            },
+            {
+              "xref": 1229,
+              "url": "/pdf-content/aw_tendencias/assets/p12_1229_7b1627b4.jpeg",
+              "bbox": [
+                553.5,
+                44.2,
+                773.9,
+                374.9
+              ],
+              "xn": 0.712,
+              "yn": 0.093,
+              "wn": 0.284,
+              "hn": 0.695,
+              "area": 0.197,
+              "content_score": 0.591,
+              "width": 1333,
+              "height": 2000,
+              "file": "p12_1229_7b1627b4.jpeg",
+              "size_bytes": 217735
+            },
+            {
+              "xref": 1217,
+              "url": "/pdf-content/aw_tendencias/assets/p12_1217_15b1c213.jpeg",
+              "bbox": [
+                405.6,
+                48.6,
+                575.8,
+                303.8
+              ],
+              "xn": 0.522,
+              "yn": 0.102,
+              "wn": 0.219,
+              "hn": 0.536,
+              "area": 0.117,
+              "content_score": 0.352,
+              "width": 1334,
+              "height": 2000,
+              "file": "p12_1217_15b1c213.jpeg",
+              "size_bytes": 350512
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ss_ins_ranking",
+      "title": "2026 SS INS 时尚排行榜",
+      "subtitle": "时尚资讯 / 最新报道",
+      "description": "基于影响者粉丝量、热度、知名度、商业价值维度，2026 SS 活跃在新锐时尚影响者前十榜单",
+      "keywords": [
+        "Kendall Jenner",
+        "Zendaya",
+        "Lisa",
+        "Jennie",
+        "Dua Lipa",
+        "Bella Hadid",
+        "Hailey Rhode Bieber",
+        "Gigi Hadid",
+        "Jisoo",
+        "Elsa Hosk"
+      ],
+      "cover": {
+        "title": "2026 SS INS 时尚排行榜",
+        "subtitle": "",
+        "description": null,
+        "image": {
+          "xref": 172,
+          "url": "/pdf-content/ss_ins_ranking/assets/p01_172_1ab40629.jpeg",
+          "bbox": [
+            99.6,
+            49.3,
+            1004.7,
+            1180.1
+          ],
+          "xn": 0.128,
+          "yn": 0.104,
+          "wn": 1.165,
+          "hn": 2.376,
+          "area": 2.767,
+          "content_score": 8.302,
+          "width": 1440,
+          "height": 1799,
+          "file": "p01_172_1ab40629.jpeg",
+          "size_bytes": 516392
+        }
+      },
+      "celebrities": [
+        {
+          "rank": "1",
+          "name": "Kendall Jenner",
+          "fans": "2.7亿"
+        },
+        {
+          "rank": "2",
+          "name": "Zendaya",
+          "fans": "1.7亿"
+        },
+        {
+          "rank": "3",
+          "name": "Lisa",
+          "fans": "1亿"
+        },
+        {
+          "rank": "4",
+          "name": "Jennie",
+          "fans": "8909.8万"
+        },
+        {
+          "rank": "5",
+          "name": "Dua Lipa",
+          "fans": "8844万"
+        },
+        {
+          "rank": "6",
+          "name": "Bella Hadid",
+          "fans": "5942万"
+        },
+        {
+          "rank": "7",
+          "name": "Hailey Rhode Bieber",
+          "fans": "5800万"
+        },
+        {
+          "rank": "8",
+          "name": "Gigi Hadid",
+          "fans": "5574万"
+        },
+        {
+          "rank": "9",
+          "name": "Jisoo",
+          "fans": "1128.4万"
+        },
+        {
+          "rank": "10",
+          "name": "Elsa Hosk",
+          "fans": "832.9万"
+        }
+      ],
+      "details": [
+        {
+          "name": "Kendall Jenner",
+          "events": [
+            {
+              "name": "818 Outpost 2026",
+              "yn": 0.53
+            },
+            {
+              "name": "《名利场》奥斯卡派对Met Gala",
+              "yn": 0.658
+            }
+          ],
+          "descriptions": [
+            "在2026年Met Gala红毯上，Kendall Jenner ⾝穿由 Gap Studio 量⾝定制的象⽛⽩针织礼服，灵感源⾃卢 浮宫《萨莫⾊雷斯岛的胜利⼥神》， 坠剪裁复刻古典雕塑贴体动感，搭配数字化开模裸⾊ ⽪⾰胸⾐ 撞，⼤胆且极具戏剧张⼒。",
+            "粉丝数： 亿 以 \"湿⾐褶皱\" 垂 ，实现现代科技、解构主义与古典艺术的碰",
+            "818 Outpost 2026是科切拉⾳ 乐节期间顶级的潮流快闪，现 场融合太空复古未来主义美 学、跨界潮流⽣态与⾼燃⾳ 乐。创始⼈Kendall Jenner⾝ 穿⽩⾊短背⼼、同⾊短裤搭配 ⿊⾊⻓靴与棒球帽， 以⼀⾝利 落、⼲练的all-white造型亮 相，将率性运动感与摩登线条 完美混搭， 在沙漠绿洲场景中 展现活⼒⼜精致的阳光⽓质。",
+            "在2026年奥斯卡派对上，Kendall Jenner ⾝穿⼀件定制 的冰蓝⾊Chanel⻥⻣吊带礼服⻓裙，裙⾝在领⼝与胯部 点缀了精致的亮⽚与花卉刺绣，完美契合当季的“冷调 蓝”⾊彩趋势，搭配Tiffany & Co.的精致钻⽯⽿环， 造型化繁为简，将内敛的奢华质感、修⻓线条与精湛的⾼ 定⼿⼯艺融为⼀体。"
+          ],
+          "images": [
+            {
+              "xref": 589,
+              "url": "/pdf-content/ss_ins_ranking/assets/p03_589_088136f0.jpeg",
+              "bbox": [
+                549.2,
+                35.3,
+                747.1,
+                299.1
+              ],
+              "xn": 0.707,
+              "yn": 0.074,
+              "wn": 0.255,
+              "hn": 0.554,
+              "area": 0.141,
+              "content_score": 0.423,
+              "width": 1080,
+              "height": 1440,
+              "file": "p03_589_088136f0.jpeg",
+              "size_bytes": 90352
+            },
+            {
+              "xref": 577,
+              "url": "/pdf-content/ss_ins_ranking/assets/p03_577_8b90e9c9.jpeg",
+              "bbox": [
+                301.9,
+                6.8,
+                516.6,
+                275.2
+              ],
+              "xn": 0.389,
+              "yn": 0.014,
+              "wn": 0.276,
+              "hn": 0.564,
+              "area": 0.156,
+              "content_score": 0.408,
+              "width": 1080,
+              "height": 1350,
+              "file": "p03_577_8b90e9c9.jpeg",
+              "size_bytes": 158041
+            },
+            {
+              "xref": 601,
+              "url": "/pdf-content/ss_ins_ranking/assets/p03_601_236de5e9.jpeg",
+              "bbox": [
+                95.1,
+                90.2,
+                265.8,
+                346.3
+              ],
+              "xn": 0.122,
+              "yn": 0.19,
+              "wn": 0.22,
+              "hn": 0.538,
+              "area": 0.118,
+              "content_score": 0.355,
+              "width": 1080,
+              "height": 1620,
+              "file": "p03_601_236de5e9.jpeg",
+              "size_bytes": 243412
+            }
+          ]
+        },
+        {
+          "name": "Zendaya",
+          "events": [
+            {
+              "name": "电影《蜘蛛侠》宣传活动",
+              "yn": 0.539
+            },
+            {
+              "name": "《Euphoria》第三季⾸映礼《The Odyssey》伦敦拍照会",
+              "yn": 0.659
+            }
+          ],
+          "descriptions": [
+            "在《The Odyssey》伦敦拍照会上，Zendaya选择了 ⼀套由 Jacquemus 定制的⽩⾊挂脖⻓裙， 其饰演的“雅典娜”，极简挂脖与直筒流线剪裁利落 如古希腊雕塑， 物感⾦⾊⼤⽿环，将史诗神话的厚重与现代极简的意 境完美融合，释放出圣洁、⾼贵的⾼级神性⽓场。",
+            "粉丝数： 亿 造型致敬 搭配同⾊系包头⼱与 Glenn Spiro ⽂",
+            "Zendaya在伦敦《蜘蛛侠》的 宣传活动上，⾝着John Galliano 1997春夏系列古 深蓝星空裙摆搭配后背璀 璨的⾦属蜘蛛⽹，完美致敬电 影主题， 利落且浪漫；在罗⻢ 为《蜘蛛侠》电影进⾏宣传活 动时，⾝穿Versace 1997秋 冬系列的红⾊与蓝⾊亮⽚分体 巧妙地呼应了蜘蛛侠的 经典红蓝配⾊。",
+            "Zendaya在《Euphoria》第三季⾸映礼⾝着⼀袭由 Ashi Studio 打造的巧克⼒棕⾊缎⾯礼服惊艳亮，造型由Law Roach操⼑， 极简的挂脖剪裁和超低露背设计，巧妙融合 了90年代的复古魅⼒与现代的⾼级定制质感 湿发与Chopard 的钻⽯⽿环，则隐喻了《Euphoria》终 章历经⻛暴后沉淀的宿命感与成熟坚韧。"
+          ],
+          "images": [
+            {
+              "xref": 683,
+              "url": "/pdf-content/ss_ins_ranking/assets/p04_683_a9850b18.jpeg",
+              "bbox": [
+                206.4,
+                -315.0,
+                603.6,
+                280.6
+              ],
+              "xn": 0.266,
+              "yn": -0.662,
+              "wn": 0.511,
+              "hn": 1.251,
+              "area": 0.64,
+              "content_score": 1.919,
+              "width": 1080,
+              "height": 1619,
+              "file": "p04_683_a9850b18.jpeg",
+              "size_bytes": 226609
+            },
+            {
+              "xref": 695,
+              "url": "/pdf-content/ss_ins_ranking/assets/p04_695_1485b86f.jpeg",
+              "bbox": [
+                549.5,
+                13.7,
+                746.7,
+                309.5
+              ],
+              "xn": 0.707,
+              "yn": 0.029,
+              "wn": 0.254,
+              "hn": 0.621,
+              "area": 0.158,
+              "content_score": 0.422,
+              "width": 1080,
+              "height": 1620,
+              "file": "p04_695_1485b86f.jpeg",
+              "size_bytes": 395964
+            }
+          ]
+        },
+        {
+          "name": "Lisa",
+          "events": [
+            {
+              "name": "Mete Gala",
+              "yn": 0.521
+            },
+            {
+              "name": "2026年美加墨世界杯Coachella 2026",
+              "yn": 0.658
+            }
+          ],
+          "descriptions": [
+            "Lisa在2026年科切拉⾳乐节⾝着Iris van Herpen 500 ⼩时定制战袍， 冷冽的⾦属⽻翼与流光薄纱完美交融，呈现出兼具未 来科技感与⼒量美的“堕落天使”形象 与Anyma的数码舞美完美共振，完美诠释了危险、清 冷、极具野⼼的未来主义。",
+            "粉丝数： 亿 造型融合3D打印与激光切割⼯艺，将 ，其⾦属质感",
+            "在2026年Met Gala上Lisa 化⾝“⾏⾛雕塑”，⾝着 Robert Wun定制礼服，通 3D扫描技术打造⽴ 体“多重⼿臂”撑起纯⽩⾯ 纱，将⾝体化为神圣的装置 ；深夜派对则换上 David Koma定制全⽩西 装，深V内搭配合低腰喇叭 裤与夸张⽑绒领⼝，完美 释70年代 Studio 54 迪斯 科俱乐部美学",
+            "Lisa在2026年美加墨世界杯舞台上，⾝着纯⽩解构主义 机能⻛战袍，造型巧妙运⽤铠甲拼接前襟与侧边交叉绑 带，完美融合现代机能与竞技⼒量感，极短热裤搭配纯⽩ 绑带过膝⻓靴，极致拉⻓⾝材⽐例，完美 康且充满竞技⽣命⼒的未来主义“赛博运动⼥神”美学。"
+          ],
+          "images": [
+            {
+              "xref": 789,
+              "url": "/pdf-content/ss_ins_ranking/assets/p05_789_b716564d.jpeg",
+              "bbox": [
+                300.5,
+                16.8,
+                517.9,
+                288.5
+              ],
+              "xn": 0.387,
+              "yn": 0.035,
+              "wn": 0.28,
+              "hn": 0.571,
+              "area": 0.16,
+              "content_score": 0.479,
+              "width": 1366,
+              "height": 1707,
+              "file": "p05_789_b716564d.jpeg",
+              "size_bytes": 187516
+            },
+            {
+              "xref": 801,
+              "url": "/pdf-content/ss_ins_ranking/assets/p05_801_90d3c3e5.jpeg",
+              "bbox": [
+                550.5,
+                37.0,
+                745.7,
+                297.3
+              ],
+              "xn": 0.709,
+              "yn": 0.078,
+              "wn": 0.251,
+              "hn": 0.547,
+              "area": 0.137,
+              "content_score": 0.412,
+              "width": 1080,
+              "height": 1440,
+              "file": "p05_801_90d3c3e5.jpeg",
+              "size_bytes": 171649
+            },
+            {
+              "xref": 811,
+              "url": "/pdf-content/ss_ins_ranking/assets/p05_811_7514e92c.jpeg",
+              "bbox": [
+                -19.6,
+                104.1,
+                298.9,
+                316.5
+              ],
+              "xn": -0.025,
+              "yn": 0.219,
+              "wn": 0.41,
+              "hn": 0.446,
+              "area": 0.183,
+              "content_score": 0.155,
+              "width": 1600,
+              "height": 1067,
+              "file": "p05_811_7514e92c.jpeg",
+              "size_bytes": 339862
+            }
+          ]
+        },
+        {
+          "name": "Jennie",
+          "events": [
+            {
+              "name": "2026 Met Gala",
+              "yn": 0.53
+            },
+            {
+              "name": "CHANEL2026⾼级⼯艺坊系列⼤秀《时代》周刊百⼤影响⼒⼈物晚宴",
+              "yn": 0.658
+            }
+          ],
+          "descriptions": [
+            "Jennie ⾝穿 Schiaparelli ⿊⾊丝绒⾼定出席 2026《时代》百⼤⼈物盛典，礼服 胸搭配透视⽹纱，辅以⾦⾊细腰带修饰⾝形，搭 配 SWADESH 印度⼿⼯钻⽯珠宝，实现了法式超 现实主义与传统⽂化的跨界碰撞 型配清透裸妆，冷冽⾼级，⽓场松弛⾃然。",
+            "粉丝数： 万 采⽤雕塑感抹 ，90 年代复古发",
+            "2026 Met Gala 红毯上 Jennie ⾝着CHANEL定制蓝 ⾊⻢赛克亮⽚裙，密集亮⽚ 折射出⻢赛克美⼈⻥般的视 觉效果，搭配⼤胆的极细铅 笔眉与复古发型，将 裁与古典艺术完美融合 宴则换上CHANEL⽩⾊透视 刺绣套装，搭配酷飒墨镜与 ⿊⾊及膝⻓靴，展现出 且摩登的个⼈⽓质",
+            "在CHANEL 2026⾸尔⾼级⼯艺坊系列⼤秀中，品牌⼤使 JENNIE ⾝着航海⻛套装，将外套随性搭作配饰，以⿊⽩ 挂脖连体⾐搭配⿊⾊⾼腰双排扣⻓裤，将航海⻛经典元素 与当代⼥性的冷感时髦完美融合，野⽣感妆发搭配⼯装⽪ 草包、星芒珠宝， 跳脱传统⾹⻛的柔和感，完美演绎智性 时髦与现代实⽤主义相融的全新美学"
+          ],
+          "images": [
+            {
+              "xref": 896,
+              "url": "/pdf-content/ss_ins_ranking/assets/p06_896_0e5bcbc1.jpeg",
+              "bbox": [
+                549.2,
+                35.3,
+                747.1,
+                299.1
+              ],
+              "xn": 0.707,
+              "yn": 0.074,
+              "wn": 0.255,
+              "hn": 0.554,
+              "area": 0.141,
+              "content_score": 0.423,
+              "width": 853,
+              "height": 1137,
+              "file": "p06_896_0e5bcbc1.jpeg",
+              "size_bytes": 51434
+            },
+            {
+              "xref": 884,
+              "url": "/pdf-content/ss_ins_ranking/assets/p06_884_8852b3bf.jpeg",
+              "bbox": [
+                299.5,
+                -54.2,
+                520.1,
+                240.0
+              ],
+              "xn": 0.385,
+              "yn": -0.114,
+              "wn": 0.284,
+              "hn": 0.618,
+              "area": 0.176,
+              "content_score": 0.354,
+              "width": 1440,
+              "height": 1920,
+              "file": "p06_884_8852b3bf.jpeg",
+              "size_bytes": 225056
+            },
+            {
+              "xref": 906,
+              "url": "/pdf-content/ss_ins_ranking/assets/p06_906_50dc6f67.jpeg",
+              "bbox": [
+                96.2,
+                102.6,
+                263.5,
+                311.7
+              ],
+              "xn": 0.124,
+              "yn": 0.215,
+              "wn": 0.215,
+              "hn": 0.439,
+              "area": 0.095,
+              "content_score": 0.19,
+              "width": 1440,
+              "height": 1800,
+              "file": "p06_906_50dc6f67.jpeg",
+              "size_bytes": 187987
+            }
+          ]
+        },
+        {
+          "name": "Dua Lipa",
+          "events": [
+            {
+              "name": "Dua Lipa ⺠事婚礼",
+              "yn": 0.53
+            },
+            {
+              "name": "第 79 届戛纳电影节《名利场》奥斯卡派对",
+              "yn": 0.657
+            }
+          ],
+          "descriptions": [
+            "Dua Lipa⾝着Schiaparelli 2026春季⾼定礼服，造 型运⽤硬朗的⿊⾊天鹅绒挂脖胸⾐拼接奢华的层叠 ⾦丝流苏，将硬挺廓形与流动作态完美融合，营造 出冷冽⼜招摇的解构主义张⼒，搭配宝格丽⾦属项 链与利落的中分⻓直发， 摩登兼具的“危险⼥⼈”美学。",
+            "粉丝数： 万 完美诠释⼒量感与超现实",
+            "Dua Lipa与Callum Turner于 伦敦旧⻢⾥波恩市政厅举办⺠ 事婚礼，⾝着Schiaparelli象 ⽛⽩定制套装，该造型致敬 Bianca Jagger经典婚服，利 落剪裁搭配不对称裙摆，辅以 Stephen Jones定制的⾦箔内 衬宽檐帽与Bvlgari灵蛇项链 和⽩⼿套， 融合70年代先锋反 叛精神，塑造独⽴塑造独⽴智 性的“Cool Girl 新娘”形",
+            "Dua Lipa在第79届戛纳电影节期间展现了双重 魅⼒：5⽉15⽇出席Nespresso活动时，她⾝ 银⾊液态亮⽚裙，以极简剪裁与光影感营造前 ；5⽉16⽇出席《Paper Tiger》派对 时，她换上Jacquemus ⿊⾊结构礼服，通过建 筑感流苏设计呈现前卫的动态美学 。两套造型精 准诠释了优雅与先锋并存的时尚哲学。"
+          ],
+          "images": [
+            {
+              "xref": 997,
+              "url": "/pdf-content/ss_ins_ranking/assets/p07_997_67b04f80.jpeg",
+              "bbox": [
+                550.5,
+                37.0,
+                745.7,
+                297.3
+              ],
+              "xn": 0.709,
+              "yn": 0.078,
+              "wn": 0.251,
+              "hn": 0.547,
+              "area": 0.137,
+              "content_score": 0.412,
+              "width": 1440,
+              "height": 1920,
+              "file": "p07_997_67b04f80.jpeg",
+              "size_bytes": 195182
+            },
+            {
+              "xref": 1007,
+              "url": "/pdf-content/ss_ins_ranking/assets/p07_1007_c5aa1848.jpeg",
+              "bbox": [
+                113.5,
+                127.9,
+                247.3,
+                306.4
+              ],
+              "xn": 0.146,
+              "yn": 0.269,
+              "wn": 0.172,
+              "hn": 0.375,
+              "area": 0.065,
+              "content_score": 0.194,
+              "width": 1320,
+              "height": 1760,
+              "file": "p07_1007_c5aa1848.jpeg",
+              "size_bytes": 197260
+            }
+          ]
+        },
+        {
+          "name": "Bella Hadid",
+          "events": [
+            {
+              "name": "戛纳红毯",
+              "yn": 0.53
+            },
+            {
+              "name": "Revolve发布会奥斯卡派对",
+              "yn": 0.658
+            }
+          ],
+          "descriptions": [
+            "在2026年3⽉《名利场》奥斯卡派对上，Bella Hadid 穿着Prada定制缎⾯礼服。礼服采⽤挂脖领⼝与简洁 的露脐剪裁，搭配同⾊系⾼跟鞋，整体造型线条利 落，极具建筑美感。她佩戴了Chopard 璨光芒。这套造型以丝滑的缎⾯质感与流畅的轮廓， 完美诠释了“精致极简”的⾼级时尚。",
+            "粉丝数： 万 的⾸饰增添璀",
+            "在2026年5⽉戛纳电影节活 动的红毯上，Bella Hadid ⾝着⼀袭象⽛⽩⽴体花朵蕾 丝⻓裙。礼服采⽤深V剪裁 勾勒曼妙曲线，紧⾝⻥尾裙 摆缀满⼿⼯感花卉，拖尾处 更显浪漫华丽。她将⾦发盘 起，佩戴简约钻饰，在经典 的红毯背景下，宛如⼀位优 雅的复古名伶。",
+            "2026年3⽉10⽇，时尚品牌REVOLVE正式宣布超模Bella Hadid将担任其即将推出的全新时尚品牌的⾸位品牌⼤ 使。在此次发布的亮相活动中，她⾝着⿊⾊⽪⾰上⾐，内 搭蕾丝吊带，搭配修⾝七分裤，脚踩⼀双Jimmy Choo 头⾼跟鞋。整体造型巧妙融合了硬朗⽪⾰与精致蕾丝，展 现出⾃信前卫的态度。"
+          ],
+          "images": [
+            {
+              "xref": 1116,
+              "url": "/pdf-content/ss_ins_ranking/assets/p08_1116_9889f4c1.jpeg",
+              "bbox": [
+                -29.4,
+                43.9,
+                297.1,
+                370.4
+              ],
+              "xn": -0.038,
+              "yn": 0.092,
+              "wn": 0.42,
+              "hn": 0.686,
+              "area": 0.288,
+              "content_score": 0.864,
+              "width": 1280,
+              "height": 1280,
+              "file": "p08_1116_9889f4c1.jpeg",
+              "size_bytes": 148304
+            },
+            {
+              "xref": 1105,
+              "url": "/pdf-content/ss_ins_ranking/assets/p08_1105_cce2c102.jpeg",
+              "bbox": [
+                544.0,
+                33.3,
+                749.1,
+                354.0
+              ],
+              "xn": 0.7,
+              "yn": 0.07,
+              "wn": 0.264,
+              "hn": 0.674,
+              "area": 0.178,
+              "content_score": 0.521,
+              "width": 1279,
+              "height": 2000,
+              "file": "p08_1105_cce2c102.jpeg",
+              "size_bytes": 290129
+            },
+            {
+              "xref": 1093,
+              "url": "/pdf-content/ss_ins_ranking/assets/p08_1093_03174dc5.jpeg",
+              "bbox": [
+                299.1,
+                11.0,
+                517.2,
+                301.6
+              ],
+              "xn": 0.385,
+              "yn": 0.023,
+              "wn": 0.281,
+              "hn": 0.61,
+              "area": 0.171,
+              "content_score": 0.432,
+              "width": 1501,
+              "height": 2000,
+              "file": "p08_1093_03174dc5.jpeg",
+              "size_bytes": 506971
+            }
+          ]
+        },
+        {
+          "name": "Hailey Rhode Bieber",
+          "events": [
+            {
+              "name": "Met Gala",
+              "yn": 0.521
+            },
+            {
+              "name": "Vanity Fair 奥斯卡派对《时代》周刊百⼤影响⼒⼈物晚宴",
+              "yn": 0.658
+            }
+          ],
+          "descriptions": [
+            "Hailey Rhode Bieber亮相TIME100晚宴， Calvin Klein定制礼服致敬90年代极简美学 ⽤银蓝⾊闪⽚蕾丝，搭配内⾐⻛吊带剪裁，半透视⾯ 料勾勒出流畅柔美的⾝形线条；搭配简约银饰与松弛 微卷⻓发，⼤胆通透的性感碰撞复古浪漫，松弛间尽 显利落⾼级的极简质感。",
+            "粉丝数： 万 ，礼服采",
+            "Hailey Rhode Bieber在 2026年Met Gala红毯上⾝ 着Saint Laurent定制礼 以24K⻩⾦⼿⼯倒模胸 ⾐搭配宝蓝⾊雪纺裙 并济，完美致敬1969年YSL 与艺术家联名的经典雕塑艺 术；随后她换上Dilara Findikoglu⽩⾊解构主义超 短胸⾐裙亮相派对， 抓褶设计展现叛逆、随性的 前卫⻛范。",
+            "在2026年Vanity Fair奥斯卡派对上，Hailey Rhode Bieber⾝着Giorgio Armani Privé定制豹纹抹胸亮⽚礼服 惊艳亮相，该造型由Andrew Mukamal打造， 品牌2005秋冬⾼定经典，以精细亮⽚⼯艺打破动物纹的 通俗感， 搭配标志性波波头与樱桃红美甲，将野性张⼒与 ⾼定奢华完美融合，展现了极致的智性时髦与复古品味。"
+          ],
+          "images": [
+            {
+              "xref": 1188,
+              "url": "/pdf-content/ss_ins_ranking/assets/p09_1188_6da97d23.jpeg",
+              "bbox": [
+                293.1,
+                35.4,
+                526.4,
+                239.2
+              ],
+              "xn": 0.377,
+              "yn": 0.074,
+              "wn": 0.3,
+              "hn": 0.428,
+              "area": 0.129,
+              "content_score": 0.386,
+              "width": 1500,
+              "height": 1310,
+              "file": "p09_1188_6da97d23.jpeg",
+              "size_bytes": 229078
+            },
+            {
+              "xref": 1200,
+              "url": "/pdf-content/ss_ins_ranking/assets/p09_1200_9aa97819.jpeg",
+              "bbox": [
+                561.6,
+                33.7,
+                736.8,
+                296.4
+              ],
+              "xn": 0.723,
+              "yn": 0.071,
+              "wn": 0.225,
+              "hn": 0.552,
+              "area": 0.124,
+              "content_score": 0.373,
+              "width": 1280,
+              "height": 1920,
+              "file": "p09_1200_9aa97819.jpeg",
+              "size_bytes": 379900
+            },
+            {
+              "xref": 1210,
+              "url": "/pdf-content/ss_ins_ranking/assets/p09_1210_8860cfcd.jpeg",
+              "bbox": [
+                114.1,
+                114.3,
+                247.8,
+                314.8
+              ],
+              "xn": 0.147,
+              "yn": 0.24,
+              "wn": 0.172,
+              "hn": 0.421,
+              "area": 0.072,
+              "content_score": 0.217,
+              "width": 1000,
+              "height": 1500,
+              "file": "p09_1210_8860cfcd.jpeg",
+              "size_bytes": 179342
+            }
+          ]
+        },
+        {
+          "name": "Gigi Hadid",
+          "events": [
+            {
+              "name": "Guest in Residence",
+              "yn": 0.529
+            },
+            {
+              "name": "Ralph Lauren AW 2026秀场2026 Met Gala",
+              "yn": 0.656
+            }
+          ],
+          "descriptions": [
+            "Gigi Hadid ⾝着 Miu Miu 定制⽹纱裸裙亮相 2026 Met Gala， Miu的设计师们将灵感源⾃2011年春季系列的贴⽚ ⼿⼯缝制在Hadid的⾝上， 微卷复古发型与总计 33 克拉顶级钻⽯，将古典浪漫 主义与现代⼿⼯艺术融合，尽显超模的典雅⽓场。",
+            "粉丝数： 万 以1998年春季系列的薄纱为底，Miu 裙⾝上镶满烫钻，搭配",
+            "由 Gigi Hadid 创⽴的轻奢⽺绒 品牌 Guest in Residence， 季以 “Be our Guest” 为主 题，捕捉了如旧明信⽚般的轻 松度假氛围，主打 100% ⽺绒 及丝⿇混纺⾯料，将轻薄针织 带⼊泳池与沙滩场景。 借“未来传家宝”的传承故 事，采取 60% 批发与 40% DTC 策略，年营收超 3000 万 美元并盈利，成功实现⽺绒的 街头化与年轻化转型。",
+            "在 Ralph Lauren 2026AW秀场上，Gigi Hadid的开场造型以⾦属链条腰带搭配深棕粗 花呢⻢甲裙，在经典复古⾥融⼊叛逆⽓场；闭 场阶段造型⽤⾦属⽹眼⽃篷、西部宽⽪带中和 丝绒 压褶⻓裙的柔美，实现华丽晚装与硬朗 ⻛⻣ 的⽆场景松弛融合。 两套造型借硬朗配 饰碰 撞柔润⾯料，诠释刚柔并济的现代⼥性"
+          ],
+          "images": [
+            {
+              "xref": 1291,
+              "url": "/pdf-content/ss_ins_ranking/assets/p10_1291_661f524a.jpeg",
+              "bbox": [
+                291.0,
+                -12.6,
+                506.3,
+                274.5
+              ],
+              "xn": 0.375,
+              "yn": -0.027,
+              "wn": 0.277,
+              "hn": 0.603,
+              "area": 0.167,
+              "content_score": 0.502,
+              "width": 960,
+              "height": 1280,
+              "file": "p10_1291_661f524a.jpeg",
+              "size_bytes": 202672
+            },
+            {
+              "xref": 1303,
+              "url": "/pdf-content/ss_ins_ranking/assets/p10_1303_9abcab34.jpeg",
+              "bbox": [
+                540.3,
+                21.5,
+                734.8,
+                313.4
+              ],
+              "xn": 0.695,
+              "yn": 0.045,
+              "wn": 0.25,
+              "hn": 0.613,
+              "area": 0.153,
+              "content_score": 0.316,
+              "width": 1333,
+              "height": 2000,
+              "file": "p10_1303_9abcab34.jpeg",
+              "size_bytes": 294429
+            },
+            {
+              "xref": 1316,
+              "url": "/pdf-content/ss_ins_ranking/assets/p10_1316_2d2b113f.jpeg",
+              "bbox": [
+                660.0,
+                165.3,
+                760.6,
+                426.2
+              ],
+              "xn": 0.849,
+              "yn": 0.347,
+              "wn": 0.129,
+              "hn": 0.548,
+              "area": 0.071,
+              "content_score": 0.032,
+              "width": 838,
+              "height": 2173,
+              "file": "p10_1316_2d2b113f.jpeg",
+              "size_bytes": 259129
+            }
+          ]
+        },
+        {
+          "name": "Jisoo",
+          "events": [
+            {
+              "name": "第9届戛纳国际剧集展",
+              "yn": 0.53
+            },
+            {
+              "name": "2026 Met GalaDior2027早春秀场",
+              "yn": 0.659
+            }
+          ],
+          "descriptions": [
+            "Jisoo 亮相 Dior 2027 早春⼤秀，⾝穿同系列主题礼 计，营造复古且浪漫的氛围 层层蓬松荷叶边勾勒空灵柔美的氛围感，下⾝撞⾊⿊ ⾊波点短裙，前短后⻓拖尾剪裁修饰腿型，⼤⽓舒 展，⾃带亮眼红毯⽓场，复古韵味与优雅⽓场兼备。",
+            "粉丝数： 万 整体采⽤经典⿊⽩波点印花，结合多层荷叶边设 ，上⾝选⽤通透⽩薄纱，",
+            "在第 9 届戛纳国际剧集展 中，Jisoo 两套造型尽显时尚 表现⼒：Miss Sohee 粉⾊礼 裙搭配雕塑刺绣胸⾐与层叠薄 纱，浪漫氛围感⼗⾜；Dior ⿊⾊缎⾯⻓裙以细腻肌理和错 落流苏，借布料流动感消解深 ⾊厚重，兼具灵动⽓质与先锋 艺术感。 两套造型分别诠释品 牌古典浪漫与现代精致，将传 统⾼定与先锋美学巧妙相融。",
+            "2026 Met Gala红毯，Jisoo⾝着Dior⾼定抹胸礼服登 系列以莫奈印象派花园为创作灵感，裙⾝晕染粉调与 珍珠灰渐变⾊彩 ，宛若油画质感，利落抹胸搭配胯部⽴体 褶皱勾勒柔和曲线，裙⾝布满的织物花朵刺绣与闪烁亮 ⽚，灵动夺⽬，辅以发间花艺与复古华贵珠宝，尽显温婉 优雅⽓韵，完美诠释⾼定独有的艺术底蕴。"
+          ],
+          "images": [
+            {
+              "xref": 1416,
+              "url": "/pdf-content/ss_ins_ranking/assets/p11_1416_0417665c.jpeg",
+              "bbox": [
+                20.2,
+                -24.7,
+                344.8,
+                407.2
+              ],
+              "xn": 0.026,
+              "yn": -0.052,
+              "wn": 0.418,
+              "hn": 0.907,
+              "area": 0.379,
+              "content_score": 0.907,
+              "width": 1503,
+              "height": 2000,
+              "file": "p11_1416_0417665c.jpeg",
+              "size_bytes": 579640
+            },
+            {
+              "xref": 1406,
+              "url": "/pdf-content/ss_ins_ranking/assets/p11_1406_3f395b62.jpeg",
+              "bbox": [
+                533.3,
+                8.8,
+                762.9,
+                315.0
+              ],
+              "xn": 0.686,
+              "yn": 0.019,
+              "wn": 0.296,
+              "hn": 0.643,
+              "area": 0.19,
+              "content_score": 0.298,
+              "width": 1440,
+              "height": 1920,
+              "file": "p11_1406_3f395b62.jpeg",
+              "size_bytes": 225684
+            },
+            {
+              "xref": 1400,
+              "url": "/pdf-content/ss_ins_ranking/assets/p11_1400_7dfea874.jpeg",
+              "bbox": [
+                385.2,
+                236.0,
+                534.9,
+                423.2
+              ],
+              "xn": 0.496,
+              "yn": 0.496,
+              "wn": 0.193,
+              "hn": 0.393,
+              "area": 0.076,
+              "content_score": 0.227,
+              "width": 1440,
+              "height": 1800,
+              "file": "p11_1400_7dfea874.jpeg",
+              "size_bytes": 271224
+            },
+            {
+              "xref": 1394,
+              "url": "/pdf-content/ss_ins_ranking/assets/p11_1394_2cd27ebc.jpeg",
+              "bbox": [
+                323.0,
+                31.4,
+                496.5,
+                243.2
+              ],
+              "xn": 0.416,
+              "yn": 0.066,
+              "wn": 0.223,
+              "hn": 0.445,
+              "area": 0.099,
+              "content_score": 0.151,
+              "width": 1080,
+              "height": 1319,
+              "file": "p11_1394_2cd27ebc.jpeg",
+              "size_bytes": 115583
+            }
+          ]
+        },
+        {
+          "name": "Elsa Hosk",
+          "events": [
+            {
+              "name": "Gucci⼤秀",
+              "yn": 0.53
+            },
+            {
+              "name": "第79届戛纳电影节7 For All Mankind时装秀",
+              "yn": 0.658
+            }
+          ],
+          "descriptions": [
+            "Elsa Hosk亮相2026年2⽉纽约时装周7 For All Mankind秀场。她⾝着炭灰⾊⻓款⼤⾐，搭配宽⼤围⼱ 与灰⾊紧⾝裤，⼿提深棕⾊鳄⻥纹⼤包，脚踩棕⾊厚底 ⾼跟鞋。整体造型⾊调和谐，厚重哑光⾯料与鞋包呼 应，在率性洒脱中诠释出复古随性的都市摩登范。",
+            "2026年2⽉，在⽶兰时装周 Gucci 2026秋冬系列秀场 上，Elsa Hosk⾝穿⻓款⻛ ⾐，搭配海军蓝阔腿裤。以 极简廓形与利落剪裁诠释品 牌新季美学。宽松版型随性 洒脱，脚踩⾦属乐福鞋增添 复古质感，在T台光影中尽 显松弛的⾼级感。",
+            "第79届戛纳电影节期间，Elsa Hosk⾝着⼀袭浅蓝⾊露肩礼 服亮相电影《业⼒》（Karma）放映活动。礼服采⽤交叉 式设计，搭配⾼开叉薄纱裙摆，既展现了优雅的肩颈线 条，⼜透出修⻓的腿部曲线。颈间璀璨的钻⽯项链与清透 的裙⾝交相辉映，在红毯上呈现出梦幻⽽⾼贵的视觉效"
+          ],
+          "images": [
+            {
+              "xref": 1503,
+              "url": "/pdf-content/ss_ins_ranking/assets/p12_1503_ba6183c4.jpeg",
+              "bbox": [
+                551.3,
+                31.0,
+                745.0,
+                321.4
+              ],
+              "xn": 0.709,
+              "yn": 0.065,
+              "wn": 0.249,
+              "hn": 0.61,
+              "area": 0.152,
+              "content_score": 0.373,
+              "width": 1334,
+              "height": 2000,
+              "file": "p12_1503_ba6183c4.jpeg",
+              "size_bytes": 283780
+            },
+            {
+              "xref": 1489,
+              "url": "/pdf-content/ss_ins_ranking/assets/p12_1489_097d1c25.jpeg",
+              "bbox": [
+                298.2,
+                16.3,
+                518.1,
+                346.1
+              ],
+              "xn": 0.384,
+              "yn": 0.034,
+              "wn": 0.283,
+              "hn": 0.693,
+              "area": 0.196,
+              "content_score": 0.332,
+              "width": 1280,
+              "height": 1920,
+              "file": "p12_1489_097d1c25.jpeg",
+              "size_bytes": 145655
+            },
+            {
+              "xref": 1513,
+              "url": "/pdf-content/ss_ins_ranking/assets/p12_1513_17e6d0be.jpeg",
+              "bbox": [
+                96.5,
+                109.3,
+                263.2,
+                347.3
+              ],
+              "xn": 0.124,
+              "yn": 0.23,
+              "wn": 0.215,
+              "hn": 0.5,
+              "area": 0.107,
+              "content_score": 0.158,
+              "width": 1280,
+              "height": 1827,
+              "file": "p12_1513_17e6d0be.jpeg",
+              "size_bytes": 257784
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
