@@ -1024,7 +1024,7 @@ body {
 <script>
 const API = '';
 let state = { module: 'radar', sub: null };
-let cache = { sources: [], brands: [], keywords: [], categories: [], pdfModules: [], kbData: null };
+let cache = { sources: [], brands: [], keywords: [], categories: [], pdfModules: [] };
 
 // --- Navigation ---
 function switchModule(module) {
@@ -1049,7 +1049,7 @@ async function renderMain() {
   const descs = {
     radar: '实时抓取 Vogue / BOF / 1Granary / Google Trends 等全球趋势源内容',
     brand: 'Freevana / Travachic Curve / Voyena / Vcay Curve 店铺动态与竞品每日上新追踪',
-    hot: '30周全站站内女装热搜词，基于全市场搜索趋势',
+    hot: '站内女装热搜词，基于全市场搜索趋势',
     pdf_aw: '2026/27 秋冬发布会中提取并分析的十大重点趋势',
     pdf_ss: '基于影响者粉丝量、热度、知名度、商业价值的 2026 SS 前十榜单'
   };
@@ -1112,136 +1112,35 @@ async function renderContent() {
   }
 }
 
-// --- Module: Trend Radar (静态版: 优先读快照, 无快照则跳转卡片) ---
+// --- Module: Trend Radar (实时抓取, 全源平铺) ---
 async function renderRadar(container) {
-  container.innerHTML = '<div class="empty-state">加载中...</div>';
-  try {
-    // 尝试读取快照(含实时抓取内容)
-    let snapshot = null;
-    try {
-      const sr = await fetch(`data/live_snapshot.json`);
-      snapshot = await sr.json();
-    } catch(e) { snapshot = null; }
+  const loading = '<div class="empty-state">正在抓取各趋势源内容，请稍候...</div>';
+  container.innerHTML = loading;
 
-    const liveSources = (snapshot && snapshot.trend_radar && snapshot.trend_radar.sources) || null;
-    if (liveSources && liveSources.length) {
-      const fetchedAt = snapshot.trend_radar.fetched_at || snapshot.generated_at || '';
-      const okSources = liveSources.filter(s => s.ok && s.items && s.items.length);
-      container.innerHTML = `
-        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
-          <div style="font-size:12px;color:var(--text-muted);">趋势内容快照 · ${fetchedAt}</div>
-          <div style="font-size:11px;color:var(--text-muted);">${okSources.length} 个数据源</div>
-        </div>
-        ${liveSources.map(src => renderStaticLiveSource(src)).join('')}
-      `;
+  try {
+    const res = await fetch(`${API}/api/trend-radar/live`);
+    const d = await res.json();
+    if (!d.ok) {
+      container.innerHTML = `<div class="empty-state">抓取失败: ${d.error || '未知错误'}</div>`;
       return;
     }
-
-    // 无快照: 读KB配置 → 跳转卡片
-    const res = await fetch(`data/knowledge_base.json`);
-    const kb = await res.json();
-    const sources = (kb.trend_radar && kb.trend_radar.sources) || [];
+    const sources = d.sources || [];
     if (!sources.length) {
       container.innerHTML = '<div class="empty-state">暂无趋势数据源配置</div>';
       return;
     }
+
+    const fetchedAt = d.fetched_at || '';
     container.innerHTML = `
       <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
-        <div style="font-size:12px;color:var(--text-muted);">趋势数据源 ${sources.length} 个网站 · 点击跳转查看实时内容</div>
+        <div style="font-size:12px;color:var(--text-muted);">实时抓取 · 数据来源 ${sources.length} 个网站</div>
+        <div style="font-size:11px;color:var(--text-muted);">抓取时间: ${fetchedAt}</div>
       </div>
-      ${sources.map(src => renderStaticSource(src)).join('')}
+      ${sources.map(src => renderLiveSource(src)).join('')}
     `;
   } catch(e) {
     container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`;
   }
-}
-
-function renderStaticLiveSource(src) {
-  const items = src.items || [];
-  const nameHtml = src.url
-    ? `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`
-    : src.name;
-  // 有内容: 图文混合布局
-  if (src.ok && items.length) {
-    const withImg = items.filter(it => it.image);
-    const withoutImg = items.filter(it => !it.image);
-    let body = '';
-    if (withImg.length && withoutImg.length) {
-      body = `
-        <div class="live-mixed">
-          <div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>
-          <div class="live-list">
-            <div class="live-list-title">更多内容</div>
-            ${withoutImg.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>`).join('')}
-          </div>
-        </div>`;
-    } else if (withImg.length) {
-      body = `<div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>`;
-    } else {
-      body = `<div class="live-list" style="border-left:none;padding-left:0;">${items.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>`).join('')}</div>`;
-    }
-    return `
-      <div class="live-block">
-        <div class="source-header">
-          <div>
-            <div class="source-name">${nameHtml}</div>
-            <div class="source-url">抓到 ${items.length} 条 · 快照日期</div>
-          </div>
-          <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
-        </div>
-        ${body}
-      </div>`;
-  }
-  // 无内容: 跳转卡片
-  return `
-    <div class="live-block">
-      <div class="source-header">
-        <div>
-          <div class="source-name">${nameHtml}</div>
-          <div class="source-url">动态页面</div>
-        </div>
-        <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
-      </div>
-      <div class="live-fallback">
-        <span class="fallback-info">需通过原网站查看实时内容</span>
-        <a href="${src.url}" target="_blank" rel="noopener" class="fallback-link">前往 ${src.name} →</a>
-      </div>
-    </div>`;
-}
-
-function renderStaticItem(it) {
-  const imgHtml = it.image
-    ? `<a href="${it.url}" target="_blank" rel="noopener"><img src="${it.image}" class="card-img" loading="lazy" onerror="this.style.display='none'"></a>`
-    : `<div class="card-img noimg">暂无图片</div>`;
-  return `
-    <div class="card">
-      ${imgHtml}
-      <div class="card-body">
-        <div class="live-item-title"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>
-        ${it.price ? `<div class="live-item-price">${it.price}</div>` : ''}
-        <div class="live-item-source">${it.source || ''}</div>
-      </div>
-    </div>`;
-}
-
-function renderStaticSource(src) {
-  const nameHtml = src.url
-    ? `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`
-    : src.name;
-  return `
-    <div class="live-block">
-      <div class="source-header">
-        <div>
-          <div class="source-name">${nameHtml}</div>
-          <div class="source-url">${src.coverage || ''} ${src.update_freq || ''}</div>
-        </div>
-        <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
-      </div>
-      <div class="live-fallback">
-        <span class="fallback-info">静态页面无法自动抓取，前往原网站查看实时趋势</span>
-        <a href="${src.url}" target="_blank" rel="noopener" class="fallback-link">前往 ${src.name} →</a>
-      </div>
-    </div>`;
 }
 
 function renderLiveSource(src) {
@@ -1351,127 +1250,102 @@ async function renderBrand(container) {
       </div>
     </div>`;
 
-  // 竞品上新: 优先读快照, 无快照则跳转列表
+  // 竞品实时上新
   container.innerHTML = `
     <div class="brand-panel">
       ${headerHtml}
       <div class="brand-section">
-        <div class="brand-section-title">对标竞品 · 每日上新 <span class="count">${(brand.competitors||[]).length}</span></div>
+        <div class="brand-section-title">对标竞品 · 每日上新 <span class="count">实时抓取</span></div>
         <div id="liveCompetitors" style="padding:4px 0 8px;">
-          <div class="empty-state" style="padding:30px;">加载中...</div>
+          <div class="empty-state" style="padding:30px;">正在抓取竞品最新上架商品...</div>
         </div>
       </div>
     </div>
   `;
 
   try {
-    // 尝试读快照(含竞品上新内容)
-    let snapshot = null;
-    try {
-      const sr = await fetch(`data/live_snapshot.json`);
-      snapshot = await sr.json();
-    } catch(e) { snapshot = null; }
-    const liveShop = snapshot && snapshot.brands ? (snapshot.brands.shops || []).find(s => s.id === state.sub) : null;
-    const liveComps = liveShop ? liveShop.competitors : null;
+    const res = await fetch(`${API}/api/brands/live`);
+    const d = await res.json();
+    const liveShop = (d.shops || []).find(s => s.id === state.sub);
+    const liveComps = liveShop ? liveShop.competitors : [];
 
     const area = document.getElementById('liveCompetitors');
-    if (!area) return;
+    if (!liveComps.length) {
+      area.innerHTML = '<div class="empty-state" style="padding:30px;">暂无竞品上新数据</div>';
+      return;
+    }
 
-    if (liveComps && liveComps.length) {
-      // 快照模式: 有商品的展示卡片, 无商品的跳转
-      area.innerHTML = liveComps.map(c => {
-        const items = c.items || [];
-        const compUrl = c.url || '#';
-        const statusCls = c.ok && items.length ? 'ok' : 'jump';
-        const statusTxt = c.ok && items.length ? `${items.length} 款新品` : '跳转查看';
-        const header = `
-          <div class="comp-live-header">
-            <div class="comp-live-name">
-              <a href="${compUrl}" target="_blank" rel="noopener">${c.name}</a>
-              <span class="comp-live-status ${statusCls}" style="margin-left:8px;">${statusTxt}</span>
-            </div>
-            <a href="${compUrl}" target="_blank" rel="noopener" class="source-link">访问官网 ↗</a>
-          </div>`;
-        if (c.ok && items.length) {
-          const withImg = items.filter(it => it.image);
-          const withoutImg = items.filter(it => !it.image);
-          let body = '';
-          if (withImg.length && withoutImg.length) {
-            body = `
-              <div class="live-mixed">
-                <div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>
-                <div class="live-list">
-                  <div class="live-list-title">更多商品</div>
-                  ${withoutImg.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}${it.price ? ' · ' + it.price : ''}</a></div>`).join('')}
-                </div>
-              </div>`;
-          } else if (withImg.length) {
-            body = `<div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>`;
-          } else {
-            body = `<div class="live-list" style="border-left:none;padding-left:0;">${items.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}${it.price ? ' · ' + it.price : ''}</a></div>`).join('')}</div>`;
-          }
-          return `<div class="comp-live-block">${header}${body}</div>`;
+    area.innerHTML = liveComps.map(c => {
+      const items = c.items || [];
+      const compUrl = c.url || '#';
+      const statusCls = c.ok && items.length ? 'ok' : 'jump';
+      const statusTxt = c.ok && items.length ? `${items.length} 款新品` : '跳转查看';
+
+      const header = `
+        <div class="comp-live-header">
+          <div class="comp-live-name">
+            <a href="${compUrl}" target="_blank" rel="noopener">${c.name}</a>
+            <span class="comp-live-status ${statusCls}" style="margin-left:8px;">${statusTxt}</span>
+          </div>
+          <a href="${compUrl}" target="_blank" rel="noopener" class="source-link">访问官网 ↗</a>
+        </div>`;
+
+      if (c.ok && items.length) {
+        // 图文混合: 有图卡片 + 无图标题列表
+        const withImg = items.filter(it => it.image);
+        const withoutImg = items.filter(it => !it.image);
+        let body = '';
+        if (withImg.length && withoutImg.length) {
+          body = `
+            <div class="live-mixed">
+              <div class="live-grid">${withImg.map(it => renderLiveItem(it)).join('')}</div>
+              <div class="live-list">
+                <div class="live-list-title">更多商品</div>
+                ${withoutImg.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}${it.price ? ' · ' + it.price : ''}</a></div>`).join('')}
+              </div>
+            </div>`;
+        } else if (withImg.length) {
+          body = `<div class="live-grid">${withImg.map(it => renderLiveItem(it)).join('')}</div>`;
+        } else {
+          body = `
+            <div class="live-list" style="border-left:none;padding-left:0;">
+              ${items.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}${it.price ? ' · ' + it.price : ''}</a></div>`).join('')}
+            </div>`;
         }
         return `
           <div class="comp-live-block">
             ${header}
-            <div class="live-fallback" style="margin-top:8px;">
-              <span class="fallback-info">${c.error && c.error !== '无抓取器, 跳转链接' ? c.error : '官网受访问限制，可直接跳转查看最新上架'}</span>
-              <a href="${compUrl}" target="_blank" rel="noopener" class="fallback-link">前往 ${c.name} →</a>
-            </div>
+            ${body}
           </div>`;
-      }).join('');
-      return;
-    }
-
-    // 无快照: 跳转列表
-    const comps = brand.competitors || [];
-    if (!comps.length) {
-      area.innerHTML = '<div class="empty-state" style="padding:30px;">暂无对标竞品数据</div>';
-      return;
-    }
-    area.innerHTML = comps.map(c => {
-      const compUrl = c.url || '#';
+      }
       return `
         <div class="comp-live-block">
-          <div class="comp-live-header">
-            <div class="comp-live-name">
-              <a href="${compUrl}" target="_blank" rel="noopener">${c.name}</a>
-              <span class="comp-live-status jump" style="margin-left:8px;">跳转查看</span>
-            </div>
-            <a href="${compUrl}" target="_blank" rel="noopener" class="source-link">访问官网 ↗</a>
-          </div>
+          ${header}
           <div class="live-fallback" style="margin-top:8px;">
-            <span class="fallback-info">${c.category || '同类竞品'}${c.price_range ? ' · ' + c.price_range : ''}${c.positioning ? ' · ' + c.positioning : ''}</span>
+            <span class="fallback-info">${c.error && c.error !== '无抓取器, 跳转链接' ? c.error : '官网受访问限制，可直接跳转查看最新上架'}</span>
             <a href="${compUrl}" target="_blank" rel="noopener" class="fallback-link">前往 ${c.name} →</a>
           </div>
         </div>`;
     }).join('');
   } catch(e) {
     const area = document.getElementById('liveCompetitors');
-    if (area) area.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`;
+    if (area) area.innerHTML = `<div class="empty-state">抓取失败: ${e.message}</div>`;
   }
 }
 
 // --- Module: PDF 上传报告 (结构化解析, 去水印) ---
-// 静态版: 图片路径 /pdf-content/ → data/pdf_content/
-function pdfImgUrl(u) {
-  if (!u) return '';
-  return u.replace('/pdf-content/', 'data/pdf_content/');
-}
 async function renderPdfModule(container, which) {
   container.innerHTML = '<div class="empty-state">加载中...</div>';
   try {
-    const res = await fetch(`data/pdf_content/structured.json`);
+    const res = await fetch(`${API}/api/pdf-modules`);
     const d = await res.json();
-    const mods = d.modules || [];
-    if (!mods.length) {
+    if (!d.ok || !d.modules.length) {
       container.innerHTML = '<div class="empty-state">暂无上传报告</div>';
       return;
     }
     const targetName = which === 'pdf_aw' ? 'aw_tendencias' : 'ss_ins_ranking';
-    const m = mods.find(x => x.name === targetName) || mods[0];
-    const coverImg = m.cover && m.cover.image ? `<img src="${pdfImgUrl(m.cover.image.url)}" class="pdf-cover-img" onclick="openLightbox('${pdfImgUrl(m.cover.image.url)}')">` : '';
+    const m = d.modules.find(x => x.name === targetName) || d.modules[0];
+    const coverImg = m.cover && m.cover.image ? `<img src="${API}${m.cover.image.url}" class="pdf-cover-img" onclick="openLightbox('${API}${m.cover.image.url}')">` : '';
     const coverTitle = (m.cover && m.cover.title) ? m.cover.title : m.title;
 
     let body = '';
@@ -1482,7 +1356,7 @@ async function renderPdfModule(container, which) {
           ${(m.trends||[]).map(t => `
             <div class="pdf-trend-card">
               <div class="pdf-trend-imgwrap">
-                ${t.main_image ? `<img src="${pdfImgUrl(t.main_image.url)}" class="pdf-trend-img" loading="lazy" onclick="openLightbox('${pdfImgUrl(t.main_image.url)}')">` : ''}
+                ${t.main_image ? `<img src="${API}${t.main_image.url}" class="pdf-trend-img" loading="lazy" onclick="openLightbox('${API}${t.main_image.url}')">` : ''}
               </div>
               <div class="pdf-trend-body">
                 <div class="pdf-trend-name">${t.name || ''}</div>
@@ -1515,7 +1389,7 @@ async function renderPdfModule(container, which) {
                 ${(c.events||[]).length ? `<div class="pdf-celeb-events">${c.events.map(e => `<span class="focus-tag">${e.name || ''}</span>`).join('')}</div>` : ''}
               </div>
               <div class="pdf-celeb-imgs">
-                ${(c.images||[]).map(img => `<img src="${pdfImgUrl(img.url)}" loading="lazy" onclick="openLightbox('${pdfImgUrl(img.url)}')">`).join('')}
+                ${(c.images||[]).map(img => `<img src="${API}${img.url}" loading="lazy" onclick="openLightbox('${API}${img.url}')">`).join('')}
               </div>
               ${(c.descriptions||[]).slice(0,2).map(desc => `<div class="pdf-celeb-desc">${desc}</div>`).join('')}
             </div>
@@ -1542,31 +1416,27 @@ async function renderPdfModule(container, which) {
   }
 }
 
-// --- Module: Hot Keywords (静态版) ---
+// --- Module: Hot Keywords ---
 async function renderHot(container) {
   const cat = cache.categories.find(c => c.id === state.sub);
   if (!cat) { container.innerHTML = '<div class="empty-state">请选择分类</div>'; return; }
 
-  const hk = cache.kbData.site_hot_keywords || {};
-  const cats = hk.categories || [];
-  const allItems = [];
-  for (const c of cats) {
-    for (const it of (c.items||[])) {
-      const copy = Object.assign({}, it, { category: c.name, category_id: c.id });
-      allItems.push(copy);
-    }
-  }
-  const items = allItems.filter(k => k.category_id === state.sub || k.category === cat.name);
+  const res = await fetch(`${API}/api/hot-keywords`);
+  const d = await res.json();
+  const allKeywords = d.keywords || [];
+  const items = allKeywords.filter(k => k.category_id === state.sub || k.category === cat.name);
+
+  // Update banner info
   const isWednesday = new Date().getDay() === 3;
-  const nextDate = hk.last_updated_date ? '' : '';
+  const nextDate = d.next_update_date || '--';
 
   container.innerHTML = `
     <div class="kw-panel">
       <div class="kw-update-bar">
         <div class="update-info">
-          <strong>${hk.last_updated_week || 'N/A'}</strong> · ${hk.last_updated_date || '--'}更新 · 共${allItems.length}个关键词
+          <strong>${d.week || 'N/A'}</strong> · ${d.last_updated_date || '--'}更新 · 共${d.total_keywords || 0}个关键词
         </div>
-        <span class="update-status ok">每周三更新</span>
+        <span class="update-status ${isWednesday ? 'warn' : 'ok'}">${isWednesday ? '今日待更新' : `下次更新: ${nextDate}`}</span>
       </div>
       <div style="font-size:12px;color:var(--text-secondary);margin-bottom:16px;">${cat.description || ''}</div>
       ${items.length ? renderKwTable(items) : '<div class="empty-state">该分类暂无关键词数据</div>'}
@@ -1609,35 +1479,31 @@ function renderKwTable(items) {
   `;
 }
 
-// --- Data Loading (静态版: 读取本地 knowledge_base.json) ---
+// --- Data Loading ---
 async function loadModuleData() {
-  if (!cache.kbData) {
-    const res = await fetch(`data/knowledge_base.json`);
-    cache.kbData = await res.json();
-  }
-  const kb = cache.kbData;
+  // 趋势雷达: 直接实时抓取, 无需预加载
   if (state.module === 'brand' && !cache.brands.length) {
-    cache.brands = (kb.brand_dynamics && kb.brand_dynamics.shops) || [];
+    const res = await fetch(`${API}/api/brands`);
+    const d = await res.json();
+    cache.brands = d.brands || [];
   }
   if (state.module === 'hot' && !cache.categories.length) {
-    const hk = kb.site_hot_keywords || {};
-    const cats = hk.categories || [];
-    cache.categories = cats.map(c => ({ id: c.id, name: c.name, description: c.description || '' }));
+    const res = await fetch(`${API}/api/hot-keywords`);
+    const d = await res.json();
+    cache.categories = d.active_categories || [];
+    cache.keywords = d.keywords || [];
   }
 }
 
 async function loadSidebarStats() {
   try {
-    const res = await fetch(`data/knowledge_base.json`);
-    const kb = await res.json();
-    const shops = (kb.brand_dynamics && kb.brand_dynamics.shops) || [];
-    const totalCompetitors = shops.reduce((s, b) => s + (b.competitors||[]).length, 0);
-    const hkCats = (kb.site_hot_keywords && kb.site_hot_keywords.categories) || [];
-    const hkTotal = hkCats.reduce((s, c) => s + (c.items||[]).length, 0);
+    const res = await fetch(`${API}/api/system/info`);
+    const d = await res.json();
+    const s = d.stats;
     document.getElementById('sidebarStats').innerHTML =
-      `店铺: ${shops.length}<br>` +
-      `竞品: ${totalCompetitors}<br>` +
-      `热搜词: ${hkTotal}`;
+      `店铺: ${s.tracked_shops}<br>` +
+      `竞品: ${s.total_competitors}<br>` +
+      `热搜词: ${s.hot_keyword_count}`;
   } catch(e) {}
 }
 
