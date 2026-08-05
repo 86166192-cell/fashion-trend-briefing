@@ -1,0 +1,1161 @@
+{
+  "generated_at": "2026-08-05 14:14:34",
+  "trend_radar": {
+    "ok": true,
+    "sources": [
+      {
+        "source_id": "SRC-001",
+        "name": "Pinterest Trends",
+        "scraper": "Vogue Runway",
+        "url": "https://www.vogue.com/fashion-shows?utm_source=chatgpt.com",
+        "ok": true,
+        "items": [
+          {
+            "title": "The Best Street Style Photos From the Spring 2027 Show in Copenhagen",
+            "url": "https://www.vogue.com/slideshow/copenhagen-fashion-week-street-style-spring-2027",
+            "image": "https://assets.vogue.com/photos/6a727c076ae5b7d5c98dcbfb/3:4/w_1024%2Cc_limit/CPHFW%2520SS27%2520day%25202%2520by%2520Acielle%2520STYLEDUMONDE%25207471.jpg",
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Ganni Reunites With Stem at Copenhagen Fashion Week",
+            "url": "https://www.vogue.com/slideshow/ganni-reunites-with-stem-at-copenhagen-fashion-week",
+            "image": "https://assets.vogue.com/photos/6a70d77b081a43ddad944332/1:1/w_640%2Cc_limit/SS27-Copenhagen-Fashion-Week-Stem-Runway-2x3-James-Cochrane-16.jpg",
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Street Style Trends, the Scandi Way, from 2016 to Today",
+            "url": "https://www.vogue.com/article/copenhagen-fashion-week-street-style-trends",
+            "image": "https://assets.vogue.com/photos/6a6a48f093ec90dc26c38445/1:1/w_640%2Cc_limit/copi_fashion.year_col.jpg",
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "John Galliano Is the Subject of the Next Costume Institute Show",
+            "url": "https://www.vogue.com/article/john-galliano-met-exhibition",
+            "image": "https://assets.vogue.com/photos/58771840ef8cc6755100358a/1:1/w_640%2Cc_limit/15-john-galliano-best-looks.jpg",
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "28 Scandinavian Street Style Stars Who Have Shaped the Look of Copenhagen Fashion Week",
+            "url": "https://www.vogue.com/article/28-scandinavian-street-style-stars-who-have-shaped-the-look-of-copenhagen-fashion-week",
+            "image": "https://assets.vogue.com/photos/6a67c3749e63362134ac3342/1:1/w_640%2Cc_limit/SCANDI_SSS_FI.jpg",
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Alexis Mabille",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/alexis-mabille",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Antonio Grimaldi",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/antonio-grimaldi",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "ArdAzAei",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/ardazaei",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Armani Privé",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/armani-prive",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Ashi Studio",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/ashi-studio",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Balenciaga",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/balenciaga",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          },
+          {
+            "title": "Celia Kritharioti",
+            "url": "https://www.vogue.com/fashion-shows/fall-2026-couture/celia-kritharioti",
+            "image": null,
+            "price": null,
+            "source": "Vogue Runway"
+          }
+        ],
+        "fetched_at": "2026-08-05 14:13:02"
+      },
+      {
+        "source_id": "SRC-002",
+        "name": "Vogue Runway",
+        "scraper": "Vogue Business",
+        "url": "https://www.vogue.com/business/fashion?utm_source=chatgpt.com",
+        "ok": true,
+        "items": [
+          {
+            "title": "The New Rules for Independent Brands Selling in China",
+            "url": "https://www.vogue.com/article/the-new-rules-for-independent-brands-selling-in-china",
+            "image": "https://assets.vogue.com/photos/6a71fa8c18ed825ef1e3d341/4:3/w_1600%2Cc_limit/chinese-independent-brands-vogue-business-story.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "How Skall Studio Is Preserving Danish Wool",
+            "url": "https://www.vogue.com/article/how-skall-studio-is-preserving-danish-wool",
+            "image": "https://assets.vogue.com/photos/6a70725a06f8bd3c1f9f83a2/4:3/w_1600%2Cc_limit/skall-vogue-business-story.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "Consumers Are Fatigued, Influencers Are Burnt Out. What Now?",
+            "url": "https://www.vogue.com/article/consumers-are-fatigued-influencers-are-burnt-out-what-now",
+            "image": "https://assets.vogue.com/photos/6a6cc75e6bbece1ef5912f48/4:3/w_1600%2Cc_limit/-story%2520(31).jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "LVMH Sells Patou to Previous Owner Dilesh Mehta",
+            "url": "https://www.vogue.com/article/lvmh-sells-patou-to-previous-owner-dilesh-mehta",
+            "image": "https://assets.vogue.com/photos/6a6cbe72a483614ae77c2cc1/4:3/w_1600%2Cc_limit/PATOU-STORY.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "How Sustainability Standards Changed the Trajectory of Copenhagen Fashion Week",
+            "url": "https://www.vogue.com/article/how-sustainability-standards-changed-the-trajectory-of-copenhagen-fashion-week",
+            "image": "https://assets.vogue.com/photos/6a6b865ade53c0b2f60ee1b5/4:3/w_1600%2Cc_limit/CPHFW-vogue-business-story.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "The Scoop With Alta’s Jenny Wang: On Partnering with Rent the Runway",
+            "url": "https://www.vogue.com/article/the-scoop-with-altas-jenny-wang-on-partnering-with-rent-the-runway",
+            "image": "https://assets.vogue.com/photos/6a6b88496c6215ecc8441ddf/4:3/w_1600%2Cc_limit/-story%2520(28).jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "What Does New UK PM Andy Burnham Mean for Fashion?",
+            "url": "https://www.vogue.com/article/what-does-new-uk-pm-andy-burnham-mean-for-fashion",
+            "image": "https://assets.vogue.com/photos/6a6a30b35d6746423031e625/4:3/w_1600%2Cc_limit/andy-burnham-vogue-business-story.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "Inside the Neo Knitwear Boom",
+            "url": "https://www.vogue.com/article/inside-the-neo-knitwear-boom",
+            "image": "https://assets.vogue.com/photos/6a68b99463540ad2b52f2306/4:3/w_1600%2Cc_limit/07-28-26-KNITWEAR-VOGUE-BUSINESS-STORY.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "How Jeanerica Is Taking Scandi Denim Global",
+            "url": "https://www.vogue.com/article/how-jeanerica-is-taking-scandi-denim-global",
+            "image": "https://assets.vogue.com/photos/6a676dd8f52fa3209a6adaef/4:3/w_1600%2Cc_limit/jeanerica-vogue-business-story.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "Paris Fashion Week Unveils Spring/Summer 2027 Schedule",
+            "url": "https://www.vogue.com/article/paris-fashion-week-unveils-spring-summer-2027-schedule",
+            "image": "https://assets.vogue.com/photos/6a63209803bd8916e7fbae3c/4:3/w_1600%2Cc_limit/paris-schedule-vogue-business-story.jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "The Scoop With Rains’s Philip Lotko: On Becoming Rains’s Creative Director, a Soccer Sponsorship and a New Sal",
+            "url": "https://www.vogue.com/article/the-scoop-with-rainss-philip-lotko-on-becoming-rainss-creative-director-a-soccer-sponsorship-and-a-new-sales-format",
+            "image": "https://assets.vogue.com/photos/6a621c99b3478adb6eea172f/4:3/w_1600%2Cc_limit/-story%2520(25).jpg",
+            "price": null,
+            "source": "Vogue Business"
+          },
+          {
+            "title": "The Milan Fashion Week Spring/Summer 2027 Schedule Is Here",
+            "url": "https://www.vogue.com/article/the-milan-fashion-week-spring-summer-2027-schedule-is-here",
+            "image": "https://assets.vogue.com/photos/6a625693e28bb0b479d356e2/4:3/w_1600%2Cc_limit/07-24-26-MILAN-CALENDAR-vogue-business-story.jpeg",
+            "price": null,
+            "source": "Vogue Business"
+          }
+        ],
+        "fetched_at": "2026-08-05 14:13:02"
+      },
+      {
+        "source_id": "SRC-006",
+        "name": "BOF",
+        "scraper": "BOF",
+        "url": "https://www.businessoffashion.com/topics/fashion-week/",
+        "ok": true,
+        "items": [
+          {
+            "title": "The Top 10 Shows of the Season",
+            "url": "https://www.businessoffashion.com/articles/fashion-week/the-top-10-shows-of-the-season/",
+            "image": "https://img.businessoffashion.com/resizer/v2/77MZVHGFFNG2XPQ2VM6KVD2Y2M.png?smart=true&auth=6cb6a452beddd8605e0b9d58f03f1c5fa55fb193ea8ec1b8bd1b4cad1812a129&width=400&height=225",
+            "price": null,
+            "source": "BOF"
+          },
+          {
+            "title": "Report: Abercrombie to Seek Fresh Backers for China Business",
+            "url": "https://www.businessoffashion.com/news/retail/report-abercrombie-to-seek-fresh-backers-for-china-business/",
+            "image": null,
+            "price": "$3",
+            "source": "BOF"
+          },
+          {
+            "title": "Chanel Sales Up 16% in First Half",
+            "url": "https://www.businessoffashion.com/news/luxury/chanel-sales-up-16-in-first-half/",
+            "image": null,
+            "price": "$3",
+            "source": "BOF"
+          },
+          {
+            "title": "P&G to Buy Supplement Maker Thorne for $3.8 Billion",
+            "url": "https://www.businessoffashion.com/news/beauty/pg-thorne-supplement-maker-purchase/",
+            "image": null,
+            "price": "$3",
+            "source": "BOF"
+          },
+          {
+            "title": "Eli Lilly to Offer Early Access to Next-Gen Obesity Drug to Some Patients",
+            "url": "https://www.businessoffashion.com/news/beauty/eli-lilly-to-offer-early-access-to-next-gen-obesity-drug-to-some-patients/",
+            "image": null,
+            "price": "$3",
+            "source": "BOF"
+          },
+          {
+            "title": "India’s Nykaa Posts Higher Quarterly Profit on Strong Beauty Demand, Fashion Growth",
+            "url": "https://www.businessoffashion.com/news/beauty/nykaa-beauty-fashion-quarterly-earnings-strong-demand/",
+            "image": null,
+            "price": "$3",
+            "source": "BOF"
+          },
+          {
+            "title": "Shein Seeks $30 Billion to $40 Billion Valuation for August IPO, Sources Say",
+            "url": "https://www.businessoffashion.com/news/retail/shein-seeks-30-billion-to-40-billion-valuation-for-august-ipo-sources-say/",
+            "image": null,
+            "price": "$30",
+            "source": "BOF"
+          },
+          {
+            "title": "Zalando Narrows Profit Outlook, Sees Growth at Lower End of Range",
+            "url": "https://www.businessoffashion.com/news/retail/zalando-narrows-profit-outlook-sees-growth-at-lower-end-of-range/",
+            "image": null,
+            "price": "$3",
+            "source": "BOF"
+          },
+          {
+            "title": "view more",
+            "url": "https://www.businessoffashion.com/news/",
+            "image": "https://img.businessoffashion.com/resizer/v2/BXHCCWVTHBHSBJXZYOUZRTDQTQ.png?focal=1727%2C530&auth=02d8445cfb291f54e9a3fede63040a4232f69d77eedfab6256c7ea31e7bc12be&width=250&height=140",
+            "price": "$3",
+            "source": "BOF"
+          }
+        ],
+        "fetched_at": "2026-08-05 14:13:02"
+      },
+      {
+        "source_id": "SRC-007",
+        "name": "1GRANARY",
+        "scraper": "1GRANARY",
+        "url": "https://1granary.com/",
+        "ok": true,
+        "items": [
+          {
+            "title": "Graduate Shows",
+            "url": "https://1granary.com/journal/designers-3/graduate-shows/",
+            "image": "https://1granary.com/wp-content/uploads/2026/07/IMG_4877-201x300.jpg",
+            "price": null,
+            "source": "1GRANARY"
+          },
+          {
+            "title": "Business Insiders",
+            "url": "https://1granary.com/journal/interviews/business-insiders/",
+            "image": "https://1granary.com/wp-content/uploads/2026/03/handbag-300x162.jpg",
+            "price": null,
+            "source": "1GRANARY"
+          },
+          {
+            "title": "Fashion Educators",
+            "url": "https://1granary.com/journal/designers-3/schools/fashion-educators/",
+            "image": "https://1granary.com/wp-content/uploads/2025/10/2025portrait-1-235x300.jpg",
+            "price": null,
+            "source": "1GRANARY"
+          }
+        ],
+        "fetched_at": "2026-08-05 14:13:03"
+      },
+      {
+        "source_id": "SRC-003",
+        "name": "Google Trends",
+        "url": "https://trends.google.com/home",
+        "ok": false,
+        "items": [],
+        "error": "未配置抓取器, 仅支持跳转",
+        "fetched_at": "2026-08-05 14:13:02"
+      },
+      {
+        "source_id": "SRC-004",
+        "name": "TikTok Creative Center",
+        "url": "https://ads.tiktok.com/business/creativecenter/",
+        "ok": false,
+        "items": [],
+        "error": "未配置抓取器, 仅支持跳转",
+        "fetched_at": "2026-08-05 14:13:02"
+      },
+      {
+        "source_id": "SRC-005",
+        "name": "CBNDdata",
+        "url": "https://www.cbndata.com/search?query=跨境电商",
+        "ok": false,
+        "items": [],
+        "error": "未配置抓取器, 仅支持跳转",
+        "fetched_at": "2026-08-05 14:13:02"
+      }
+    ],
+    "fetched_at": "2026-08-05 14:14:32"
+  },
+  "brands": {
+    "ok": true,
+    "shops": [
+      {
+        "id": "SHOP-001",
+        "name": "Freevana",
+        "name_cn": "自由风潮",
+        "target_audience": "25+、35+、大码女性 — 热爱波西米亚风、音乐节、诗人气质、自由穿搭的时尚达人",
+        "development_direction": "蕾丝 · 复古 · 手工感 — 以波西米亚浪漫主义为核心，强调手工细节和复古廓形",
+        "style_tags": [
+          "波西米亚",
+          "蕾丝",
+          "复古手工",
+          "音乐节风",
+          "自由穿搭"
+        ],
+        "competitors": [
+          {
+            "id": null,
+            "name": "Spell",
+            "url": "https://aus.spell.co/",
+            "ok": true,
+            "items": [
+              {
+                "title": "Gift Cards",
+                "url": "https://aus.spell.co/products/virtual-gift-card",
+                "image": "//aus.spell.co/cdn/shop/files/SAC-ShopTile-Dresses.png?v=1784698646&width=320",
+                "price": null,
+                "source": "Spell"
+              },
+              {
+                "title": "For The Love Biker Tee",
+                "url": "https://aus.spell.co/products/for-the-love-biker-tee-oatmeal",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-For-The-Love-Biker-Tee-Oatmeal-3.jpg?v=1784002692&width=320",
+                "price": "$89.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Trailblazer Track Pant",
+                "url": "https://aus.spell.co/products/trailblazer-track-pant-honey",
+                "image": "//aus.spell.co/cdn/shop/files/Swatches-_0003_SAC26-Trailblazer_Track_Pant-Honey.jpg?v=1783907847&width=320",
+                "price": "$149.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Cristina Shirt",
+                "url": "https://aus.spell.co/products/cristina-shirt-tan",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Cristina-Shirt-Tan-2.jpg?v=1783999080&width=320",
+                "price": "$229.00",
+                "source": "Spell"
+              },
+              {
+                "title": "1976 Singlet",
+                "url": "https://aus.spell.co/products/1976-singlet-dark-moss",
+                "image": "//aus.spell.co/cdn/shop/files/Swatches-_0020_SAC26-1976_Singlet-DarkMoss.jpg?v=1783907925&width=320",
+                "price": "$69.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Sierra Castaway Skirt",
+                "url": "https://aus.spell.co/products/sierra-castaway-skirt-campfire",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Sierra-Castaway-Skirt-Campfire-6.jpg?v=1783998499&width=320",
+                "price": "$269.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Fuerte Cap",
+                "url": "https://aus.spell.co/products/fuerte-cap-stone",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Fuerte-Cap-Stone-1.jpg?v=1784001947&width=320",
+                "price": "$79.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Wild and Free Travel Scarf",
+                "url": "https://aus.spell.co/products/wild-and-free-travel-scarf-camo-green",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Wild-and-Free-Travel-Scarf-Camo-Green-1.jpg?v=1784002120&width=320",
+                "price": "$129.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Elsa Cropped Blouse",
+                "url": "https://aus.spell.co/products/elsa-cropped-blouse-ivory",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Elsa-Cropped-Blouse-Ivory-8.jpg?v=1784001613&width=320",
+                "price": "$199.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Sunwashed Strappy Midi Dress",
+                "url": "https://aus.spell.co/products/sunwashed-strappy-midi-dress-marigold",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Sunwashed-Strappy-Midi-Dress-Marigold-5.jpg?v=1783997365&width=320",
+                "price": "$299.00",
+                "source": "Spell"
+              },
+              {
+                "title": "1976 Singlet",
+                "url": "https://aus.spell.co/products/1976-singlet-wheat",
+                "image": "//aus.spell.co/cdn/shop/files/Swatches-_0019_SAC26-1976_Singlet-Wheat.jpg?v=1783907909&width=320",
+                "price": "$69.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Firefly Cable Knit Vest",
+                "url": "https://aus.spell.co/products/firefly-cable-knit-vest-stone",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Firefly-Cable-Knit-Vest-Stone-3.jpg?v=1784005046&width=320",
+                "price": "$199.00",
+                "source": "Spell"
+              }
+            ]
+          },
+          {
+            "id": null,
+            "name": "BA&SH",
+            "url": "https://ba-sh.com/sg/",
+            "ok": true,
+            "items": [
+              {
+                "title": "dress POLY",
+                "url": "https://ba-sh.com/sg/p/dress-poly-bleu-3667436025341.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dw0172a987/allImages/26AW/1E26POLY_BLEU_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 520",
+                "source": "BA&SH"
+              },
+              {
+                "title": "dress APHRODITE",
+                "url": "https://ba-sh.com/sg/p/dress-aphrodite-ecru-3667436045820.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dw5bca003d/allImages/26SSV2/1E26APHR_ECRU_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 930",
+                "source": "BA&SH"
+              },
+              {
+                "title": "dress PACIFICA",
+                "url": "https://ba-sh.com/sg/p/dress-pacifica-bleu-3667436025730.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dwf1cd5e1a/allImages/26AW/1E26PACI_BLEU_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 580",
+                "source": "BA&SH"
+              },
+              {
+                "title": "dress SINTE",
+                "url": "https://ba-sh.com/sg/p/dress-sinte-chamois-3667436095054.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dw8c60b174/allImages/26SSV2/1H26SINT_CHAMOIS_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 520",
+                "source": "BA&SH"
+              },
+              {
+                "title": "blouse PLACIDO",
+                "url": "https://ba-sh.com/sg/p/blouse-placido-bleu-3667436028847.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dw8afd5c43/allImages/26AW/1E26PLAC_BLEU_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 360",
+                "source": "BA&SH"
+              },
+              {
+                "title": "bag LENNY",
+                "url": "https://ba-sh.com/sg/p/bag-lenny-choco-3667436096808.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dwea1634ce/allImages/26AW/2H26TLLM_CHOCO_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 400",
+                "source": "BA&SH"
+              },
+              {
+                "title": "top PRECILA",
+                "url": "https://ba-sh.com/sg/p/top-precila-greige-3667436079863.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dw1eca50db/allImages/26AW/1H26PREC_GREIGE_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 350",
+                "source": "BA&SH"
+              },
+              {
+                "title": "blouse LAURA",
+                "url": "https://ba-sh.com/sg/p/blouse-laura-darkblue-3667436103490.html",
+                "image": "https://ba-sh.com/dw/image/v2/BBTP_PRD/on/demandware.static/-/Sites-master-bash/default/dw4b31f7f6/allImages/26AW/1H26ILAU_DARKBLUE_1.jpg?sw=476&sh=713&sm=fit",
+                "price": "$ 440",
+                "source": "BA&SH"
+              }
+            ]
+          },
+          {
+            "id": "COMP-001",
+            "name": "El Vestidor",
+            "url": "https://www.el-vestidor.com/",
+            "ok": true,
+            "items": [
+              {
+                "title": "SW KENDALL",
+                "url": "https://www.el-vestidor.com/productos/sw-kendall/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_5361-307542c3af0dd17e5f17808311557730-240-0.webp",
+                "price": "$181.67",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "SW SUZA",
+                "url": "https://www.el-vestidor.com/productos/sw-suza/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_2762-0d5b1d16c3af46679e17796492584532-240-0.webp",
+                "price": "$153.70",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "SW MER",
+                "url": "https://www.el-vestidor.com/productos/sw-mer/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_1004-3e954b20159f2b0f4517772391923187-240-0.webp",
+                "price": "$162.09",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "SW ROMANCE",
+                "url": "https://www.el-vestidor.com/productos/sw-romance/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_8131-3205249f3ec2881c8217823878399575-240-0.webp",
+                "price": "$166.43",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "CAMISA NIRA",
+                "url": "https://www.el-vestidor.com/productos/camisa-nira/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_8623-afa3a8008af4c197b117772872018065-240-0.webp",
+                "price": "$166.43",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "CAMISA MAURINE",
+                "url": "https://www.el-vestidor.com/productos/camisa-maurine/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/3959324c-37a3-4370-9dd2-99f55f238317-2d9e75a71b9797fe0017808385788361-240-0.webp",
+                "price": "$180.41",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "SW FUR",
+                "url": "https://www.el-vestidor.com/productos/sw-fur/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_8500-91bebe5313450cc68817824112490838-240-0.webp",
+                "price": "$155.24",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "CARDIGAN MONET",
+                "url": "https://www.el-vestidor.com/productos/cardigan-monet/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_9337-b491efa17713e663fd17824083619041-240-0.webp",
+                "price": "$166.43",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "CARDIGAN BLONDIE",
+                "url": "https://www.el-vestidor.com/productos/cardigan-blondie/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/a4a7a36d-c9d6-4a85-bf52-6f1ec08bee1d-fd11033ea96be1ba8e17808384771729-240-0.webp",
+                "price": "$180.41",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "SW LOIS",
+                "url": "https://www.el-vestidor.com/productos/sw-lois/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_5456-03787eb5b9a0e50a0717808323028334-240-0.webp",
+                "price": "$167.69",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "BLUSA JESS",
+                "url": "https://www.el-vestidor.com/productos/blusa-jess/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_5522-59cd8f97720e2eb94017808378174860-240-0.webp",
+                "price": "$153.70",
+                "source": "El Vestidor"
+              },
+              {
+                "title": "CAMISA MIRNA",
+                "url": "https://www.el-vestidor.com/productos/camisa-mirna/",
+                "image": "//acdn-us.mitiendanube.com/stores/503/330/products/img_5554-fe06268ce631826f5517758988483284-240-0.webp",
+                "price": "$167.81",
+                "source": "El Vestidor"
+              }
+            ]
+          },
+          {
+            "id": null,
+            "name": "Free People",
+            "url": "https://www.freepeople.com/",
+            "ok": true,
+            "items": []
+          },
+          {
+            "id": null,
+            "name": "Anthropologie",
+            "url": "https://sg.anthropologie.com/en-sg/",
+            "ok": false,
+            "items": [],
+            "error": "无抓取器, 跳转链接"
+          },
+          {
+            "id": null,
+            "name": "Zara",
+            "url": "https://www.zara.com/",
+            "ok": false,
+            "items": [],
+            "error": "无抓取器, 跳转链接"
+          }
+        ]
+      },
+      {
+        "id": "SHOP-002",
+        "name": "Travachic Curve",
+        "name_cn": "花语旅人",
+        "target_audience": "25+、35+、大码女性 — 热爱波西米亚风、热爱度假、热爱花卉和艺术创作的浪漫女性",
+        "development_direction": "花卉印花 · 民族花卉 · 异域风情 — 以大胆热带花卉和民族印花为核心，打造度假感大码女装",
+        "style_tags": [
+          "热带花卉",
+          "民族印花",
+          "异域度假",
+          "大胆色彩",
+          "曲线友好"
+        ],
+        "competitors": [
+          {
+            "id": null,
+            "name": "Farm Rio",
+            "url": "https://farmrio.com/",
+            "ok": true,
+            "items": [
+              {
+                "title": "Toile De Rio Textured Midi Dress",
+                "url": "https://farmrio.com/products/toile-de-rio-winter-white-textured-jersey-midi-dre",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-winter-white-textured-jersey-midi-dre_361054.jpg?format=pjpg&v=1785528435&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Sleeveless Blouse",
+                "url": "https://farmrio.com/products/toile-de-rio-winter-white-sleeveless-blouse",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-winter-white-sleeveless-blouse_362089.jpg?format=pjpg&v=1785528430&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Brown Suede Flower Handbag",
+                "url": "https://farmrio.com/products/suede-flower-handbag-1",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-brown-suede-flower-handbag_370176.jpg?format=pjpg&v=1783479171&width=1280",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Carioca Short Sleeve Bodysuit",
+                "url": "https://farmrio.com/products/carioca-bodysuit",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-carioca-bodysuit_361424.jpg?format=pjpg&v=1785528437&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Yarn Dyed Long Sleeve Shirt",
+                "url": "https://farmrio.com/products/yarn-dyed-caramel-long-sleeve-shirt",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-yarn-dyed-caramel-long-sleeve-shirt_362554.jpg?format=pjpg&v=1785528465&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Yarn Dyed Wide Leg Pants",
+                "url": "https://farmrio.com/products/yarn-dyed-caramel-pants",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-yarn-dyed-caramel-pants_361993.jpg?format=pjpg&v=1785528417&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Yarn Dyed Vest",
+                "url": "https://farmrio.com/products/yarn-dyed-caramel-sleveless-vest",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-yarn-dyed-caramel-sleveless-vest_361996.jpg?format=pjpg&v=1785528403&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Sleeveless Maxi Dress",
+                "url": "https://farmrio.com/products/toile-de-rio-off-white-maxi-sleveless-dress",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-off-white-maxi-sleveless-dress_360480.jpg?format=pjpg&v=1785528439&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Sleeveless Mini Dress",
+                "url": "https://farmrio.com/products/toile-de-rio-off-white-mini-sleveless-dress",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-off-white-mini-sleveless-dress_360479.jpg?format=pjpg&v=1785528461&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Long Sleeve Shirt",
+                "url": "https://farmrio.com/products/toile-de-rio-off-white-long-sleeve-shirt",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-off-white-long-sleeve-shirt_360793.jpg?format=pjpg&v=1785528463&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Suede Flower Clutch",
+                "url": "https://farmrio.com/products/suede-flower-clutch-bag",
+                "image": "https://farmrio.com/cdn/shop/files/370187_01.jpg?format=pjpg&v=1783552709&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Mixed Carioca Coffee Scarves Sleeveless Midi Dress",
+                "url": "https://farmrio.com/products/mixed-carioca-coffee-scarves-multicolor-sleveeless",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-mixed-carioca-coffee-scarves-multicolor-sleveeless_368904.jpg?format=pjpg&v=1785528455&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              }
+            ]
+          },
+          {
+            "id": "COMP-001",
+            "name": "Farm Rio (巴西)",
+            "url": "https://www.farmrio.com.br/",
+            "ok": true,
+            "items": [
+              {
+                "title": "Toile De Rio Textured Midi Dress",
+                "url": "https://farmrio.com/products/toile-de-rio-winter-white-textured-jersey-midi-dre",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-winter-white-textured-jersey-midi-dre_361054.jpg?format=pjpg&v=1785528435&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Sleeveless Blouse",
+                "url": "https://farmrio.com/products/toile-de-rio-winter-white-sleeveless-blouse",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-winter-white-sleeveless-blouse_362089.jpg?format=pjpg&v=1785528430&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Brown Suede Flower Handbag",
+                "url": "https://farmrio.com/products/suede-flower-handbag-1",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-brown-suede-flower-handbag_370176.jpg?format=pjpg&v=1783479171&width=1280",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Carioca Short Sleeve Bodysuit",
+                "url": "https://farmrio.com/products/carioca-bodysuit",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-carioca-bodysuit_361424.jpg?format=pjpg&v=1785528437&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Yarn Dyed Long Sleeve Shirt",
+                "url": "https://farmrio.com/products/yarn-dyed-caramel-long-sleeve-shirt",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-yarn-dyed-caramel-long-sleeve-shirt_362554.jpg?format=pjpg&v=1785528465&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Yarn Dyed Wide Leg Pants",
+                "url": "https://farmrio.com/products/yarn-dyed-caramel-pants",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-yarn-dyed-caramel-pants_361993.jpg?format=pjpg&v=1785528417&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Yarn Dyed Vest",
+                "url": "https://farmrio.com/products/yarn-dyed-caramel-sleveless-vest",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-yarn-dyed-caramel-sleveless-vest_361996.jpg?format=pjpg&v=1785528403&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Sleeveless Maxi Dress",
+                "url": "https://farmrio.com/products/toile-de-rio-off-white-maxi-sleveless-dress",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-off-white-maxi-sleveless-dress_360480.jpg?format=pjpg&v=1785528439&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Sleeveless Mini Dress",
+                "url": "https://farmrio.com/products/toile-de-rio-off-white-mini-sleveless-dress",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-off-white-mini-sleveless-dress_360479.jpg?format=pjpg&v=1785528461&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Toile De Rio Long Sleeve Shirt",
+                "url": "https://farmrio.com/products/toile-de-rio-off-white-long-sleeve-shirt",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-toile-de-rio-off-white-long-sleeve-shirt_360793.jpg?format=pjpg&v=1785528463&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Suede Flower Clutch",
+                "url": "https://farmrio.com/products/suede-flower-clutch-bag",
+                "image": "https://farmrio.com/cdn/shop/files/370187_01.jpg?format=pjpg&v=1783552709&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              },
+              {
+                "title": "Mixed Carioca Coffee Scarves Sleeveless Midi Dress",
+                "url": "https://farmrio.com/products/mixed-carioca-coffee-scarves-multicolor-sleveeless",
+                "image": "https://farmrio.com/cdn/shop/files/farm-rio-mixed-carioca-coffee-scarves-multicolor-sleveeless_368904.jpg?format=pjpg&v=1785528455&width=1024",
+                "price": null,
+                "source": "Farm Rio"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "SHOP-003",
+        "name": "Voyena",
+        "name_cn": "悦动生活",
+        "target_audience": "25+、35+、大码女性 — 热爱瑜伽、热爱徒步、热爱运动生活方式的自信女性",
+        "development_direction": "舒适 · 包容性 · 运动功能性 — 以舒适为核心，兼顾运动功能和日常穿搭，强调包容所有体型的版型设计",
+        "style_tags": [
+          "运动瑜伽",
+          "舒适包容",
+          "徒步户外",
+          "功能性面料",
+          "日常运动风"
+        ],
+        "competitors": [
+          {
+            "id": null,
+            "name": "CSB",
+            "url": "https://au.shopcsb.com/",
+            "ok": true,
+            "items": [
+              {
+                "title": "3/4 Sleeve Top | Black",
+                "url": "https://au.shopcsb.com/products/3-4-sleeve-top-black",
+                "image": "//au.shopcsb.com/cdn/shop/files/KieleMontgomery2_88fdfa09-fd7d-49af-87e2-4b4dd735316a.jpg?v=1779752293&width=64",
+                "price": "$69.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Form Invisible Scrunch Flare Leggings | Black",
+                "url": "https://au.shopcsb.com/products/form-invisible-scrunch-flare-leggings-black",
+                "image": "//au.shopcsb.com/cdn/shop/files/OP12Months_InvisibleScrunchFlareLeggingsRegular_Black_Form_VerenaFrancis.jpg?v=1781588366&width=64",
+                "price": "$109.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Form Leisure Tank | Deep Navy",
+                "url": "https://au.shopcsb.com/products/form-leisure-tank-deep-navy",
+                "image": "//au.shopcsb.com/cdn/shop/files/imsweats424cropped_2c5a2f91-33a9-494e-be5c-59d53e26adb9.jpg?v=1748624458&width=64",
+                "price": "$79.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Fade Everyday Pants | Deep Olive",
+                "url": "https://au.shopcsb.com/products/fade-everyday-pant-deep-olive",
+                "image": "//au.shopcsb.com/cdn/shop/files/200326_FadeEverydayPant_DeepOlive_KIELE_FULLBODYCROP_FRONT.jpg?v=1776318208&width=64",
+                "price": "$99.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Fade Celine Crop | Deep Olive",
+                "url": "https://au.shopcsb.com/products/fade-celine-crop-deep-olive",
+                "image": "//au.shopcsb.com/cdn/shop/files/200326_FadeCelineCrop_DeepOlive_KIELE_HALFBODYCROP_FRONT.jpg?v=1776317968&width=64",
+                "price": "$64.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Freedom Sculpt Tank | Black",
+                "url": "https://au.shopcsb.com/products/freedom-sculpt-tank-black",
+                "image": "//au.shopcsb.com/cdn/shop/files/OP12Months_SculptTank_4InchNSShorts_Black_Freedom_KieleMontgomery.jpg?v=1777354946&width=64",
+                "price": "$59.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Serenity Leggings | Black",
+                "url": "https://au.shopcsb.com/products/serenity-nonscrunchleggings-black",
+                "image": "//au.shopcsb.com/cdn/shop/files/251030_CSB_SH_75_24940.jpg?v=1762918988&width=64",
+                "price": "$89.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Ballet Wrap Top | Black",
+                "url": "https://au.shopcsb.com/products/ballet-wrap-top-black",
+                "image": "//au.shopcsb.com/cdn/shop/files/1-modelinfo-isabelle-size-xs_1692a34a-280b-4675-9610-cebf1c562a2b.jpg?v=1774478950&width=64",
+                "price": "$79.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Form Leisure Tank | White",
+                "url": "https://au.shopcsb.com/products/form-leisure-tank-white",
+                "image": "//au.shopcsb.com/cdn/shop/files/csbcore-33.jpg?v=1785735655&width=64",
+                "price": "$79.99",
+                "source": "CSB"
+              },
+              {
+                "title": "Form Invisible Scrunch Shorts 5\" | Black",
+                "url": "https://au.shopcsb.com/products/form-invisible-scrunch-shorts-5-inch-black",
+                "image": "//au.shopcsb.com/cdn/shop/files/260720_CSB_1543.jpg?v=1785735613&width=64",
+                "price": "$79.99",
+                "source": "CSB"
+              },
+              {
+                "title": "CSB V Neck Sweatshirt | Dark Chocolate",
+                "url": "https://au.shopcsb.com/collections/new-arrivals/products/csb-v-neck-sweatshirt-dark-chocolate",
+                "image": "//au.shopcsb.com/cdn/shop/files/OP30Days_VNeckSweat_StraightLegSweatpant_Leisure_DarkChocolate__lydsbutler3.jpg?v=1785296295&width=200",
+                "price": "$139.99",
+                "source": "CSB"
+              },
+              {
+                "title": "csb-v-neck-sweatshirt-dark-chocolate",
+                "url": "https://au.shopcsb.com/products/csb-v-neck-sweatshirt-dark-chocolate",
+                "image": "//au.shopcsb.com/cdn/shop/files/OP30Days_VNeckSweat_StraightLegSweatpant_Leisure_DarkChocolate__lydsbutler3.jpg?v=1785296295&width=200",
+                "price": "$139.99",
+                "source": "CSB"
+              }
+            ]
+          },
+          {
+            "id": null,
+            "name": "Beneunder (蕉下)",
+            "url": "https://beneunder.com/zh-hans",
+            "ok": true,
+            "items": [
+              {
+                "title": "Women's Lightweight Polo Base Layer Top SF016/SF028",
+                "url": "https://beneunder.com/zh-hans/products/womens-lightweight-base-layer-polo-collar-top-sf016-sf028",
+                "image": "//beneunder.com/cdn/shop/files/SF028_-3.jpg?v=1784884477&width=200",
+                "price": "$65.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "HenleyHaven – 女士亨利领基础层长袖衬衫",
+                "url": "https://beneunder.com/zh-hans/products/womens-henley-base-layer-top-sf015-sf027",
+                "image": "//beneunder.com/cdn/shop/files/1_c300fe62-247f-4ea8-b891-34f1b9aa81a5.jpg?v=1785381078&width=200",
+                "price": "$65.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Relaxed-Fit Fleece Sun Protection Jacket UV009",
+                "url": "https://beneunder.com/zh-hans/products/womens-relaxed-fit-fleece-sun-protection-jacket-uv009",
+                "image": "//beneunder.com/cdn/shop/files/03_c810f09a-8058-4eed-b255-96b4b4f84773.jpg?v=1785137000&width=200",
+                "price": "$75.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Slim-Fit Fleece Sun Protection Jacket UV008",
+                "url": "https://beneunder.com/zh-hans/products/womens-slim-fit-fleece-sun-protection-jacket-uv008",
+                "image": "//beneunder.com/cdn/shop/files/03_9844095e-2b3c-4d82-a53b-65aebfb6687f.jpg?v=1784897848&width=200",
+                "price": "$69.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Slim-Fit Long-Sleeve Henley T-Shirt CT022",
+                "url": "https://beneunder.com/zh-hans/products/womens-slim-fit-long-sleeve-henley-t-shirt-ct022",
+                "image": "//beneunder.com/cdn/shop/files/03_b35608f5-5596-497b-bf55-40c7b38e280a.jpg?v=1784888611&width=200",
+                "price": "$59.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's High-Stretch Seamless Knit Relaxed Base Layer Top EL026",
+                "url": "https://beneunder.com/zh-hans/products/womens-high-stretch-seamless-knit-relaxed-base-layer-top-el026",
+                "image": "//beneunder.com/cdn/shop/files/1_0dd771bd-bd4a-4b74-9f63-121b75a7fcc9.jpg?v=1785241752&width=200",
+                "price": "$59.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Double-Layer Slim-Fit Base Layer Top HE019",
+                "url": "https://beneunder.com/zh-hans/products/womens-double-layer-slim-fit-base-layer-top-he019",
+                "image": "//beneunder.com/cdn/shop/files/03_4d33ffbf-3852-489d-8402-e091acc4b286.jpg?v=1785235512&width=200",
+                "price": "$59.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's High-Stretch Seamless Knit Hooded Base Layer Top EL025",
+                "url": "https://beneunder.com/zh-hans/products/womens-high-stretch-seamless-knit-hooded-base-layer-top-el025",
+                "image": "//beneunder.com/cdn/shop/files/2_b2021ff6-f086-4722-a2e9-db4ad7d5cdc7.jpg?v=1785241969&width=200",
+                "price": "$65.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Windproof Micro Fleece Jacket (Mid Warmth) PM034",
+                "url": "https://beneunder.com/zh-hans/products/womens-windproof-micro-fleece-jacket-mid-warmth-pm034",
+                "image": "//beneunder.com/cdn/shop/files/1_680e8cdb-eab0-4e57-a551-2e8013973a37.jpg?v=1785231803&width=200",
+                "price": "$109.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Windproof Collared Insulated Jacket (Mid Warmth) CL016",
+                "url": "https://beneunder.com/zh-hans/products/womens-windproof-collared-insulated-jacket-mid-warmth-cl016",
+                "image": "//beneunder.com/cdn/shop/files/2_7624eb40-2547-4a12-b791-734c3e02f8ae.jpg?v=1785230788&width=200",
+                "price": "$125.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Double-Layer Slim-Fit Half-Zip Sweatshirt HE022",
+                "url": "https://beneunder.com/zh-hans/products/womens-double-layer-slim-fit-half-zip-sweatshirt-he022",
+                "image": "//beneunder.com/cdn/shop/files/02_58f939f2-f749-4328-9e50-d3c54b0dfa2c.jpg?v=1785242101&width=200",
+                "price": "$89.00",
+                "source": "Beneunder"
+              },
+              {
+                "title": "Women's Slim-Fit Full-Zip Sweatshirt HE021",
+                "url": "https://beneunder.com/zh-hans/products/womens-slim-fit-full-zip-sweatshirt-he021",
+                "image": "//beneunder.com/cdn/shop/files/04_40c1ca13-b54d-42e7-9a82-3efa2d99bbbc.jpg?v=1785242218&width=200",
+                "price": "$89.00",
+                "source": "Beneunder"
+              }
+            ]
+          },
+          {
+            "id": null,
+            "name": "Alo Yoga",
+            "url": "https://www.aloyoga.com/en-sg",
+            "ok": false,
+            "items": [],
+            "error": "无抓取器, 跳转链接"
+          },
+          {
+            "id": null,
+            "name": "Lululemon",
+            "url": "https://shop.lululemon.com/",
+            "ok": false,
+            "items": [],
+            "error": "无抓取器, 跳转链接"
+          },
+          {
+            "id": null,
+            "name": "PE Nation",
+            "url": "https://www.pe-nation.com/en-intl",
+            "ok": false,
+            "items": [],
+            "error": "无抓取器, 跳转链接"
+          }
+        ]
+      },
+      {
+        "id": "SHOP-004",
+        "name": "Vcay Curve",
+        "name_cn": "悦享假日",
+        "target_audience": "25+、35+、大码女性 — 热爱度假、追求物美价廉、注重性价比的务实女性",
+        "development_direction": "物美价廉 · 度假休闲 · 高性价比 — 以高性价比为核心竞争力，聚焦度假场景的快速上新，让大码女性以低预算享受度假穿搭",
+        "style_tags": [
+          "度假休闲",
+          "高性价比",
+          "快速上新",
+          "基础百搭",
+          "物美价廉"
+        ],
+        "competitors": [
+          {
+            "id": null,
+            "name": "Amazon 女装销量榜",
+            "url": "https://www.amazon.com/-/zh/销售排行榜-女装/zgbs/fashion/1040660/ref=zg_bs_unv_3_1046622_1",
+            "ok": true,
+            "items": [
+              {
+                "title": "#1 OEAK Womens Jelly Bras Wireless Deep V Bralette Comfy Push Up Tshirt Bras | Comfortable,support and lift,no",
+                "url": "https://www.amazon.com/OEAK-Comfortable-Bralettes-Underwire-Seamless/dp/B0DGX1SKRP/ref=zg_bs_g_1040660_d_sccl_1/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71FImVJjR7L._AC_UL300_SR300,200_.jpg",
+                "price": "$18.99",
+                "source": "Amazon"
+              },
+              {
+                "title": "#2 LetsJoli Jelly Bras for Women No Underwire Plus Size Push Up Supportive | Full Coverage, Wireless Support L",
+                "url": "https://www.amazon.com/LetsJoli-Supportive-Wireless-Underwear-Women%EF%BC%88Black/dp/B0F6TWKDFK/ref=zg_bs_g_1040660_d_sccl_2/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61bWdCuPmYL._AC_UL300_SR300,200_.jpg",
+                "price": "$19.99",
+                "source": "Amazon"
+              },
+              {
+                "title": "#3 OEAK Womens Wireless Jelly Bras Plus Size Support Push Up Comfortable Bra | no underwire,full coverage,for ",
+                "url": "https://www.amazon.com/OEAK-Wireless-Supportive-Comfortable-Underwire/dp/B0FBGGCYR4/ref=zg_bs_g_1040660_d_sccl_3/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61W+3XeWQiL._AC_UL300_SR300,200_.jpg",
+                "price": "$19.99",
+                "source": "Amazon"
+              },
+              {
+                "title": "#4 Nike Unisex Adult Everyday Elevated Crew Socks (6-Pack) | Mens and Womens 4.6 out of 5 stars 166 1 offer fr",
+                "url": "https://www.amazon.com/Nike-Everyday-Pairs-Multi-Color-Medium/dp/B0FRCQWV7D/ref=zg_bs_g_1040660_d_sccl_4/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61fJYYa+PRL._AC_UL300_SR300,200_.jpg",
+                "price": "$21.33",
+                "source": "Amazon"
+              },
+              {
+                "title": "#5 Nippies Reusable Nipple Covers, Skin Safe Pasties in Circle or Lift Style | Dermatologist Tested Adhesive P",
+                "url": "https://www.amazon.com/Nippies-Reusable-Skin-Safe-Adhesive-Invisible/dp/B001PU9A9Q/ref=zg_bs_g_1040660_d_sccl_5/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/81TgvZ35BhL._AC_UL300_SR300,200_.jpg",
+                "price": "$22.99",
+                "source": "Amazon"
+              },
+              {
+                "title": "#6 Gildan Adult Ultra Cotton T-Shirt, Style G2000, Multipack 4.5 out of 5 stars 113,166 $12.49",
+                "url": "https://www.amazon.com/Gildan-G2000-Cotton-T-Shirt-2-Pack/dp/B075ZZ7XKD/ref=zg_bs_g_1040660_d_sccl_6/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/61x-LF9fyYL._AC_UL300_SR300,200_.jpg",
+                "price": "$12.49",
+                "source": "Amazon"
+              },
+              {
+                "title": "#7 Sampeel Wide Leg Pants for Women Flowy Palazzo Drawstring Elastic Waist Trousers with Pockets Summer Beach ",
+                "url": "https://www.amazon.com/Sampeel-Palazzo-Business-Vacation-Trousers/dp/B0FP5GCRLF/ref=zg_bs_g_1040660_d_sccl_7/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/617DlqyEdFL._AC_UL300_SR300,200_.jpg",
+                "price": "$23.99",
+                "source": "Amazon"
+              },
+              {
+                "title": "#8 Amazon Essentials Women's Cotton Spandex Bikini Brief Underwear (Available in Plus Size) 4.4 out of 5 stars",
+                "url": "https://www.amazon.com/Amazon-Essentials-Womens-Cotton-Stretch/dp/B06XNL4YT7/ref=zg_bs_g_1040660_d_sccl_8/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71PHQkYff+L._AC_UL300_SR300,200_.jpg",
+                "price": "$9.90",
+                "source": "Amazon"
+              },
+              {
+                "title": "#9 ANRABESS Tank Tops for Women V Neck Ribbed Knit Slim Fitted Sleeveless Basic Tee Tanks Casual Summer Clothe",
+                "url": "https://www.amazon.com/ANRABESS-Ribbed-Fitted-Sleeveless-Clothes/dp/B0FTSRP2SL/ref=zg_bs_g_1040660_d_sccl_9/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/81mnULy5dnL._AC_UL300_SR300,200_.jpg",
+                "price": "$7.29",
+                "source": "Amazon"
+              },
+              {
+                "title": "#10 Hanes Women's Underwear Pack, 10-Pack, Full-Coverage Cotton Blend Panties, Moisture-Wicking Underwear for ",
+                "url": "https://www.amazon.com/Hanes-womens-Cotton-briefs-underwear/dp/B00FZR1C7I/ref=zg_bs_g_1040660_d_sccl_10/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/711V3T0ykKL._AC_UL300_SR300,200_.jpg",
+                "price": null,
+                "source": "Amazon"
+              },
+              {
+                "title": "#11 OEAK Women Value Series Jelly Bras Wireless Pushup Convertible Bra | Everyday Essentials,Comfortable Brale",
+                "url": "https://www.amazon.com/OEAK-Scalloped-Underwire-Comfortable-Convertible/dp/B0DZ69N6FR/ref=zg_bs_g_1040660_d_sccl_11/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/712UXSiabCL._AC_UL300_SR300,200_.jpg",
+                "price": "$16.99",
+                "source": "Amazon"
+              },
+              {
+                "title": "#12 ANRABESS Womens Short Sleeve Henley Tops V Neck Dressy Casual Blouses Summer Trendy Tee Shirts 2026 Vacati",
+                "url": "https://www.amazon.com/ANRABESS-Womens-Sleeve-Blouses-Clothes/dp/B0DJJMW21W/ref=zg_bs_g_1040660_d_sccl_12/145-0927756-1086837?psc=1",
+                "image": "https://images-na.ssl-images-amazon.com/images/I/71IFE6W6THL._AC_UL300_SR300,200_.jpg",
+                "price": "$8.99",
+                "source": "Amazon"
+              }
+            ]
+          },
+          {
+            "id": null,
+            "name": "Shopify 大码女装热销榜 (PPSPY)",
+            "url": "https://app.ppspy.com/zh/shopify-product?category_id=62739c0138365b2f72048ed7&per_page=20&page=1&order_by=monthly_sale&direction=desc",
+            "ok": false,
+            "items": [],
+            "error": "无抓取器, 跳转链接"
+          }
+        ]
+      }
+    ],
+    "fetched_at": "2026-08-05 14:14:34"
+  }
+}
