@@ -1,0 +1,1662 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fashion Trend Briefing</title>
+<style>
+:root {
+  --bg: #f5f3ef;
+  --sidebar-bg: #ffffff;
+  --card-bg: #ffffff;
+  --text-primary: #2d2d2d;
+  --text-secondary: #888888;
+  --text-muted: #bbbbbb;
+  --accent: #3d3d3d;
+  --accent-light: #f0eeea;
+  --border: #e8e6e2;
+  --border-light: #f0eeea;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --shadow: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-card: 0 2px 8px rgba(0,0,0,0.06);
+  --sidebar-w: 220px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: var(--bg);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* === Layout === */
+.app {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: var(--sidebar-w);
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+  position: fixed;
+  top: 0; left: 0; bottom: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 24px;
+}
+
+.sidebar-brand {
+  padding: 0 28px 32px;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 8px;
+}
+.sidebar-brand h1 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+.sidebar-brand .subtitle {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.sidebar-nav {
+  flex: 1;
+  padding: 8px 16px;
+  overflow-y: auto;
+}
+
+.nav-section {
+  margin-bottom: 4px;
+}
+
+.nav-section-title {
+  padding: 12px 12px 6px;
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  border-top: 1px solid var(--border-light);
+  margin-top: 8px;
+}
+.nav-section:first-child .nav-section-title { display: none; }
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--text-secondary);
+  transition: all 0.15s ease;
+  user-select: none;
+}
+.nav-item:hover {
+  background: var(--accent-light);
+  color: var(--text-primary);
+}
+.nav-item.active {
+  background: var(--text-primary);
+  color: #fff;
+}
+.nav-item .nav-icon {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 500;
+  border-radius: 4px;
+  background: var(--accent-light);
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+.nav-item.active .nav-icon {
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+.sidebar-footer {
+  padding: 16px 28px 0;
+  border-top: 1px solid var(--border-light);
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+/* === Main === */
+.main {
+  margin-left: var(--sidebar-w);
+  flex: 1;
+  min-height: 100vh;
+  padding: 40px 48px 60px;
+  max-width: calc(100vw - var(--sidebar-w));
+}
+
+.main-header {
+  margin-bottom: 32px;
+}
+.main-header h2 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  margin-bottom: 6px;
+}
+.main-header .desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+/* === Sub Nav (Level 2) === */
+.sub-nav {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+.sub-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--card-bg);
+  color: var(--text-secondary);
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.sub-pill:hover {
+  border-color: var(--text-secondary);
+  color: var(--text-primary);
+}
+.sub-pill.active {
+  background: var(--text-primary);
+  color: #fff;
+  border-color: var(--text-primary);
+}
+
+/* === Content Grid === */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* === Card === */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  background: var(--accent-light);
+}
+.card-img.noimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.card-body {
+  padding: 16px 18px 18px;
+}
+.card-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+.card-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.card-summary {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card-tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.tag {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: var(--accent-light);
+  color: var(--text-secondary);
+}
+.tag.hot { background: #fef3c7; color: #92400e; }
+.tag.rising { background: #d1fae5; color: #065f46; }
+.tag.viral { background: #fce7f3; color: #9d174d; }
+
+/* === Brand Panel === */
+.brand-panel {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+.brand-panel-header {
+  padding: 28px 32px 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+.brand-panel-header .brand-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.brand-panel-header .brand-name-cn {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+.brand-audience, .brand-direction {
+  margin-top: 14px;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+.brand-audience strong, .brand-direction strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.brand-direction {
+  padding: 10px 14px;
+  background: var(--accent-light);
+  border-radius: var(--radius);
+  margin-top: 12px;
+}
+.brand-info-bar {
+  display: flex;
+  gap: 20px;
+  margin-top: 14px;
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.brand-info-bar span {
+  display: flex;
+  gap: 4px;
+}
+.brand-info-bar strong {
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+.brand-focus-tags {
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.focus-tag {
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+}
+
+/* Competitor section inside brand panel */
+.brand-section {
+  padding: 24px 32px;
+  border-bottom: 1px solid var(--border-light);
+}
+.brand-section:last-child { border-bottom: none; }
+.brand-section-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.brand-section-title .count {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.competitor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+.competitor-card {
+  padding: 14px 16px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease;
+}
+.competitor-card:hover {
+  border-color: var(--border);
+}
+.competitor-card .comp-name {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.competitor-card .comp-name a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.competitor-card .comp-name a:hover {
+  text-decoration: underline;
+}
+.competitor-card .comp-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+.competitor-card .comp-pos {
+  font-size: 11px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+/* Product mini list */
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.product-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  background: #faf9f7;
+}
+.product-row .p-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  object-fit: cover;
+  background: var(--accent-light);
+  flex-shrink: 0;
+}
+.product-row .p-info {
+  flex: 1;
+  min-width: 0;
+}
+.product-row .p-name {
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+.product-row .p-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.product-row .p-trend {
+  font-size: 10px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.product-row .p-score {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-primary);
+  flex-shrink: 0;
+}
+
+/* === Hot Keywords === */
+.kw-panel {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 24px 32px;
+}
+.kw-update-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border-light);
+}
+.kw-update-bar .update-info {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+.kw-update-bar .update-info strong {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+.kw-update-bar .update-status {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+.update-status.ok { background: #d1fae5; color: #065f46; }
+.update-status.warn { background: #fef3c7; color: #92400e; }
+
+.kw-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.kw-table th {
+  text-align: left;
+  padding: 10px 12px;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 11px;
+  border-bottom: 1px solid var(--border-light);
+}
+.kw-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border-light);
+  vertical-align: top;
+}
+.kw-table tr:hover td {
+  background: #faf9f7;
+}
+.kw-rank {
+  width: 32px;
+  text-align: center;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.kw-rank.top3 { color: var(--text-primary); }
+.kw-keyword { font-weight: 500; }
+.kw-qv { color: var(--text-secondary); white-space: nowrap; }
+.kw-change { font-weight: 500; }
+.kw-change.up { color: #065f46; }
+.kw-change.down { color: #991b1b; }
+.kw-trend-badge {
+  display: inline-block;
+  font-size: 10px;
+  padding: 1px 6px;
+  border-radius: 8px;
+}
+.kw-trend-badge.hot { background: #fef3c7; color: #92400e; }
+.kw-trend-badge.moderate { background: #e0f2fe; color: #075985; }
+.kw-trend-badge.rising { background: #d1fae5; color: #065f46; }
+.kw-related {
+  font-size: 11px;
+  color: var(--text-muted);
+  max-width: 300px;
+  line-height: 1.5;
+}
+.kw-diff {
+  display: inline-block;
+  font-size: 9px;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #fee2e2;
+  color: #991b1b;
+  margin-left: 4px;
+  cursor: help;
+}
+
+/* === Source header for radar === */
+.source-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.source-header .source-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.source-header .source-name a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.source-header .source-name a:hover {
+  text-decoration: underline;
+}
+.source-header .source-url {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.source-header .source-link {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: all 0.15s;
+}
+.source-header .source-link:hover {
+  border-color: var(--text-secondary);
+  color: var(--text-primary);
+}
+
+/* === Live source blocks === */
+.live-block {
+  margin-bottom: 36px;
+}
+.live-block .source-header {
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-light);
+}
+.live-fallback {
+  padding: 14px 18px;
+  text-align: left;
+  color: var(--text-secondary);
+  font-size: 12px;
+  line-height: 1.7;
+  background: #faf9f7;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.live-fallback .fallback-info {
+  flex: 1;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+.live-fallback .fallback-link {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 5px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--card-bg);
+  white-space: nowrap;
+}
+.live-fallback .fallback-link:hover {
+  border-color: var(--text-secondary);
+  color: var(--text-primary);
+}
+.live-item-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.live-item-title a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.live-item-title a:hover { text-decoration: underline; }
+.live-item-price {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-top: 6px;
+}
+.live-item-source {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+.live-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+.live-grid .card-img { height: 200px; }
+.live-grid .card-img img { width: 100%; height: 100%; object-fit: cover; }
+
+/* === 图文混合: 有图网格 + 无图标题列表 === */
+.live-mixed {
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.live-mixed .live-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+.live-list {
+  border-left: 1px solid var(--border-light);
+  padding-left: 18px;
+}
+.live-list-title {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.live-list-item {
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.live-list-item:last-child { border-bottom: none; }
+.live-list-item a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  display: block;
+}
+.live-list-item a:hover {
+  color: var(--text-primary);
+  text-decoration: underline;
+}
+@media (max-width: 1100px) {
+  .live-mixed { grid-template-columns: 1fr; }
+  .live-list { border-left: none; padding-left: 0; }
+  .pdf-panel-header { grid-template-columns: 1fr; }
+  .pdf-trend-card { grid-template-columns: 1fr; }
+  .pdf-trend-imgwrap { min-height: 220px; }
+  .pdf-celeb-imgs { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
+}
+
+/* === Competitor live products === */
+.comp-live-block {
+  margin-bottom: 20px;
+}
+.comp-live-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #faf9f7;
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+}
+.comp-live-header .comp-live-name {
+  font-size: 13px;
+  font-weight: 500;
+}
+.comp-live-header .comp-live-name a {
+  color: var(--text-primary);
+  text-decoration: none;
+}
+.comp-live-header .comp-live-name a:hover { text-decoration: underline; }
+.comp-live-status {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 8px;
+}
+.comp-live-status.ok { background: #d1fae5; color: #065f46; }
+.comp-live-status.jump { background: var(--accent-light); color: var(--text-secondary); }
+.comp-live-header .source-link { font-size: 11px; }
+
+/* === PDF 上传报告模块 (结构化卡片) === */
+.pdf-panel {
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+.pdf-panel-header {
+  padding: 32px 36px 24px;
+  border-bottom: 1px solid var(--border-light);
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: center;
+}
+.pdf-header-text {
+  min-width: 0;
+}
+.pdf-cover-img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: var(--radius);
+  cursor: zoom-in;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  background: var(--accent-light);
+}
+.pdf-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  letter-spacing: -0.3px;
+}
+.pdf-subtitle {
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.4px;
+  margin-bottom: 12px;
+}
+.pdf-desc {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 16px;
+  max-width: 720px;
+}
+.pdf-keywords {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.pdf-keywords .focus-tag {
+  font-size: 11px;
+  padding: 4px 12px;
+}
+.pdf-content {
+  padding: 28px 36px 36px;
+}
+
+/* AW 趋势: 横向长卡片(左图右文) */
+.pdf-trend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.pdf-trend-card {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 24px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pdf-trend-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.pdf-trend-imgwrap {
+  background: var(--accent-light);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+}
+.pdf-trend-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: zoom-in;
+  display: block;
+}
+.pdf-trend-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.pdf-trend-name {
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.pdf-trend-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 10px;
+}
+.pdf-trend-data {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.pdf-dp {
+  font-size: 14px;
+  font-weight: 600;
+}
+.pdf-trend-desc {
+  font-size: 12.5px;
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-bottom: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pdf-trend-brands {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+/* SS 榜单 + 名人卡片 */
+.pdf-rank-list {
+  margin-bottom: 28px;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+.pdf-rank-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 13px;
+}
+.pdf-rank-row:last-child { border-bottom: none; }
+.pdf-rank-row:hover { background: #faf9f7; }
+.pdf-rank-no {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--text-primary);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.pdf-rank-name { font-weight: 500; flex: 1; }
+.pdf-rank-fans { font-size: 12px; color: var(--text-secondary); }
+
+.pdf-celeb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pdf-celeb-card {
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+}
+.pdf-celeb-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 14px;
+}
+.pdf-celeb-name {
+  font-size: 17px;
+  font-weight: 500;
+}
+.pdf-celeb-events {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.pdf-celeb-events .focus-tag { font-size: 10px; }
+.pdf-celeb-imgs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.pdf-celeb-imgs img {
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  border-radius: var(--radius);
+  cursor: zoom-in;
+  background: var(--accent-light);
+}
+.pdf-celeb-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* === Empty State === */
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* === Lightbox === */
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+.lightbox-overlay.active { display: flex; }
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* === Responsive === */
+@media (max-width: 900px) {
+  .sidebar { width: 180px; }
+  .main { margin-left: 180px; padding: 24px; }
+  .content-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- Sidebar: Level 1 Navigation -->
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <h1>Fashion Trend<br>Briefing</h1>
+      <div class="subtitle">Trend Knowledge Base</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-section">
+        <div class="nav-item active" data-module="radar" onclick="switchModule('radar')">
+          <span class="nav-icon">R</span>
+          <span>趋势雷达</span>
+        </div>
+        <div class="nav-item" data-module="brand" onclick="switchModule('brand')">
+          <span class="nav-icon">B</span>
+          <span>品牌动态</span>
+        </div>
+        <div class="nav-item" data-module="hot" onclick="switchModule('hot')">
+          <span class="nav-icon">H</span>
+          <span>站内热搜词</span>
+        </div>
+      </div>
+      <div class="nav-section">
+        <div class="nav-item" data-module="pdf_aw" onclick="switchModule('pdf_aw')">
+          <span class="nav-icon">A</span>
+          <span>2026/27 AW T台十大重点趋势</span>
+        </div>
+        <div class="nav-item" data-module="pdf_ss" onclick="switchModule('pdf_ss')">
+          <span class="nav-icon">S</span>
+          <span>2026 SS INS 时尚排行榜</span>
+        </div>
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      <div id="sidebarStats"></div>
+    </div>
+  </aside>
+
+  <!-- Main Content Area -->
+  <main class="main" id="mainArea">
+    <!-- Dynamic content rendered here -->
+  </main>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay" id="lightboxOverlay" onclick="closeLightbox()">
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+const API = '';
+let state = { module: 'radar', sub: null };
+let cache = { sources: [], brands: [], keywords: [], categories: [], pdfModules: [], kbData: null };
+
+// --- Navigation ---
+function switchModule(module) {
+  state.module = module;
+  state.sub = null;
+  document.querySelectorAll('.nav-item').forEach(el => el.classList.toggle('active', el.dataset.module === module));
+  renderMain();
+}
+
+function switchSub(subId) {
+  state.sub = subId;
+  renderSubNav();
+  renderContent();
+}
+
+// --- Render Main Area ---
+async function renderMain() {
+  const main = document.getElementById('mainArea');
+  const titles = { radar: '趋势雷达', brand: '品牌动态', hot: '站内热搜词',
+                  pdf_aw: '2026/27 AW T台十大重点趋势',
+                  pdf_ss: '2026 SS INS 时尚排行榜' };
+  const descs = {
+    radar: '实时抓取 Vogue / BOF / 1Granary / Google Trends 等全球趋势源内容',
+    brand: 'Freevana / Travachic Curve / Voyena / Vcay Curve 店铺动态与竞品每日上新追踪',
+    hot: '30周全站站内女装热搜词，基于全市场搜索趋势',
+    pdf_aw: '2026/27 秋冬发布会中提取并分析的十大重点趋势',
+    pdf_ss: '基于影响者粉丝量、热度、知名度、商业价值的 2026 SS 前十榜单'
+  };
+
+  main.innerHTML = `
+    <div class="main-header">
+      <h2>${titles[state.module] || ''}</h2>
+      <div class="desc">${descs[state.module] || ''}</div>
+    </div>
+    <div class="sub-nav" id="subNav"></div>
+    <div id="contentArea"></div>
+  `;
+
+  // Load data & render sub-nav
+  await loadModuleData();
+  renderSubNav();
+  renderContent();
+}
+
+function renderSubNav() {
+  const nav = document.getElementById('subNav');
+  if (!nav) return;
+
+  let items = [];
+  if (state.module === 'radar') {
+    // 趋势雷达: 全源平铺, 不显示子导航
+    nav.innerHTML = '';
+    nav.style.display = 'none';
+    return;
+  } else if (state.module === 'brand') {
+    nav.style.display = '';
+    items = cache.brands.map(b => ({ id: b.id, label: b.name }));
+  } else if (state.module === 'hot') {
+    nav.style.display = '';
+    items = cache.categories.map(c => ({ id: c.id, label: c.name }));
+  } else if (state.module === 'pdf_aw' || state.module === 'pdf_ss') {
+    nav.style.display = 'none';
+    return;
+  }
+
+  if (!state.sub && items.length) state.sub = items[0].id;
+
+  nav.innerHTML = items.map(it => `
+    <button class="sub-pill ${it.id === state.sub ? 'active' : ''}" onclick="switchSub('${it.id}')">${it.label}</button>
+  `).join('');
+}
+
+async function renderContent() {
+  const area = document.getElementById('contentArea');
+  if (!area) return;
+  area.innerHTML = '<div class="empty-state">加载中...</div>';
+
+  try {
+    if (state.module === 'radar') await renderRadar(area);
+    else if (state.module === 'brand') await renderBrand(area);
+    else if (state.module === 'hot') await renderHot(area);
+    else if (state.module === 'pdf_aw' || state.module === 'pdf_ss') await renderPdfModule(area, state.module);
+  } catch(e) {
+    area.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`;
+  }
+}
+
+// --- Module: Trend Radar (静态版: 优先读快照, 无快照则跳转卡片) ---
+async function renderRadar(container) {
+  container.innerHTML = '<div class="empty-state">加载中...</div>';
+  try {
+    // 尝试读取快照(含实时抓取内容)
+    let snapshot = null;
+    try {
+      const sr = await fetch(`data/live_snapshot.json`);
+      snapshot = await sr.json();
+    } catch(e) { snapshot = null; }
+
+    const liveSources = (snapshot && snapshot.trend_radar && snapshot.trend_radar.sources) || null;
+    if (liveSources && liveSources.length) {
+      const fetchedAt = snapshot.trend_radar.fetched_at || snapshot.generated_at || '';
+      const okSources = liveSources.filter(s => s.ok && s.items && s.items.length);
+      container.innerHTML = `
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+          <div style="font-size:12px;color:var(--text-muted);">趋势内容快照 · ${fetchedAt}</div>
+          <div style="font-size:11px;color:var(--text-muted);">${okSources.length} 个数据源</div>
+        </div>
+        ${liveSources.map(src => renderStaticLiveSource(src)).join('')}
+      `;
+      return;
+    }
+
+    // 无快照: 读KB配置 → 跳转卡片
+    const res = await fetch(`data/knowledge_base.json`);
+    const kb = await res.json();
+    const sources = (kb.trend_radar && kb.trend_radar.sources) || [];
+    if (!sources.length) {
+      container.innerHTML = '<div class="empty-state">暂无趋势数据源配置</div>';
+      return;
+    }
+    container.innerHTML = `
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+        <div style="font-size:12px;color:var(--text-muted);">趋势数据源 ${sources.length} 个网站 · 点击跳转查看实时内容</div>
+      </div>
+      ${sources.map(src => renderStaticSource(src)).join('')}
+    `;
+  } catch(e) {
+    container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`;
+  }
+}
+
+function renderStaticLiveSource(src) {
+  const items = src.items || [];
+  const nameHtml = src.url
+    ? `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`
+    : src.name;
+  // 有内容: 图文混合布局
+  if (src.ok && items.length) {
+    const withImg = items.filter(it => it.image);
+    const withoutImg = items.filter(it => !it.image);
+    let body = '';
+    if (withImg.length && withoutImg.length) {
+      body = `
+        <div class="live-mixed">
+          <div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>
+          <div class="live-list">
+            <div class="live-list-title">更多内容</div>
+            ${withoutImg.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>`).join('')}
+          </div>
+        </div>`;
+    } else if (withImg.length) {
+      body = `<div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>`;
+    } else {
+      body = `<div class="live-list" style="border-left:none;padding-left:0;">${items.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>`).join('')}</div>`;
+    }
+    return `
+      <div class="live-block">
+        <div class="source-header">
+          <div>
+            <div class="source-name">${nameHtml}</div>
+            <div class="source-url">抓到 ${items.length} 条 · 快照日期</div>
+          </div>
+          <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
+        </div>
+        ${body}
+      </div>`;
+  }
+  // 无内容: 跳转卡片
+  return `
+    <div class="live-block">
+      <div class="source-header">
+        <div>
+          <div class="source-name">${nameHtml}</div>
+          <div class="source-url">动态页面</div>
+        </div>
+        <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
+      </div>
+      <div class="live-fallback">
+        <span class="fallback-info">需通过原网站查看实时内容</span>
+        <a href="${src.url}" target="_blank" rel="noopener" class="fallback-link">前往 ${src.name} →</a>
+      </div>
+    </div>`;
+}
+
+function renderStaticItem(it) {
+  const imgHtml = it.image
+    ? `<a href="${it.url}" target="_blank" rel="noopener"><img src="${it.image}" class="card-img" loading="lazy" onerror="this.style.display='none'"></a>`
+    : `<div class="card-img noimg">暂无图片</div>`;
+  return `
+    <div class="card">
+      ${imgHtml}
+      <div class="card-body">
+        <div class="live-item-title"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>
+        ${it.price ? `<div class="live-item-price">${it.price}</div>` : ''}
+        <div class="live-item-source">${it.source || ''}</div>
+      </div>
+    </div>`;
+}
+
+function renderStaticSource(src) {
+  const nameHtml = src.url
+    ? `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`
+    : src.name;
+  return `
+    <div class="live-block">
+      <div class="source-header">
+        <div>
+          <div class="source-name">${nameHtml}</div>
+          <div class="source-url">${src.coverage || ''} ${src.update_freq || ''}</div>
+        </div>
+        <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
+      </div>
+      <div class="live-fallback">
+        <span class="fallback-info">静态页面无法自动抓取，前往原网站查看实时趋势</span>
+        <a href="${src.url}" target="_blank" rel="noopener" class="fallback-link">前往 ${src.name} →</a>
+      </div>
+    </div>`;
+}
+
+function renderLiveSource(src) {
+  const items = src.items || [];
+  const nameHtml = src.url
+    ? `<a href="${src.url}" target="_blank" rel="noopener">${src.name}</a>`
+    : src.name;
+
+  // 有内容: 图文混合布局 (有图卡片 + 无图标题列表)
+  if (src.ok && items.length) {
+    const withImg = items.filter(it => it.image);
+    const withoutImg = items.filter(it => !it.image);
+    let body = '';
+    if (withImg.length && withoutImg.length) {
+      // 混合: 左侧图片网格, 右侧标题列表
+      body = `
+        <div class="live-mixed">
+          <div class="live-grid">${withImg.map(it => renderLiveItem(it)).join('')}</div>
+          <div class="live-list">
+            <div class="live-list-title">更多内容</div>
+            ${withoutImg.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>`).join('')}
+          </div>
+        </div>`;
+    } else if (withImg.length) {
+      body = `<div class="live-grid">${withImg.map(it => renderLiveItem(it)).join('')}</div>`;
+    } else {
+      // 全无图: 纯标题列表
+      body = `
+        <div class="live-list" style="border-left:none;padding-left:0;">
+          ${items.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>`).join('')}
+        </div>`;
+    }
+    return `
+      <div class="live-block">
+        <div class="source-header">
+          <div>
+            <div class="source-name">${nameHtml}</div>
+            <div class="source-url">${src.fetched_at || ''} · 抓到 ${items.length} 条</div>
+          </div>
+          <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
+        </div>
+        ${body}
+      </div>`;
+  }
+
+  // 无内容: 降级跳转 (紧凑一行)
+  return `
+    <div class="live-block">
+      <div class="source-header">
+        <div>
+          <div class="source-name">${nameHtml}</div>
+          <div class="source-url">${src.fetched_at || ''}</div>
+        </div>
+        <a href="${src.url}" target="_blank" rel="noopener" class="source-link">访问网站 ↗</a>
+      </div>
+      <div class="live-fallback">
+        <span class="fallback-info">需通过原网站查看实时内容</span>
+        <a href="${src.url}" target="_blank" rel="noopener" class="fallback-link">前往 ${src.name} →</a>
+      </div>
+    </div>`;
+}
+
+function renderLiveItem(it) {
+  const imgHtml = it.image
+    ? `<a href="${it.url}" target="_blank" rel="noopener"><img src="${it.image}" class="card-img" loading="lazy" onerror="this.style.display='none'"></a>`
+    : `<div class="card-img noimg">暂无图片</div>`;
+  return `
+    <div class="card">
+      ${imgHtml}
+      <div class="card-body">
+        <div class="live-item-title"><a href="${it.url}" target="_blank" rel="noopener">${it.title}</a></div>
+        ${it.price ? `<div class="live-item-price">${it.price}</div>` : ''}
+        <div class="live-item-source">${it.source || ''}</div>
+      </div>
+    </div>`;
+}
+
+// --- Module: Brand Dynamics (竞品实时上新) ---
+async function renderBrand(container) {
+  const brand = cache.brands.find(b => b.id === state.sub);
+  if (!brand) { container.innerHTML = '<div class="empty-state">请选择店铺</div>'; return; }
+
+  const catLabels = {
+    'boho_lifestyle':'波西米亚生活','floral_resort':'花卉度假',
+    'active_lifestyle':'运动生活','value_resort':'悦享假日'
+  };
+
+  // 头部: 品牌定位信息
+  const headerHtml = `
+    <div class="brand-panel-header">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;">
+        <div>
+          <div class="brand-name">${brand.name} <span class="brand-name-cn">${brand.name_cn || ''}</span></div>
+        </div>
+        <span class="focus-tag">${catLabels[brand.category] || brand.category}</span>
+      </div>
+      <div class="brand-audience"><strong>人群定位：</strong>${brand.target_audience || 'N/A'}</div>
+      <div class="brand-direction"><strong>主要开发方向：</strong>${brand.development_direction || 'N/A'}</div>
+      <div class="brand-info-bar">
+        <span>价格带: <strong>${brand.price_range || '-'}</strong></span>
+        <span>市场: <strong>${brand.target_market || '-'}</strong></span>
+        <span>对标竞品: <strong>${brand.competitors?.length || 0}</strong></span>
+      </div>
+      <div class="brand-focus-tags">
+        ${(brand.style_tags || []).map(t => `<span class="focus-tag">${t}</span>`).join('')}
+        ${(brand.focus_trends || []).map(t => `<span class="focus-tag">${t}</span>`).join('')}
+      </div>
+    </div>`;
+
+  // 竞品上新: 优先读快照, 无快照则跳转列表
+  container.innerHTML = `
+    <div class="brand-panel">
+      ${headerHtml}
+      <div class="brand-section">
+        <div class="brand-section-title">对标竞品 · 每日上新 <span class="count">${(brand.competitors||[]).length}</span></div>
+        <div id="liveCompetitors" style="padding:4px 0 8px;">
+          <div class="empty-state" style="padding:30px;">加载中...</div>
+        </div>
+      </div>
+    </div>
+  `;
+
+  try {
+    // 尝试读快照(含竞品上新内容)
+    let snapshot = null;
+    try {
+      const sr = await fetch(`data/live_snapshot.json`);
+      snapshot = await sr.json();
+    } catch(e) { snapshot = null; }
+    const liveShop = snapshot && snapshot.brands ? (snapshot.brands.shops || []).find(s => s.id === state.sub) : null;
+    const liveComps = liveShop ? liveShop.competitors : null;
+
+    const area = document.getElementById('liveCompetitors');
+    if (!area) return;
+
+    if (liveComps && liveComps.length) {
+      // 快照模式: 有商品的展示卡片, 无商品的跳转
+      area.innerHTML = liveComps.map(c => {
+        const items = c.items || [];
+        const compUrl = c.url || '#';
+        const statusCls = c.ok && items.length ? 'ok' : 'jump';
+        const statusTxt = c.ok && items.length ? `${items.length} 款新品` : '跳转查看';
+        const header = `
+          <div class="comp-live-header">
+            <div class="comp-live-name">
+              <a href="${compUrl}" target="_blank" rel="noopener">${c.name}</a>
+              <span class="comp-live-status ${statusCls}" style="margin-left:8px;">${statusTxt}</span>
+            </div>
+            <a href="${compUrl}" target="_blank" rel="noopener" class="source-link">访问官网 ↗</a>
+          </div>`;
+        if (c.ok && items.length) {
+          const withImg = items.filter(it => it.image);
+          const withoutImg = items.filter(it => !it.image);
+          let body = '';
+          if (withImg.length && withoutImg.length) {
+            body = `
+              <div class="live-mixed">
+                <div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>
+                <div class="live-list">
+                  <div class="live-list-title">更多商品</div>
+                  ${withoutImg.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}${it.price ? ' · ' + it.price : ''}</a></div>`).join('')}
+                </div>
+              </div>`;
+          } else if (withImg.length) {
+            body = `<div class="live-grid">${withImg.map(it => renderStaticItem(it)).join('')}</div>`;
+          } else {
+            body = `<div class="live-list" style="border-left:none;padding-left:0;">${items.map(it => `<div class="live-list-item"><a href="${it.url}" target="_blank" rel="noopener">${it.title}${it.price ? ' · ' + it.price : ''}</a></div>`).join('')}</div>`;
+          }
+          return `<div class="comp-live-block">${header}${body}</div>`;
+        }
+        return `
+          <div class="comp-live-block">
+            ${header}
+            <div class="live-fallback" style="margin-top:8px;">
+              <span class="fallback-info">${c.error && c.error !== '无抓取器, 跳转链接' ? c.error : '官网受访问限制，可直接跳转查看最新上架'}</span>
+              <a href="${compUrl}" target="_blank" rel="noopener" class="fallback-link">前往 ${c.name} →</a>
+            </div>
+          </div>`;
+      }).join('');
+      return;
+    }
+
+    // 无快照: 跳转列表
+    const comps = brand.competitors || [];
+    if (!comps.length) {
+      area.innerHTML = '<div class="empty-state" style="padding:30px;">暂无对标竞品数据</div>';
+      return;
+    }
+    area.innerHTML = comps.map(c => {
+      const compUrl = c.url || '#';
+      return `
+        <div class="comp-live-block">
+          <div class="comp-live-header">
+            <div class="comp-live-name">
+              <a href="${compUrl}" target="_blank" rel="noopener">${c.name}</a>
+              <span class="comp-live-status jump" style="margin-left:8px;">跳转查看</span>
+            </div>
+            <a href="${compUrl}" target="_blank" rel="noopener" class="source-link">访问官网 ↗</a>
+          </div>
+          <div class="live-fallback" style="margin-top:8px;">
+            <span class="fallback-info">${c.category || '同类竞品'}${c.price_range ? ' · ' + c.price_range : ''}${c.positioning ? ' · ' + c.positioning : ''}</span>
+            <a href="${compUrl}" target="_blank" rel="noopener" class="fallback-link">前往 ${c.name} →</a>
+          </div>
+        </div>`;
+    }).join('');
+  } catch(e) {
+    const area = document.getElementById('liveCompetitors');
+    if (area) area.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`;
+  }
+}
+
+// --- Module: PDF 上传报告 (结构化解析, 去水印) ---
+// 静态版: 图片路径 /pdf-content/ → data/pdf_content/
+function pdfImgUrl(u) {
+  if (!u) return '';
+  return u.replace('/pdf-content/', 'data/pdf_content/');
+}
+async function renderPdfModule(container, which) {
+  container.innerHTML = '<div class="empty-state">加载中...</div>';
+  try {
+    const res = await fetch(`data/pdf_content/structured.json`);
+    const d = await res.json();
+    const mods = d.modules || [];
+    if (!mods.length) {
+      container.innerHTML = '<div class="empty-state">暂无上传报告</div>';
+      return;
+    }
+    const targetName = which === 'pdf_aw' ? 'aw_tendencias' : 'ss_ins_ranking';
+    const m = mods.find(x => x.name === targetName) || mods[0];
+    const coverImg = m.cover && m.cover.image ? `<img src="${pdfImgUrl(m.cover.image.url)}" class="pdf-cover-img" onclick="openLightbox('${pdfImgUrl(m.cover.image.url)}')">` : '';
+    const coverTitle = (m.cover && m.cover.title) ? m.cover.title : m.title;
+
+    let body = '';
+    if (which === 'pdf_aw') {
+      // T台趋势: 横向长卡片(左图右文), 图片完整展示
+      body = `
+        <div class="pdf-trend-list">
+          ${(m.trends||[]).map(t => `
+            <div class="pdf-trend-card">
+              <div class="pdf-trend-imgwrap">
+                ${t.main_image ? `<img src="${pdfImgUrl(t.main_image.url)}" class="pdf-trend-img" loading="lazy" onclick="openLightbox('${pdfImgUrl(t.main_image.url)}')">` : ''}
+              </div>
+              <div class="pdf-trend-body">
+                <div class="pdf-trend-name">${t.name || ''}</div>
+                ${t.subtitle ? `<div class="pdf-trend-sub">${t.subtitle}</div>` : ''}
+                ${(t.data_points||[]).length ? `<div class="pdf-trend-data">${t.data_points.map(dp => `<span class="pdf-dp" style="color:${dp.color}">${dp.text}</span>`).join('')}</div>` : ''}
+                ${t.description ? `<div class="pdf-trend-desc">${t.description}</div>` : ''}
+                ${(t.brands||[]).filter(b => b && !b.includes('示意图') && !b.includes('增长') && b.length < 25).length ? `
+                  <div class="pdf-trend-brands">${t.brands.filter(b => b && !b.includes('示意图') && !b.includes('增长') && b.length < 25).map(b => `<span class="focus-tag">${b}</span>`).join('')}</div>` : ''}
+              </div>
+            </div>
+          `).join('')}
+        </div>`;
+    } else {
+      // INS排行榜: 封面 + 榜单 + 名人详情
+      body = `
+        <div class="pdf-rank-list">
+          ${(m.celebrities||[]).map((c, i) => `
+            <div class="pdf-rank-row">
+              <div class="pdf-rank-no">${c.rank || i+1}</div>
+              <div class="pdf-rank-name">${c.name || ''}</div>
+              ${c.fans ? `<div class="pdf-rank-fans">${c.fans} 粉丝</div>` : ''}
+            </div>
+          `).join('')}
+        </div>
+        <div class="pdf-celeb-list">
+          ${(m.details||[]).map(c => `
+            <div class="pdf-celeb-card">
+              <div class="pdf-celeb-head">
+                <div class="pdf-celeb-name">${c.name || ''}</div>
+                ${(c.events||[]).length ? `<div class="pdf-celeb-events">${c.events.map(e => `<span class="focus-tag">${e.name || ''}</span>`).join('')}</div>` : ''}
+              </div>
+              <div class="pdf-celeb-imgs">
+                ${(c.images||[]).map(img => `<img src="${pdfImgUrl(img.url)}" loading="lazy" onclick="openLightbox('${pdfImgUrl(img.url)}')">`).join('')}
+              </div>
+              ${(c.descriptions||[]).slice(0,2).map(desc => `<div class="pdf-celeb-desc">${desc}</div>`).join('')}
+            </div>
+          `).join('')}
+        </div>`;
+    }
+
+    container.innerHTML = `
+      <div class="pdf-panel">
+        <div class="pdf-panel-header">
+          <div class="pdf-header-text">
+            <div class="pdf-title">${coverTitle}</div>
+            <div class="pdf-subtitle">${m.subtitle || ''}</div>
+            <div class="pdf-desc">${m.description || ''}</div>
+            ${(m.keywords||[]).length ? `<div class="pdf-keywords">${m.keywords.map(k=>`<span class="focus-tag">${k}</span>`).join('')}</div>` : ''}
+          </div>
+          ${coverImg}
+        </div>
+        <div class="pdf-content">${body}</div>
+      </div>
+    `;
+  } catch(e) {
+    container.innerHTML = `<div class="empty-state">加载失败: ${e.message}</div>`;
+  }
+}
+
+// --- Module: Hot Keywords (静态版) ---
+async function renderHot(container) {
+  const cat = cache.categories.find(c => c.id === state.sub);
+  if (!cat) { container.innerHTML = '<div class="empty-state">请选择分类</div>'; return; }
+
+  const hk = cache.kbData.site_hot_keywords || {};
+  const cats = hk.categories || [];
+  const allItems = [];
+  for (const c of cats) {
+    for (const it of (c.items||[])) {
+      const copy = Object.assign({}, it, { category: c.name, category_id: c.id });
+      allItems.push(copy);
+    }
+  }
+  const items = allItems.filter(k => k.category_id === state.sub || k.category === cat.name);
+  const isWednesday = new Date().getDay() === 3;
+  const nextDate = hk.last_updated_date ? '' : '';
+
+  container.innerHTML = `
+    <div class="kw-panel">
+      <div class="kw-update-bar">
+        <div class="update-info">
+          <strong>${hk.last_updated_week || 'N/A'}</strong> · ${hk.last_updated_date || '--'}更新 · 共${allItems.length}个关键词
+        </div>
+        <span class="update-status ok">每周三更新</span>
+      </div>
+      <div style="font-size:12px;color:var(--text-secondary);margin-bottom:16px;">${cat.description || ''}</div>
+      ${items.length ? renderKwTable(items) : '<div class="empty-state">该分类暂无关键词数据</div>'}
+    </div>
+  `;
+}
+
+function renderKwTable(items) {
+  return `
+    <table class="kw-table">
+      <thead>
+        <tr>
+          <th style="width:40px;">#</th>
+          <th>关键词</th>
+          <th>搜索量(qv)</th>
+          <th>环比</th>
+          <th>趋势</th>
+          <th>相关搜索词</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${items.map((k, i) => {
+          const cls = k.trend === 'hot' ? 'hot' : k.trend === 'moderate' ? 'moderate' : 'rising';
+          const changeUp = k.change_pct.startsWith('+');
+          const diffHtml = (k.diff_terms || []).length ? `<span class="kw-diff" title="本周新增差异词: ${k.diff_terms.join(', ')}">+差异</span>` : '';
+          const related = (k.related_terms || []).slice(0, 4).join(', ');
+          return `
+            <tr>
+              <td class="kw-rank ${i < 3 ? 'top3' : ''}">${i + 1}</td>
+              <td class="kw-keyword">${k.keyword}${diffHtml}</td>
+              <td class="kw-qv">${k.qv}</td>
+              <td class="kw-change ${changeUp ? 'up' : 'down'}">${k.change_pct}</td>
+              <td><span class="kw-trend-badge ${cls}">${cls === 'hot' ? '重点关注' : cls === 'moderate' ? '持续关注' : '上升趋势'}</span></td>
+              <td class="kw-related">${related}${(k.related_terms||[]).length > 4 ? ' ...' : ''}</td>
+            </tr>
+          `;
+        }).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+// --- Data Loading (静态版: 读取本地 knowledge_base.json) ---
+async function loadModuleData() {
+  if (!cache.kbData) {
+    const res = await fetch(`data/knowledge_base.json`);
+    cache.kbData = await res.json();
+  }
+  const kb = cache.kbData;
+  if (state.module === 'brand' && !cache.brands.length) {
+    cache.brands = (kb.brand_dynamics && kb.brand_dynamics.shops) || [];
+  }
+  if (state.module === 'hot' && !cache.categories.length) {
+    const hk = kb.site_hot_keywords || {};
+    const cats = hk.categories || [];
+    cache.categories = cats.map(c => ({ id: c.id, name: c.name, description: c.description || '' }));
+  }
+}
+
+async function loadSidebarStats() {
+  try {
+    const res = await fetch(`data/knowledge_base.json`);
+    const kb = await res.json();
+    const shops = (kb.brand_dynamics && kb.brand_dynamics.shops) || [];
+    const totalCompetitors = shops.reduce((s, b) => s + (b.competitors||[]).length, 0);
+    const hkCats = (kb.site_hot_keywords && kb.site_hot_keywords.categories) || [];
+    const hkTotal = hkCats.reduce((s, c) => s + (c.items||[]).length, 0);
+    document.getElementById('sidebarStats').innerHTML =
+      `店铺: ${shops.length}<br>` +
+      `竞品: ${totalCompetitors}<br>` +
+      `热搜词: ${hkTotal}`;
+  } catch(e) {}
+}
+
+// --- Lightbox ---
+function openLightbox(src) {
+  document.getElementById('lightboxImg').src = src;
+  document.getElementById('lightboxOverlay').classList.add('active');
+}
+function closeLightbox() {
+  document.getElementById('lightboxOverlay').classList.remove('active');
+}
+
+// --- Init ---
+async function init() {
+  await loadSidebarStats();
+  renderMain();
+}
+
+init();
+</script>
+</body>
+</html>
