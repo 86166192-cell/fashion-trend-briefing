@@ -709,8 +709,8 @@
     "description": "30周全站站内女装热搜词 - 基于全市场站内女装搜索趋势",
     "update_frequency": "weekly",
     "update_day": "Wednesday",
-    "last_updated_week": "2026-W30",
-    "last_updated_date": "2026-08-04",
+    "last_updated_week": "2026-W31",
+    "last_updated_date": "2026-08-05",
     "icon_url": "https://shein.ltwebstatic.com/svgicons/2025/04/01/17435184951492103429.svg",
     "trend_legend": {
       "hot": "搜索qv处于高位或环比增长明显，重点关注",
@@ -726,8 +726,8 @@
         "items": [
           {
             "keyword": "summer",
-            "qv": "223.5w",
-            "change_pct": "-15.8%",
+            "qv": "198w",
+            "change_pct": "-8.2%",
             "trend": "moderate",
             "related_terms": [
               "summer dress",
@@ -736,64 +736,71 @@
               "summer",
               "summer tops",
               "long summer dress",
-              "summer clothes",
               "women's summer set",
+              "summer clothes",
               "women summer dress",
               "summer top"
             ],
-            "diff_terms": [
-              "women's summer set"
-            ]
+            "diff_terms": []
           },
           {
             "keyword": "winter",
-            "qv": "37.2w",
-            "change_pct": "-16%",
+            "qv": "36.3w",
+            "change_pct": "-2.7%",
             "trend": "moderate",
             "related_terms": [
               "winter",
               "winter clothes for women",
               "winter clothes",
-              "winter dress",
-              "women's winter set",
               "winter outfit for women",
-              "women's winter blouse",
-              "women's winter coat",
+              "winter dress",
+              "winter women",
+              "women's winter set",
               "women winter coat",
-              "winter women"
+              "women's winter blouse",
+              "women's winter clothes"
             ],
             "diff_terms": [
+              "women's winter blouse",
+              "women's winter clothes",
               "winter women"
             ]
           },
           {
             "keyword": "fall",
-            "qv": "25.3w",
-            "change_pct": "+48.8%",
+            "qv": "33.5w",
+            "change_pct": "+29%",
             "trend": "hot",
             "related_terms": [
               "autumn",
               "fall",
+              "fall clothes for women",
               "autumn outfit for women",
               "fall clothes",
               "autumn outfits for women",
-              "fall women clothes"
+              "fall decor",
+              "autumn clothes",
+              "fall women clothes",
+              "fall outfits"
             ],
-            "diff_terms": []
+            "diff_terms": [
+              "fall clothes for women",
+              "fall decor",
+              "autumn clothes",
+              "fall women clothes",
+              "fall outfits"
+            ]
           },
           {
             "keyword": "fall/winter",
-            "qv": "0.8w",
-            "change_pct": "+40%",
+            "qv": "0.7w",
+            "change_pct": "+48.3%",
             "trend": "rising",
             "related_terms": [
-              "fall and winter promotion",
-              "women fall winter sweater",
-              "fall winter 2026"
+              "fall winter 2026",
+              "women fall winter sweater"
             ],
-            "diff_terms": [
-              "fall winter 2026"
-            ]
+            "diff_terms": []
           }
         ]
       },
@@ -805,30 +812,29 @@
         "items": [
           {
             "keyword": "elegant",
-            "qv": "244.4w",
-            "change_pct": "+1.8%",
+            "qv": "260.6w",
+            "change_pct": "+4.6%",
             "trend": "hot",
             "related_terms": [
               "elegant dresses for women",
               "elegant dress",
-              "elegant dresses",
-              "elegant long dress",
               "elegant women's set",
+              "elegant long dress",
+              "elegant dresses",
+              "elegant party dresses",
               "elegant women's blouses",
-              "elegant dresses for party",
-              "elegant dress for women",
               "elegant long dresses",
+              "elegant dress for women",
               "elegant short dresses"
             ],
             "diff_terms": [
-              "elegant long dresses",
-              "elegant short dresses"
+              "elegant party dresses"
             ]
           },
           {
             "keyword": "casual",
-            "qv": "47.4w",
-            "change_pct": "-2.6%",
+            "qv": "48.8w",
+            "change_pct": "+1.1%",
             "trend": "hot",
             "related_terms": [
               "casual dresses for women",
@@ -837,166 +843,173 @@
               "casual blouses for women",
               "casual dress for women",
               "casual blouses",
-              "casual sets for women",
-              "casual women's dresses",
               "casual long dress",
+              "casual women's dresses",
+              "casual sets for women",
               "casual women's t-shirts"
-            ],
-            "diff_terms": [
-              "casual women's t-shirts"
-            ]
-          },
-          {
-            "keyword": "vacation",
-            "qv": "47.2w",
-            "change_pct": "-0.4%",
-            "trend": "hot",
-            "related_terms": [
-              "vacation outfits women",
-              "holiday",
-              "vacation",
-              "holiday outfits",
-              "holiday night outfit",
-              "holiday outfits for women",
-              "summer holiday outfits",
-              "holiday dress",
-              "vacation outfits for women",
-              "dresses for holiday"
             ],
             "diff_terms": []
           },
           {
+            "keyword": "vacation",
+            "qv": "43.7w",
+            "change_pct": "-4.2%",
+            "trend": "hot",
+            "related_terms": [
+              "vacation outfits women",
+              "holiday",
+              "holiday night outfit",
+              "vacation",
+              "holiday outfits",
+              "holiday outfits for women",
+              "summer holiday outfits",
+              "holiday dress",
+              "vacation outfits for women",
+              "vacation dress"
+            ],
+            "diff_terms": [
+              "vacation dress"
+            ]
+          },
+          {
             "keyword": "sports",
-            "qv": "38.9w",
-            "change_pct": "-0.4%",
+            "qv": "37w",
+            "change_pct": "+0.7%",
             "trend": "hot",
             "related_terms": [
               "sweatpants",
               "women's sportswear",
-              "workout sets for women",
               "jogging suit",
               "joggers",
+              "workout sets for women",
               "sportswear"
             ],
             "diff_terms": []
           },
           {
             "keyword": "luxury",
-            "qv": "23.9w",
-            "change_pct": "-15.3%",
+            "qv": "23w",
+            "change_pct": "-2.4%",
             "trend": "hot",
             "related_terms": [
               "luxury evening and occasion dresses",
-              "luxury evening dresses for weddings",
-              "luxury evening wedding dress",
+              "luxury evening dress",
               "luxury wedding dresses",
-              "luxury evening dress for women weddings",
+              "luxury evening wedding dress",
+              "luxury evening dresses for weddings",
               "luxury evening dress for women",
               "luxury evening dresses for women",
-              "luxury women's blouses",
+              "luxury evening dress for women weddings",
               "luxury women's jalabiya",
-              "women luxury plus size evening dress"
+              "luxury evening wedding dresses"
             ],
             "diff_terms": [
-              "women luxury plus size evening dress"
+              "luxury evening dress",
+              "luxury evening wedding dresses"
             ]
           },
           {
-            "keyword": "y2k",
-            "qv": "22.8w",
-            "change_pct": "+2.4%",
-            "trend": "hot",
-            "related_terms": [
-              "y2k",
-              "Y2K tops",
-              "2000s style",
-              "y2k clothes"
-            ],
-            "diff_terms": []
-          },
-          {
             "keyword": "formal",
-            "qv": "21.2w",
-            "change_pct": "+0.9%",
+            "qv": "22.5w",
+            "change_pct": "+2.9%",
             "trend": "hot",
             "related_terms": [
               "formal dress",
               "women's dress shirt",
               "formal dresses",
               "women formal pants",
-              "women's social blouse",
               "formal dresses for women",
+              "women's social blouse",
               "formal pants",
               "dress shirt",
               "women's dress pants",
-              "women's formal wear"
+              "formal dress for women"
             ],
             "diff_terms": [
-              "women's formal wear"
+              "formal dress for women"
+            ]
+          },
+          {
+            "keyword": "y2k",
+            "qv": "22.4w",
+            "change_pct": "-4.1%",
+            "trend": "hot",
+            "related_terms": [
+              "y2k",
+              "Y2K tops",
+              "2000s style",
+              "y2k clothes",
+              "Y2K top"
+            ],
+            "diff_terms": [
+              "Y2K top"
             ]
           },
           {
             "keyword": "business",
-            "qv": "15.8w",
-            "change_pct": "+7.3%",
+            "qv": "18w",
+            "change_pct": "+8.2%",
             "trend": "moderate",
             "related_terms": [
               "work outfits for women",
               "office outfits for women",
               "social blouse",
+              "teacher work tops",
               "office wear for women",
               "work tops for women",
               "work wear women",
-              "work tops",
               "work dresses for women",
-              "work dress",
-              "teacher work tops"
-            ],
-            "diff_terms": [
-              "teacher work tops"
-            ]
-          },
-          {
-            "keyword": "country",
-            "qv": "12.3w",
-            "change_pct": "-6.8%",
-            "trend": "moderate",
-            "related_terms": [
-              "country concert outfit",
-              "country",
-              "women's country pants",
-              "women's country clothing",
-              "country style for women",
-              "country dress",
-              "country pants",
-              "female country look"
+              "work tops",
+              "work dress"
             ],
             "diff_terms": []
           },
           {
             "keyword": "sexy",
-            "qv": "12w",
-            "change_pct": "+3%",
+            "qv": "13.1w",
+            "change_pct": "+3.3%",
             "trend": "moderate",
             "related_terms": [
-              "sexy",
               "sexy dress",
+              "sexy",
               "attractive sexy clothes",
-              "sexy outfits",
-              "sexy night outfit",
               "sexy tops",
+              "sexy night outfit",
+              "sexy outfits",
               "sexy tops for women",
+              "sexy dresses",
               "sexy top"
             ],
             "diff_terms": [
-              "sexy outfits",
-              "sexy night outfit"
+              "sexy dresses"
+            ]
+          },
+          {
+            "keyword": "country",
+            "qv": "12w",
+            "change_pct": "-5.3%",
+            "trend": "moderate",
+            "related_terms": [
+              "country",
+              "country concert outfit",
+              "women's country pants",
+              "women's country clothing",
+              "country dress",
+              "country style for women",
+              "country pants",
+              "female country look",
+              "country dress for women",
+              "peasant dress"
+            ],
+            "diff_terms": [
+              "country dress for women",
+              "peasant dress"
             ]
           },
           {
             "keyword": "cute",
-            "qv": "10.8w",
-            "change_pct": "+1%",
+            "qv": "10.2w",
+            "change_pct": "-4.6%",
             "trend": "moderate",
             "related_terms": [
               "cute tops",
@@ -1008,65 +1021,68 @@
           },
           {
             "keyword": "basic",
-            "qv": "7.3w",
-            "change_pct": "+4.3%",
+            "qv": "7.9w",
+            "change_pct": "+3.3%",
             "trend": "rising",
             "related_terms": [
+              "basic tops",
               "basic blouses",
-              "basic tops"
+              "basic tops for women"
             ],
-            "diff_terms": []
-          },
-          {
-            "keyword": "chic",
-            "qv": "6.7w",
-            "change_pct": "+2.5%",
-            "trend": "rising",
-            "related_terms": [
-              "beach fashion",
-              "fashionable tops",
-              "women chic summer blouse",
-              "chic top",
-              "chic evening dress"
-            ],
-            "diff_terms": []
+            "diff_terms": [
+              "basic tops for women"
+            ]
           },
           {
             "keyword": "cowgirl",
-            "qv": "6.7w",
-            "change_pct": "+0.7%",
+            "qv": "7w",
+            "change_pct": "+2.4%",
             "trend": "rising",
             "related_terms": [
               "cowgirl outfits for women",
               "cowgirl outfit for women",
               "cowgirl",
               "rodeo",
+              "cowgirl blouses",
               "cowgirl clothing for women",
-              "cowgirl outfit",
-              "cowgirl blouses"
+              "cowgirl outfit"
             ],
             "diff_terms": []
           },
           {
-            "keyword": "streetwear",
-            "qv": "3.7w",
-            "change_pct": "+5.6%",
+            "keyword": "modest",
+            "qv": "5.3w",
+            "change_pct": "+6%",
             "trend": "rising",
             "related_terms": [
-              "streetwear"
+              "women modest swimsuit",
+              "modest swimsuit",
+              "modest dresses",
+              "modest dress"
             ],
             "diff_terms": []
           },
           {
-            "keyword": "tropical",
-            "qv": "2.4w",
-            "change_pct": "+19%",
+            "keyword": "goth",
+            "qv": "3.6w",
+            "change_pct": "+1.2%",
             "trend": "rising",
             "related_terms": [
-              "tropical outfit",
-              "tropical",
-              "tropical dresses for women",
-              "tropical dress"
+              "goth",
+              "gothic women's clothes",
+              "gothic"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "french",
+            "qv": "2.1w",
+            "change_pct": "+257.7%",
+            "trend": "rising",
+            "related_terms": [
+              "frenchy",
+              "shein frenchy",
+              "frenchy women"
             ],
             "diff_terms": []
           }
@@ -1080,43 +1096,34 @@
         "items": [
           {
             "keyword": "festival",
-            "qv": "18.3w",
-            "change_pct": "+5.7%",
+            "qv": "18.2w",
+            "change_pct": "+2.9%",
             "trend": "hot",
             "related_terms": [
               "festival outfits for women",
               "festival",
-              "festival outfits",
-              "festival outfit women"
+              "festival outfits"
             ],
             "diff_terms": []
           },
           {
             "keyword": "halloween",
-            "qv": "12.8w",
-            "change_pct": "+28.2%",
+            "qv": "17.4w",
+            "change_pct": "+30.8%",
             "trend": "hot",
             "related_terms": [
               "halloween",
-              "women's halloween costume"
+              "women's halloween costume",
+              "women halloween costume"
             ],
-            "diff_terms": []
-          },
-          {
-            "keyword": "back to school",
-            "qv": "6w",
-            "change_pct": "+0.3%",
-            "trend": "moderate",
-            "related_terms": [
-              "back to school",
-              "back to school clothes"
-            ],
-            "diff_terms": []
+            "diff_terms": [
+              "women halloween costume"
+            ]
           },
           {
             "keyword": "christmas",
-            "qv": "4.1w",
-            "change_pct": "+34.4%",
+            "qv": "6.3w",
+            "change_pct": "+15.9%",
             "trend": "moderate",
             "related_terms": [
               "christmas"
@@ -1124,20 +1131,33 @@
             "diff_terms": []
           },
           {
-            "keyword": "new year",
-            "qv": "1.1w",
-            "change_pct": "+17.2%",
+            "keyword": "back to school",
+            "qv": "6w",
+            "change_pct": "-1%",
             "trend": "rising",
             "related_terms": [
-              "new year",
-              "new year dress"
+              "back to school"
             ],
             "diff_terms": []
           },
           {
+            "keyword": "new year",
+            "qv": "1.6w",
+            "change_pct": "+23.3%",
+            "trend": "rising",
+            "related_terms": [
+              "new year",
+              "new year dress",
+              "new year looks"
+            ],
+            "diff_terms": [
+              "new year looks"
+            ]
+          },
+          {
             "keyword": "homecoming",
-            "qv": "1.1w",
-            "change_pct": "+30.9%",
+            "qv": "1.2w",
+            "change_pct": "+9.8%",
             "trend": "rising",
             "related_terms": [
               "homecoming dress",
@@ -1155,48 +1175,29 @@
         "items": [
           {
             "keyword": "party",
-            "qv": "69.2w",
-            "change_pct": "-2.1%",
+            "qv": "73.2w",
+            "change_pct": "+4.5%",
             "trend": "hot",
             "related_terms": [
               "party dress",
-              "elegant dresses for party",
-              "party dresses",
               "elegant party dresses",
+              "party dresses",
+              "elegant dresses for party",
               "elegant long party dress",
               "elegant party dresses for women",
               "elegant party dress curvy",
               "party dresses for women",
-              "occasion dress",
-              "elegant party dress"
+              "elegant party dress",
+              "party"
             ],
             "diff_terms": [
-              "occasion dress",
-              "elegant party dress"
+              "party"
             ]
           },
           {
-            "keyword": "beach",
-            "qv": "58.3w",
-            "change_pct": "-7.8%",
-            "trend": "hot",
-            "related_terms": [
-              "beach dress",
-              "beach",
-              "beach dresses",
-              "beach outfit",
-              "beach shorts",
-              "beach outfits for women",
-              "beach set",
-              "beach pants",
-              "sea"
-            ],
-            "diff_terms": []
-          },
-          {
             "keyword": "wedding",
-            "qv": "56.9w",
-            "change_pct": "-1.5%",
+            "qv": "59.1w",
+            "change_pct": "+2.3%",
             "trend": "hot",
             "related_terms": [
               "wedding guest dress",
@@ -1204,34 +1205,54 @@
               "wedding party dress",
               "wedding guest party dress",
               "wedding",
-              "luxury evening dresses for weddings",
               "dress for wedding guest",
-              "wedding guest dresses",
               "luxury wedding dresses",
-              "luxury evening dress for women weddings"
+              "wedding guest dresses",
+              "luxury evening dresses for weddings",
+              "elegant wedding guest dress"
             ],
-            "diff_terms": []
+            "diff_terms": [
+              "elegant wedding guest dress"
+            ]
+          },
+          {
+            "keyword": "beach",
+            "qv": "56w",
+            "change_pct": "-3.9%",
+            "trend": "hot",
+            "related_terms": [
+              "beach dress",
+              "beach",
+              "beach dresses",
+              "beach outfits for women",
+              "beach shorts",
+              "beach set",
+              "beach outfit",
+              "beach skirt",
+              "beach pants"
+            ],
+            "diff_terms": [
+              "beach skirt",
+              "beach pants"
+            ]
           },
           {
             "keyword": "gym",
-            "qv": "23.7w",
-            "change_pct": "+2.2%",
+            "qv": "22.1w",
+            "change_pct": "-0.7%",
             "trend": "moderate",
             "related_terms": [
               "gym",
               "women's gym clothes",
               "gym set",
-              "gym clothes",
-              "female gym wear"
+              "gym clothes"
             ],
-            "diff_terms": [
-              "female gym wear"
-            ]
+            "diff_terms": []
           },
           {
             "keyword": "going out",
-            "qv": "17.4w",
-            "change_pct": "+7.3%",
+            "qv": "18.6w",
+            "change_pct": "+8.2%",
             "trend": "moderate",
             "related_terms": [
               "going out tops",
@@ -1239,15 +1260,33 @@
               "going out tops for women",
               "going out",
               "tops for going out",
-              "going out outfits",
-              "going out dress"
+              "going out dress",
+              "going out outfits"
             ],
             "diff_terms": []
           },
           {
+            "keyword": "school",
+            "qv": "13.4w",
+            "change_pct": "+20.9%",
+            "trend": "moderate",
+            "related_terms": [
+              "school",
+              "school blouses",
+              "school shirt",
+              "white school shirt",
+              "white school blouse",
+              "school skirt"
+            ],
+            "diff_terms": [
+              "white school blouse",
+              "school skirt"
+            ]
+          },
+          {
             "keyword": "birthday",
-            "qv": "13.1w",
-            "change_pct": "+1%",
+            "qv": "13w",
+            "change_pct": "+0.6%",
             "trend": "moderate",
             "related_terms": [
               "birthday dress",
@@ -1259,58 +1298,45 @@
             "diff_terms": []
           },
           {
-            "keyword": "school",
-            "qv": "10.2w",
-            "change_pct": "+52.9%",
-            "trend": "moderate",
-            "related_terms": [
-              "school",
-              "school blouses",
-              "school shirt",
-              "white school shirt",
-              "school blouse"
-            ],
-            "diff_terms": [
-              "school blouses",
-              "white school shirt",
-              "school blouse"
-            ]
-          },
-          {
             "keyword": "concert",
-            "qv": "7.9w",
-            "change_pct": "+3.5%",
+            "qv": "8w",
+            "change_pct": "+0.2%",
             "trend": "rising",
             "related_terms": [
-              "country concert outfit",
               "concert outfit for women",
+              "country concert outfit",
               "concert outfit",
               "concert",
-              "concert outfits",
-              "concert tops"
+              "concert outfits"
             ],
             "diff_terms": []
           },
           {
-            "keyword": "evening",
-            "qv": "4.1w",
-            "change_pct": "+7.9%",
+            "keyword": "ceremony",
+            "qv": "4.8w",
+            "change_pct": "+6.4%",
             "trend": "rising",
             "related_terms": [
-              "holiday night outfit",
-              "evening top"
+              "ceremony dresses",
+              "women elegant ceremony dress",
+              "ceremony dress",
+              "elegant summer ceremony dress",
+              "elegant ceremony dress",
+              "elegant summer ceremony dresses"
             ],
             "diff_terms": []
           },
           {
-            "keyword": "airport",
-            "qv": "3.7w",
-            "change_pct": "+9.3%",
+            "keyword": "church",
+            "qv": "4.8w",
+            "change_pct": "+2.3%",
             "trend": "rising",
             "related_terms": [
-              "airport outfit women",
-              "airport outfit for women",
-              "airport outfit"
+              "dresses for church",
+              "church dress",
+              "church outfits for women",
+              "women church dresses",
+              "church dresses"
             ],
             "diff_terms": []
           }
@@ -1324,27 +1350,32 @@
         "items": [
           {
             "keyword": "sequin",
-            "qv": "9w",
-            "change_pct": "-2%",
+            "qv": "8.5w",
+            "change_pct": "-1.9%",
             "trend": "moderate",
             "related_terms": [
-              "sequin skirt",
               "sequin dress",
+              "sequin skirt",
               "shiny pants",
               "sequin top",
               "sequin",
-              "sparkly dress"
+              "sparkly dress",
+              "jeans with glitter",
+              "sparkly top"
             ],
-            "diff_terms": []
+            "diff_terms": [
+              "jeans with glitter",
+              "sparkly top"
+            ]
           },
           {
             "keyword": "ruffle",
             "qv": "3.4w",
-            "change_pct": "-2.5%",
+            "change_pct": "-1.6%",
             "trend": "rising",
             "related_terms": [
-              "ruffle skirt",
               "peplum top",
+              "ruffle skirt",
               "ruffle dress",
               "peplum"
             ],
@@ -1352,22 +1383,19 @@
           },
           {
             "keyword": "zip up",
-            "qv": "2.3w",
-            "change_pct": "+10.7%",
+            "qv": "2w",
+            "change_pct": "+1.5%",
             "trend": "rising",
             "related_terms": [
-              "zip up hoodie",
               "zip up hoodies",
               "zip up"
             ],
-            "diff_terms": [
-              "zip up hoodie"
-            ]
+            "diff_terms": []
           },
           {
             "keyword": "fringe",
-            "qv": "2.1w",
-            "change_pct": "-12.6%",
+            "qv": "2w",
+            "change_pct": "-4%",
             "trend": "rising",
             "related_terms": [
               "fringe dress"
@@ -1376,8 +1404,8 @@
           },
           {
             "keyword": "button up",
-            "qv": "1.5w",
-            "change_pct": "+8.3%",
+            "qv": "1.6w",
+            "change_pct": "+1.9%",
             "trend": "rising",
             "related_terms": [
               "button up shirt for women"
@@ -1385,24 +1413,28 @@
             "diff_terms": []
           },
           {
-            "keyword": "pleated",
-            "qv": "1.3w",
-            "change_pct": "-2.8%",
-            "trend": "rising",
-            "related_terms": [
-              "pleated skirt"
-            ],
-            "diff_terms": []
-          },
-          {
             "keyword": "tailored",
-            "qv": "1.1w",
-            "change_pct": "-3.2%",
+            "qv": "1.3w",
+            "change_pct": "+3.6%",
             "trend": "rising",
             "related_terms": [
               "tailored shorts",
               "women elegant tailored set",
-              "elegant tailored dresses for women"
+              "tailored dress",
+              "tailored wide-leg pants"
+            ],
+            "diff_terms": [
+              "tailored dress",
+              "tailored wide-leg pants"
+            ]
+          },
+          {
+            "keyword": "pleated",
+            "qv": "1.3w",
+            "change_pct": "-2.4%",
+            "trend": "rising",
+            "related_terms": [
+              "pleated skirt"
             ],
             "diff_terms": []
           }
@@ -1417,11 +1449,11 @@
           {
             "keyword": "polka dot",
             "qv": "20w",
-            "change_pct": "+2%",
+            "change_pct": "-1.8%",
             "trend": "hot",
             "related_terms": [
-              "polka dot",
               "polka dot dress",
+              "polka dot",
               "polka dot top",
               "polka dot tops",
               "dot",
@@ -1431,52 +1463,47 @@
           },
           {
             "keyword": "graphic",
-            "qv": "14.8w",
-            "change_pct": "+3.9%",
+            "qv": "14.1w",
+            "change_pct": "-5.7%",
             "trend": "hot",
             "related_terms": [
               "graphic tees",
               "graphic tee",
-              "graphic tees women",
-              "graphic t shirt"
+              "graphic tees women"
             ],
-            "diff_terms": [
-              "graphic t shirt"
-            ]
+            "diff_terms": []
           },
           {
             "keyword": "leopard",
-            "qv": "8.7w",
-            "change_pct": "+1.9%",
+            "qv": "8.8w",
+            "change_pct": "+0.2%",
             "trend": "moderate",
             "related_terms": [
               "leopard print",
               "cheetah print",
               "cheetah print top",
+              "cheetah print dress",
               "leopard print dress"
             ],
             "diff_terms": [
-              "cheetah print top",
-              "leopard print dress"
+              "cheetah print dress"
             ]
           },
           {
-            "keyword": "camo",
-            "qv": "4.4w",
-            "change_pct": "+0.4%",
-            "trend": "rising",
+            "keyword": "spiderman",
+            "qv": "6.7w",
+            "change_pct": "+31.7%",
+            "trend": "moderate",
             "related_terms": [
-              "camo jorts",
-              "camouflage",
-              "camo shorts",
-              "camo pants"
+              "spiderman",
+              "men spider-man"
             ],
             "diff_terms": []
           },
           {
             "keyword": "flower",
-            "qv": "4.4w",
-            "change_pct": "-0.1%",
+            "qv": "5.1w",
+            "change_pct": "+2.4%",
             "trend": "rising",
             "related_terms": [
               "floral dress",
@@ -1485,16 +1512,32 @@
             "diff_terms": []
           },
           {
+            "keyword": "camo",
+            "qv": "4.4w",
+            "change_pct": "-4.4%",
+            "trend": "rising",
+            "related_terms": [
+              "camouflage",
+              "camo shorts",
+              "camo jorts",
+              "camo pants"
+            ],
+            "diff_terms": []
+          },
+          {
             "keyword": "stripe",
-            "qv": "2.9w",
-            "change_pct": "+6.8%",
+            "qv": "3.5w",
+            "change_pct": "+6.5%",
             "trend": "rising",
             "related_terms": [
               "striped shirt",
-              "striped dress",
-              "striped top"
+              "striped top",
+              "striped pants",
+              "striped dress"
             ],
-            "diff_terms": []
+            "diff_terms": [
+              "striped pants"
+            ]
           }
         ]
       },
@@ -1506,8 +1549,8 @@
         "items": [
           {
             "keyword": "white",
-            "qv": "138w",
-            "change_pct": "-0.6%",
+            "qv": "144.3w",
+            "change_pct": "+2.4%",
             "trend": "hot",
             "related_terms": [
               "white dress",
@@ -1516,19 +1559,17 @@
               "white shirt",
               "white blouse",
               "white pants",
-              "white shorts",
               "white dresses",
-              "white tops",
-              "white tank top"
-            ],
-            "diff_terms": [
+              "white shorts",
+              "white tank top",
               "white tops"
-            ]
+            ],
+            "diff_terms": []
           },
           {
             "keyword": "black",
-            "qv": "99.7w",
-            "change_pct": "-0.9%",
+            "qv": "103.4w",
+            "change_pct": "+1.1%",
             "trend": "hot",
             "related_terms": [
               "black dress",
@@ -1540,14 +1581,16 @@
               "black blouse",
               "black tops",
               "black dresses",
-              "black dresses for women"
+              "black bikini"
             ],
-            "diff_terms": []
+            "diff_terms": [
+              "black bikini"
+            ]
           },
           {
             "keyword": "pink",
-            "qv": "39.9w",
-            "change_pct": "-1.7%",
+            "qv": "39.2w",
+            "change_pct": "-0.9%",
             "trend": "moderate",
             "related_terms": [
               "pink dress",
@@ -1557,68 +1600,64 @@
               "pink tops",
               "pink dresses for women",
               "pink shirt",
-              "pink dresses",
               "pink blouse",
+              "pink dresses",
               "pink bikini"
             ],
             "diff_terms": []
           },
           {
             "keyword": "red",
-            "qv": "34.8w",
-            "change_pct": "-1.5%",
+            "qv": "34.9w",
+            "change_pct": "-0.2%",
             "trend": "moderate",
             "related_terms": [
               "red dress",
               "red top",
               "red",
               "red skirt",
-              "red shirt",
-              "red tops",
               "red blouse",
               "red dresses",
-              "red dresses for women"
-            ],
-            "diff_terms": []
-          },
-          {
-            "keyword": "yellow",
-            "qv": "24.4w",
-            "change_pct": "-4.5%",
-            "trend": "moderate",
-            "related_terms": [
-              "yellow dress",
-              "yellow top",
-              "yellow",
-              "yellow tops",
-              "yellow dress for women",
-              "yellow shirt"
+              "red shirt",
+              "red dresses for women",
+              "red tops"
             ],
             "diff_terms": []
           },
           {
             "keyword": "brown",
-            "qv": "23.3w",
-            "change_pct": "-0.6%",
+            "qv": "24.3w",
+            "change_pct": "+1%",
             "trend": "moderate",
             "related_terms": [
               "brown dress",
               "brown top",
               "brown skirt",
-              "brown pants",
               "brown shorts",
+              "brown pants",
               "brown blouse",
               "brown bikini",
               "brown tops"
             ],
-            "diff_terms": [
-              "brown tops"
-            ]
+            "diff_terms": []
+          },
+          {
+            "keyword": "yellow",
+            "qv": "23.7w",
+            "change_pct": "-3.4%",
+            "trend": "moderate",
+            "related_terms": [
+              "yellow dress",
+              "yellow top",
+              "yellow",
+              "yellow tops"
+            ],
+            "diff_terms": []
           },
           {
             "keyword": "blue",
-            "qv": "18.2w",
-            "change_pct": "-1%",
+            "qv": "18.5w",
+            "change_pct": "+1.6%",
             "trend": "moderate",
             "related_terms": [
               "blue dress",
@@ -1629,73 +1668,81 @@
               "blue bikini",
               "blue jeans"
             ],
-            "diff_terms": [
-              "blue jeans"
-            ]
+            "diff_terms": []
           },
           {
             "keyword": "green",
-            "qv": "14.9w",
-            "change_pct": "+0.5%",
+            "qv": "16.2w",
+            "change_pct": "+3.9%",
             "trend": "moderate",
             "related_terms": [
               "green dress",
               "green top",
               "green skirt",
               "green",
+              "green blouse",
               "green dresses for women",
-              "green shorts",
-              "green blouse"
-            ],
-            "diff_terms": [
               "green shorts"
-            ]
-          },
-          {
-            "keyword": "orange",
-            "qv": "8.3w",
-            "change_pct": "+4.6%",
-            "trend": "rising",
-            "related_terms": [
-              "orange dress",
-              "orange top",
-              "orange",
-              "orange dresses for women",
-              "orange tops"
-            ],
-            "diff_terms": [
-              "orange dresses for women",
-              "orange tops"
-            ]
-          },
-          {
-            "keyword": "purple",
-            "qv": "7.9w",
-            "change_pct": "+2.4%",
-            "trend": "rising",
-            "related_terms": [
-              "purple dress",
-              "purple",
-              "purple top",
-              "purple dresses for women",
-              "purple tops"
             ],
             "diff_terms": []
           },
           {
             "keyword": "navy blue",
-            "qv": "7.7w",
-            "change_pct": "+12.1%",
-            "trend": "rising",
+            "qv": "8.8w",
+            "change_pct": "+9.4%",
+            "trend": "moderate",
             "related_terms": [
               "navy skirt",
-              "navy blue dress"
+              "navy blue dress",
+              "navy blue top"
+            ],
+            "diff_terms": [
+              "navy blue top"
+            ]
+          },
+          {
+            "keyword": "purple",
+            "qv": "8.3w",
+            "change_pct": "+1.9%",
+            "trend": "rising",
+            "related_terms": [
+              "purple dress",
+              "purple",
+              "purple skirt",
+              "purple top",
+              "purple dresses for women"
+            ],
+            "diff_terms": [
+              "purple skirt"
+            ]
+          },
+          {
+            "keyword": "burgundy",
+            "qv": "7.4w",
+            "change_pct": "+3.2%",
+            "trend": "rising",
+            "related_terms": [
+              "burgundy dress",
+              "burgundy top",
+              "wine red dress"
+            ],
+            "diff_terms": []
+          },
+          {
+            "keyword": "olive green",
+            "qv": "5.9w",
+            "change_pct": "+7.4%",
+            "trend": "rising",
+            "related_terms": [
+              "olive green dress",
+              "olive skirt",
+              "olive green bridesmaid dress"
             ],
             "diff_terms": []
           },
           {
             "keyword": "gold",
-            "qv": "4.2w",
+            "qv": "4.4w",
             "change_pct": "+3.9%",
             "trend": "rising",
             "related_terms": [
@@ -1706,36 +1753,14 @@
             "diff_terms": []
           },
           {
-            "keyword": "teal blue",
-            "qv": "3.7w",
-            "change_pct": "+7.3%",
+            "keyword": "beige",
+            "qv": "4.4w",
+            "change_pct": "+2.2%",
             "trend": "rising",
             "related_terms": [
-              "teal",
-              "teal top"
-            ],
-            "diff_terms": []
-          },
-          {
-            "keyword": "mint green",
-            "qv": "2.4w",
-            "change_pct": "+13%",
-            "trend": "rising",
-            "related_terms": [
-              "mint green",
-              "mint green tops"
-            ],
-            "diff_terms": []
-          },
-          {
-            "keyword": "grey",
-            "qv": "2.1w",
-            "change_pct": "+20.2%",
-            "trend": "rising",
-            "related_terms": [
-              "gray pants",
-              "grey jeans",
-              "grey skirt"
+              "beige dress",
+              "beige skirt",
+              "beige pants"
             ],
             "diff_terms": []
           }
@@ -1743,18 +1768,11 @@
       }
     ],
     "summary": {
-      "total_categories": 7,
       "total_keywords": 64,
-      "top_trends": [
-        "fall +48.8%",
-        "school +52.9%",
-        "christmas +34.4%",
-        "homecoming +30.9%",
-        "halloween +28.2%"
-      ],
-      "hot_count": 15,
-      "moderate_count": 24,
-      "rising_count": 26
+      "hot_count": 17,
+      "moderate_count": 21,
+      "rising_count": 26,
+      "note": "每周三更新"
     }
   }
 }
