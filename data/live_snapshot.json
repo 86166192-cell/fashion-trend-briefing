@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 10:19:58",
+  "generated_at": "2026-08-06 11:59:59",
   "trend_radar": {
     "ok": true,
     "sources": [
@@ -95,7 +95,7 @@
             "source": "Vogue Runway"
           }
         ],
-        "fetched_at": "2026-08-06 10:19:47"
+        "fetched_at": "2026-08-06 11:59:41"
       },
       {
         "source_id": "SRC-002",
@@ -189,7 +189,7 @@
             "source": "Vogue Business"
           }
         ],
-        "fetched_at": "2026-08-06 10:19:47"
+        "fetched_at": "2026-08-06 11:59:42"
       },
       {
         "source_id": "SRC-006",
@@ -269,7 +269,7 @@
             "source": "BOF"
           }
         ],
-        "fetched_at": "2026-08-06 10:19:47"
+        "fetched_at": "2026-08-06 11:59:43"
       },
       {
         "source_id": "SRC-007",
@@ -300,7 +300,7 @@
             "source": "1GRANARY"
           }
         ],
-        "fetched_at": "2026-08-06 10:19:48"
+        "fetched_at": "2026-08-06 11:59:44"
       },
       {
         "source_id": "SRC-003",
@@ -309,7 +309,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-06 10:19:47"
+        "fetched_at": "2026-08-06 11:59:42"
       },
       {
         "source_id": "SRC-004",
@@ -318,7 +318,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-06 10:19:47"
+        "fetched_at": "2026-08-06 11:59:42"
       },
       {
         "source_id": "SRC-005",
@@ -327,10 +327,10 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-06 10:19:47"
+        "fetched_at": "2026-08-06 11:59:42"
       }
     ],
-    "fetched_at": "2026-08-06 10:19:48"
+    "fetched_at": "2026-08-06 11:59:44"
   },
   "brands": {
     "ok": true,
@@ -367,6 +367,13 @@
                 "url": "https://aus.spell.co/products/for-the-love-biker-tee-oatmeal",
                 "image": "//aus.spell.co/cdn/shop/files/Spell-For-The-Love-Biker-Tee-Oatmeal-3.jpg?v=1784002692&width=320",
                 "price": "$89.00",
+                "source": "Spell"
+              },
+              {
+                "title": "Seven Mile Knit Jumper",
+                "url": "https://aus.spell.co/products/seven-mile-knit-jumper-crema",
+                "image": "//aus.spell.co/cdn/shop/files/Spell-Seven-Mile-Knit-Jumper-Crema-1.jpg?v=1784002437&width=320",
+                "price": "$289.00",
                 "source": "Spell"
               },
               {
@@ -430,13 +437,6 @@
                 "url": "https://aus.spell.co/products/1976-singlet-wheat",
                 "image": "//aus.spell.co/cdn/shop/files/Swatches-_0019_SAC26-1976_Singlet-Wheat.jpg?v=1783907909&width=320",
                 "price": "$69.00",
-                "source": "Spell"
-              },
-              {
-                "title": "Firefly Cable Knit Vest",
-                "url": "https://aus.spell.co/products/firefly-cable-knit-vest-stone",
-                "image": "//aus.spell.co/cdn/shop/files/Spell-Firefly-Cable-Knit-Vest-Stone-3.jpg?v=1784005046&width=320",
-                "price": "$199.00",
                 "source": "Spell"
               }
             ]
@@ -1074,7 +1074,7 @@
                 "source": "Amazon"
               },
               {
-                "title": "#2 LetsJoli 女式果冻文胸无钢圈加大码聚拢支撑 | 全覆盖,无线支撑提升 老年女性 大胸型 缩小 无缝日常文胸 4.1 颗星，最多 5 颗星 20,145 HKD 156.63",
+                "title": "#2 LetsJoli 女式果冻文胸无钢圈加大码聚拢支撑 | 全覆盖,无线支撑提升 老年女性 大胸型 缩小 无缝日常文胸 4.1 颗星，最多 5 颗星 20,147 HKD 156.63",
                 "url": "https://www.amazon.com/-/zh/dp/B0F6TWKDFK/ref=zg_bs_g_1040660_d_sccl_2/146-2686215-5454852?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61bWdCuPmYL._AC_UL300_SR300,200_.jpg",
                 "price": null,
@@ -1102,7 +1102,7 @@
                 "source": "Amazon"
               },
               {
-                "title": "#6 Gildan 成人超棉 T 恤,款式 G2000,多件装 4.5 颗星，最多 5 颗星 113,190 另有 2 种版本，价格 HKD 97.96 起",
+                "title": "#6 Gildan 成人超棉 T 恤,款式 G2000,多件装 4.5 颗星，最多 5 颗星 113,191 另有 2 种版本，价格 HKD 97.96 起",
                 "url": "https://www.amazon.com/-/zh/dp/B075ZZ7XKD/ref=zg_bs_g_1040660_d_sccl_6/146-2686215-5454852?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/61x-LF9fyYL._AC_UL300_SR300,200_.jpg",
                 "price": null,
@@ -1123,7 +1123,7 @@
                 "source": "Amazon"
               },
               {
-                "title": "#9 Hanes 女式内衣套装,10 条装,全覆盖棉混纺内裤,吸湿排汗内裤 4.3 颗星，最多 5 颗星 8,636 制造商建议零售价 点击了解价格",
+                "title": "#9 Hanes 女式内衣套装,10 条装,全覆盖棉混纺内裤,吸湿排汗内裤 4.3 颗星，最多 5 颗星 8,638 制造商建议零售价 点击了解价格",
                 "url": "https://www.amazon.com/-/zh/dp/B00FZR1C7I/ref=zg_bs_g_1040660_d_sccl_9/146-2686215-5454852?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/71R7rkqm4PL._AC_UL300_SR300,200_.jpg",
                 "price": null,
@@ -1137,7 +1137,7 @@
                 "source": "Amazon"
               },
               {
-                "title": "#11 BMJL 2.5 英寸女士运动短裤舒适高腰短裤带口袋 4.4 颗星，最多 5 颗星 13,167 HKD 156.79",
+                "title": "#11 BMJL 2.5 英寸女士运动短裤舒适高腰短裤带口袋 4.4 颗星，最多 5 颗星 13,168 HKD 156.79",
                 "url": "https://www.amazon.com/-/zh/dp/B09MKNL9M3/ref=zg_bs_g_1040660_d_sccl_11/146-2686215-5454852?psc=1",
                 "image": "https://images-na.ssl-images-amazon.com/images/I/710JBjr8xAL._AC_UL300_SR300,200_.jpg",
                 "price": null,
@@ -1163,6 +1163,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06 10:19:58"
+    "fetched_at": "2026-08-06 11:59:59"
   }
 }
