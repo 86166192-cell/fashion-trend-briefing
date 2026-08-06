@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06 10:07:32",
+  "generated_at": "2026-08-06 10:19:58",
   "trend_radar": {
     "ok": true,
     "sources": [
@@ -95,7 +95,7 @@
             "source": "Vogue Runway"
           }
         ],
-        "fetched_at": "2026-08-06 10:07:12"
+        "fetched_at": "2026-08-06 10:19:47"
       },
       {
         "source_id": "SRC-002",
@@ -189,7 +189,7 @@
             "source": "Vogue Business"
           }
         ],
-        "fetched_at": "2026-08-06 10:07:13"
+        "fetched_at": "2026-08-06 10:19:47"
       },
       {
         "source_id": "SRC-006",
@@ -269,7 +269,7 @@
             "source": "BOF"
           }
         ],
-        "fetched_at": "2026-08-06 10:07:14"
+        "fetched_at": "2026-08-06 10:19:47"
       },
       {
         "source_id": "SRC-007",
@@ -300,7 +300,7 @@
             "source": "1GRANARY"
           }
         ],
-        "fetched_at": "2026-08-06 10:07:16"
+        "fetched_at": "2026-08-06 10:19:48"
       },
       {
         "source_id": "SRC-003",
@@ -309,7 +309,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-06 10:07:13"
+        "fetched_at": "2026-08-06 10:19:47"
       },
       {
         "source_id": "SRC-004",
@@ -318,7 +318,7 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-06 10:07:13"
+        "fetched_at": "2026-08-06 10:19:47"
       },
       {
         "source_id": "SRC-005",
@@ -327,10 +327,10 @@
         "ok": false,
         "items": [],
         "error": "未配置抓取器, 仅支持跳转",
-        "fetched_at": "2026-08-06 10:07:13"
+        "fetched_at": "2026-08-06 10:19:47"
       }
     ],
-    "fetched_at": "2026-08-06 10:07:16"
+    "fetched_at": "2026-08-06 10:19:48"
   },
   "brands": {
     "ok": true,
@@ -1163,6 +1163,6 @@
         ]
       }
     ],
-    "fetched_at": "2026-08-06 10:07:32"
+    "fetched_at": "2026-08-06 10:19:58"
   }
 }
